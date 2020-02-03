@@ -46,7 +46,7 @@ Add the following snippet to page to show a sign in button:
 ```html
 <form action="/sign-in" method="POST">
   <script
-    src="https://trykno.app/pass.js"
+    src="https://mydid.app/pass.js"
     data-site="[site-token]">
   </script>
   <button type="submit">Sign in</button>
@@ -55,7 +55,7 @@ Add the following snippet to page to show a sign in button:
 
 - *Replace `[site-token]` with the site token you copied from the previous section.*
 
-When a user clicks the submit button, Kno will authenticate them.
+When a user clicks the submit button, DID will authenticate them.
 Once complete, a token will be added to a `knoToken` field in the form and the form submitted to the server.
 
 <!-- Have two buttons in the same place for sign in create account -->
@@ -63,7 +63,7 @@ Once complete, a token will be added to a `knoToken` field in the form and the f
 ## 3 Fetch persona details
 
 Extract the submitted token from the form, in part 2.
-Request the associated persona details from the Kno server.
+Request the associated persona details from the DID server.
 
 ```bash
 curl "https://api.trykno.app/v0/authenticate" \

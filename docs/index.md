@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: "Kno documentation"
-abstract: "The documentation for authentication with Kno."
+title: "DID documentation"
+abstract: "The documentation for authentication with DID."
 share_image: "/assets/images/docs-screenshot.png"
 sitemap:
   priority: 1.0
@@ -9,11 +9,11 @@ sitemap:
 
 ## We are here to help
 
-Didn't find the answer you were looking for? [Get in touch](mailto:team@trykno.com).
+Didn't find the answer you were looking for? [Get in touch](mailto:team@did.app).
 
 ### Getting started
 
-New to Kno? Follow our guide to [getting started](/docs/getting-started) or find out more about the [core concepts](/docs/core-concepts).
+New to DID? Follow our guide to [getting started](/docs/getting-started) or find out more about the [core concepts](/docs/core-concepts).
 
 Technology specific guides are also available:
 

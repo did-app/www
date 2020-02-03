@@ -14,7 +14,7 @@ But what makes for a great authentication user experience and what’s wrong wit
 
 Great user experience at its core puts user’s needs first. Whichever hexagon of the [user experience honeycomb](http://semanticstudios.com/user_experience_design/) (by Peter Melville) we are working on: “User experience (UX) focuses on having a deep understanding of users, what they need, what they value, their abilities, and also their limitations.” _[Source](http://semanticstudios.com/user_experience_design/)_.
 
-For us at Kno, we interpret that, in terms of authentication, as thinking about how the user could have the best sign in user experience first and thinking about how to achieve that with a secure technical solution second.
+For us at DID, we interpret that, in terms of authentication, as thinking about how the user could have the best sign in user experience first and thinking about how to achieve that with a secure technical solution second.
 
 At the birth of the password in 1961, the problem was solved with a technical solution that users had to accept. Now we know how we’re defining great user experience, let’s apply that to authentication.
 
@@ -70,7 +70,7 @@ A single form field on a sign in page is simple and takes a small amount of time
 
 **Actual speed: 20 seconds.**
 
-Actual speed will vary depending on the time it takes for the user to receive the email. [Kno shares the time it takes for our users to receive emails from us](https://status.postmarkapp.com/). Typically, email delivery is achieved in under 3 seconds.
+Actual speed will vary depending on the time it takes for the user to receive the email. [DID shares the time it takes for our users to receive emails from us](https://status.postmarkapp.com/). Typically, email delivery is achieved in under 3 seconds.
 
 **Device Auth**
 
@@ -312,4 +312,4 @@ If your business relies on the user being signed in in order to make a sale, imp
 
 Let’s make the web equally effortless to engage with for everyone.
 
-We’d love to know what you think, if you would like to leave us a comment please email us on [team@trykno.com](mailto:team@trykno.com) and we’ll do our best to publish comments if you’re happy for us to do so.
+We’d love to know what you think, if you would like to leave us a comment please email us on [team@did.app](mailto:team@did.app) and we’ll do our best to publish comments if you’re happy for us to do so.
