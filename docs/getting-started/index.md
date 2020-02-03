@@ -18,7 +18,7 @@ These test tokens work for sites that are served from `localhost`, on any port.
 
 ## 1. Create tokens
 
-From your [dashboard]({{site.admin_origin}}/sign_in) select "create new space".
+From your [dashboard](/welcome) select "create new space".
 
 ### Set up Space
 
