@@ -1,0 +1,14 @@
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid #c8cbd1;
+
+  &:focus, &:hover {
+    border-color: #009c98;
+  }
+}
+
+
+.logo > span {
+  color: #008c72;
+}

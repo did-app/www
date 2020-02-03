@@ -1,0 +1,112 @@
+@import "components/accent.scss";
+@import "components/anchor.scss";
+@import "components/button.scss";
+@import "components/card.scss";
+@import "components/code.scss";
+@import "components/comment.scss";
+@import "components/flash.scss";
+@import "components/footer.scss";
+@import "components/header.scss";
+@import "components/input.scss";
+@import "components/modal.scss";
+@import "components/nav.scss";
+@import "components/note.scss";
+@import "components/page.scss";
+@import "components/sash.scss";
+@import "components/section.scss";
+@import "components/share.scss";
+@import "components/table.scss";
+@import "components/tabs.scss";
+@import "layout/offcenter_panel.scss";
+@import "pages/docs.scss";
+
+.docs-container {
+  display: grid;
+  @media screen and (min-width: 800px) {
+    grid-template-columns: max-content 1fr;
+  }
+  grid-column-gap: 2rem;
+
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+
+  > aside {
+    @media screen and (min-width: 800px) {
+      padding-left: 1rem;
+    }
+
+    h3 {
+      margin: 1rem 0 0.5rem 0;
+      font-size: 1rem;
+      font-weight: normal;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        a {
+          border: none;
+          padding: 0.25rem 1rem;
+          border-left: 4px solid;
+          border-color: #c8cbd1;
+          display: block;
+          opacity: 0.6;
+
+          &:focus,
+          &:hover {
+            opacity: 1;
+            color: #00d1b2;
+            border-color: #00d1b2;
+          }
+        }
+      }
+    }
+  }
+  > article {
+    width: 100%;
+    @media screen and (min-width: 800px) {
+      max-width: 32rem;
+    }
+    margin-left: auto;
+    margin-right: auto;
+    header {
+      border-top: 3px solid;
+      border-color: #00d1b2;
+      @media screen and (min-width: 800px) {
+        border-top: none;
+        border-left: 3px solid;
+        border-color: #00d1b2;
+        padding-left: 1rem;
+      }
+      margin: 1rem 0 3rem 0;
+      h1 {
+        margin: 0;
+      }
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: normal;
+      // color: $brand-accent;
+    }
+    h2 {
+      margin-top: 3rem;
+      font-weight: normal;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  }
+}
+.hljs {
+  border-radius: 4px;
+
+}
+.language-text .hljs span {
+  color: #abb2bf;
+  font-style: normal;
+}

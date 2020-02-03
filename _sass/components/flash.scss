@@ -1,0 +1,28 @@
+@import "../abstract/block.scss";
+@import "../_config.scss";
+
+.flash {
+  @include block;
+  // This overrules the setting on block
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+  color: white;
+  padding: 0.4rem;
+  border-radius: 4px;
+  &.success {
+    background: $mint-green;
+  }
+  &.error {
+    background: $error-color;
+  }
+
+  display: flex;
+  cursor: pointer;
+  &::after {
+    content: "✕";
+    margin-left: auto;
+    transform: scale(1.5);
+    margin-right: 0.4rem;
+  }
+}

@@ -1,0 +1,100 @@
+.modal-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  background: #43464b;
+  opacity: 0.73;
+}
+
+/* Should be able to just put this as absolute in parent? */
+.modal {
+  max-width: 340px;
+  width: 100%;
+  /* Fixed height is good even on smaller phones, otherwise vertically centered items would jump */
+  height: 500px;
+  overflow: hidden;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  > section,
+  > footer {
+    margin-top: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  > footer {
+    font-size: 14px;
+    a {
+      opacity: 0.6;
+    }
+  }
+
+  text-align: center;
+
+  background-color: white;
+  box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 0 hsla(0, 0%, 100%, 0.65);
+  border-radius: 10px;
+
+  h1 {
+    font-size: 140%;
+  }
+}
+@media screen and (min-height: 500px) {
+  body > main.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 22rem) {
+  .modal {
+    border-width: 3px;
+  }
+}
+
+//  animate
+// main {
+//   transition: transform 0.2s;
+// }
+// body.waiting main {
+//   transform: scale(0.5) translateY(150px);
+// }
+// body.active main {
+//   transform: scale(1) translateY(0px);
+// }
+
+.modal {
+  #qr-code {
+    display: block;
+  }
+
+  .qr-space {
+    margin: 4px auto;
+    width: 6rem;
+    height: 6rem;
+    background-color: #efefef;
+  }
+
+  .qr-space > img {
+    width: 100%;
+  }
+
+}
+.preload {
+  width: 0;
+  /* width 0 not enough, missing image icon is shown */
+  opacity: 0;
+}

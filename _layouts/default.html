@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="google-site-verification" content="DSfTPM5yNhF-stOZ-bYS14TWtH3FonxrVH34fo8Hf7U" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% if page.title %}
+    <title>{{ page.title }} | Kno</title>
+    {% else %}
+    <title>Kno - Passwordless Authentication</title>
+    {% endif %}
+    <meta name="description" content="{{ page.abstract | default: site.abstract}}">
+    <meta name="keywords" content="Kno, passwordless authentication, magic link, privacy, secure, MFA">
+
+    <!--  Sharing META Tags -->
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}">
+    {% else %}
+    <meta property="og:title" content="Kno - Passwordless Authentication">
+    {% endif %}
+    <meta property="og:description" content="{{ page.abstract | default: site.abstract}}">
+    <meta property="og:image" content="{{ page.share_image | default: "/assets/images/homepage-screenshot.png" | absolute_url}}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Try Kno, trykno.com">
+    <meta name="twitter:image:alt" content="smart phone showing demo of Kno passwordless authentication ">
+
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/mono-blue.min.css"> -->
+    <link rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/atom-one-dark.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <style media="screen">
+      .blur {
+        filter: blur(8px);
+      }
+    </style>
+
+    <script>
+      (function (w,d,s,o,f,js,fjs) {
+      w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+      js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
+      js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
+      }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
+
+      plausible('page')
+    </script>
+  </head>
+  <body>
+    <div id="blur" class="page">
+      {{ content}}
+    </div>
+  </body>
+</html>

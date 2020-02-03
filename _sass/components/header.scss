@@ -1,0 +1,34 @@
+@import "../_config.scss";
+// Header has to be full widith for background
+// nav has to have margin auto
+.header {
+  &.with-background::before {
+    background: radial-gradient(
+      circle farthest-side at right bottom,
+      #e9f5f5 5%,
+      #9ad7d5 98%
+    );
+    content: " ";
+    display: block;
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    z-index: -1;
+    transform: skewY(-3deg);
+  }
+  &.padded {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  &.dark {
+    background-color: $charcol;
+    color: white;
+  }
+}
+
+.header.underline {
+  border-bottom: 2px solid #c8cbd1;
+}

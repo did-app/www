@@ -1,0 +1,31 @@
+@import "../_config.scss";
+hr.accent {
+  margin: 0;
+  border: 0;
+  height: 0.5rem;
+
+  &.green {
+    background: radial-gradient(
+      circle farthest-side at right bottom,
+      #008c72 5%,
+      #009c98 98%
+    );
+  }
+  &.purple {
+    background: radial-gradient(
+      circle farthest-side at right bottom,
+      $charcol 5%,
+      purple 98%
+    );
+  }
+  &.blue {
+    background: radial-gradient(
+      circle farthest-side at right bottom,
+      #0a60cc 5%,
+      #187efd 98%
+    );
+  }
+  &.grey {
+    background: #c9c9c9;
+  }
+}

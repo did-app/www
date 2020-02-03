@@ -1,0 +1,63 @@
+// TODO namespace under tabs
+//
+// /* https://kyusuf.com/post/completely-css-tabs/ */
+// .tabs {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+// .input {
+//   position: absolute;
+//   opacity: 0;
+// }
+// .label {
+//   width: 100%;
+//   padding: 20px 30px;
+//   cursor: pointer;
+//   font-weight: bold;
+//   transition: border-color 0.1s, color 0.1s;
+//   border-bottom: 4px solid #f1f1f1;
+// }
+//
+// .label:hover {
+//   /* background: #f1f1f1; */
+//   border-bottom: 4px solid #43464B;
+// }
+// /*
+// .label:active {
+//   background: #ccc;
+// } */
+//
+// .input:focus + .label {
+//   /* box-shadow: inset 0px 0px 0px 3px #2aa1c0; */
+//   z-index: 1;
+// }
+//
+// .input:checked + .label {
+//   background: #fff;
+//   border-bottom: 4px solid #008c72;
+//   color: #008c72;
+// }
+//
+// @media (min-width: 600px) {
+//   .label {
+//     width: auto;
+//   }
+// }
+//
+// .panel {
+//   display: none;
+//   /* padding: 20px 30px 30px; */
+//   margin: 1rem 0;
+//   background: #fff;
+//   width: 100%;
+// }
+//
+// @media (min-width: 600px) {
+//   .panel {
+//     order: 99;
+//   }
+// }
+//
+// .input:checked + .label + .panel {
+//   display: block;
+// }

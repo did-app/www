@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<header class="header dark">
+  <nav class="nav">
+    <span>
+      <a class="button brand" href="/">trykno.com</a>
+    </span>
+    <span>
+      <a href="/about" class="button tertiary">About</a>
+      <a href="/docs" class="button tertiary">Documentation</a>
+      <a href="/#pricing" class="button tertiary hide-small">Pricing</a>
+    </span>
+    <span class="right">
+      <a href="{{site.admin_origin}}/sign_in" class="button tertiary"
+        >Sign in</a
+      >
+      <a href="{{site.admin_origin}}/sign_in" class="button secondary"
+        >Get started</a
+      >
+    </span>
+  </nav>
+</header>
+<main>
+  <div class="docs-container">
+    <aside class="">
+      <h3>Overview</h3>
+      <ul>
+        <li><a href="/docs#title">Introduction</a></li>
+        <li><a href="/docs/core-concepts#title">Core concepts</a></li>
+      </ul>
+      <h3>Guides</h3>
+      <ul>
+        <li><a href="/docs/getting-started#title">Getting started</a></li>
+        <li><a href="/docs/tokens#title">Tokens</a></li>
+      </ul>
+      <h3>API reference</h3>
+      <ul>
+        <li><a href="/docs/api#title">Overview</a></li>
+        <li><a href="/docs/api/authenticate#title">Authenticate</a></li>
+      </ul>
+    </aside>
+    <article class="">
+      <header id="title">
+        <h1>{{page.title}}</h1>
+        <span>{{page.abstract}}</span>
+      </header>
+      {{content}}
+    </article>
+  </div>
+</main>
+{% include footer.html %}

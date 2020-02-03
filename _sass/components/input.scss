@@ -1,0 +1,152 @@
+@import "../_config.scss";
+
+/* Inputs don't have content or support before/after https://stackoverflow.com/questions/4574912/css-content-generation-before-or-after-input-elements */
+
+.label.block {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  > span {
+    font-weight: bold;
+    color: grey;
+    opacity: 0.6;
+    display: block;
+  }
+  > input {
+    display: block;
+  }
+}
+.copy {
+  input {
+    margin: 0;
+    cursor: pointer;
+  }
+  font-family: monospace;
+  cursor: pointer;
+
+  &:hover::after {
+    content: "click to copy";
+    padding: 0.4rem;
+    border-radius: 4px;
+    color: white;
+    background-color: $charcol;
+    position: absolute;
+    margin-left: 1rem;
+  }
+  &.copied:hover::after {
+    content: "copied";
+    padding: 0.4rem;
+    border-radius: 4px;
+    color: white;
+    background-color: $deep-green;
+    position: absolute;
+    margin-left: 1rem;
+  }
+}
+input {
+  font-size: inherit;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  margin: 8px 0;
+  padding: 8px;
+
+  transition: 0.3s;
+  // To get rid of warning check
+  box-shadow: none;
+
+  &:focus {
+    border-color: #009c98;
+    box-shadow: 0 0 4px 1px #009c98;
+  }
+
+  &.large {
+    font-size: 120%;
+  }
+  &.danger {
+    border: 1px solid $error-color;
+    &:focus {
+      border-color: $error-color;
+      box-shadow: 0 0 4px 1px $error-color;
+    }
+  }
+}
+
+// input {
+//   box-shadow: 0 0 3px 0 #43464D;
+// }
+// input:focus {
+//   border-color: #009c98;
+//   box-shadow: 0 0 8px 0 #009c98;
+// }
+
+.input-with-icon {
+  position: relative;
+  margin-top: 1em;
+}
+.input-with-icon.readonly,
+.input-with-icon.readonly input {
+  cursor: pointer;
+}
+.input-with-icon input {
+  width: 100%;
+  padding-left: 2.2em;
+}
+.input-with-icon img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.2em;
+  margin: 18px 12px;
+}
+
+label.full-width {
+  width: 100%;
+  display: inline-block;
+
+  border-radius: 3px;
+  /* border: 1px solid #D1D3D4; */
+  font-weight: normal;
+  // margin-bottom: 1rem;
+
+  cursor: pointer;
+}
+label.full-width span {
+  display: block;
+}
+label.full-width span::before {
+  width: 1.4rem;
+  line-height: 1.4rem;
+  content: "-";
+  display: inline-block;
+  background: white;
+  margin: 4px 0.5em 4px 4px;
+  color: #eaf0f5;
+  border: #d1d3d3 2px solid;
+  background: #eaf0f5;
+  border-radius: 20%;
+  text-align: center;
+  box-sizing: content-box;
+}
+label.full-width > input:checked + span::before {
+  content: "✓";
+  border-color: #008c72;
+  color: #008c72;
+}
+label.full-width > input:focus + span,
+label.full-width > input:hover + span,
+label.full-width > input:active + span {
+  outline: #009c98 2px dashed;
+}
+/* label.full-width span::before {
+  line-height: 0.1rem;
+} */
+input[type="checkbox"]:not(old),
+input[type="radio"]:not(old) {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}

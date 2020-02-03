@@ -1,0 +1,161 @@
+---
+layout: default
+---
+
+<header class="header with-background">
+  <nav class="nav">
+    <span>
+      <a class="button brand" href="/">trykno.com</a>
+    </span>
+    <span>
+      <a href="/about" class="button tertiary">About</a>
+      <a href="/docs" class="button tertiary">Documentation</a>
+      <a href="/#pricing" class="button tertiary hide-small">Pricing</a>
+    </span>
+    <span class="right">
+      <a href="{{site.admin_origin}}/sign_in" class="button tertiary"
+        >Sign in</a
+      >
+      <a href="{{site.admin_origin}}/sign_in" class="button secondary"
+        >Get started</a
+      >
+    </span>
+  </nav>
+</header>
+<style>
+  .wiki-post h1 {
+    text-align: center;
+    margin: 1em 0 1.5em 0;
+  }
+  .wiki-post h2 {
+    margin: 1em 0 1.5em 0;
+  }
+  /* .wiki-post p {
+    font-size: 0.8em;
+    line-height: 1.5;
+  } */
+  .wiki-post li {
+    /* font-size: 0.8em; */
+    margin: 1em 0 1em 0;
+  }
+  .highlight span {
+    font-size: 0.8em;
+  }
+  /* ol {
+    background: #d9d9d9;
+    padding: 1.5em;
+  } */
+  .wiki-post img {
+    width: 100%;
+  }
+  table {
+    background: white;
+    border: 1px solid grey;
+    font-size: 0.8em;
+    border-collapse: collapse;
+  }
+  table thead th,
+  table tfoot th {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  table caption {
+    padding: 0.5em;
+  }
+  table th,
+  table td {
+    padding: 0.5em;
+    border: 1px solid lightgrey;
+    font-size: 0.8em;
+  }
+
+  blockquote {
+    margin: 0;
+    /* border-left: 4px solid; */
+    /* padding-left: 16px;
+    margin-left: -20px; */
+    /* font-size: 120%; */
+    font-style: italic;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  blockquote > p::before {
+    content: " ";
+    display: block;
+    width: 5rem;
+    height: 5px;
+    margin-bottom: 1rem;
+    background: grey;
+  }
+  blockquote > a:hover ~ p::before {
+    background: #2aa9e0;
+  }
+  blockquote a {
+    border-width: 0;
+  }
+  blockquote a:hover {
+    color: #2aa9e0;
+    border-color: #2aa9e0;
+    cursor: pointer;
+  }
+  blockquote a:hover ~ * {
+    color: #2aa9e0;
+    border-color: #2aa9e0;
+  }
+</style>
+<script type="text/javascript">
+  function ready(fn) {
+    if (document.readyState != "loading") {
+      fn();
+    } else {
+      document.addEventListener("DOMContentLoaded", fn);
+    }
+  }
+
+  ready(function() {
+    document
+      .querySelectorAll("main.wiki-post > blockquote")
+      .forEach(function($blockquote) {
+        var text = $blockquote.innerText;
+        var $a = document.createElement("a");
+        $a.href = "#";
+        $a.onclick = function() {
+          window.open(
+            "https://twitter.com/intent/tweet?text=" +
+              text +
+              "&url=" +
+              window.location.href +
+              "&via=crowdhailer",
+            "_blank",
+            "width=500,height=500"
+          );
+          return false;
+        };
+        $a.innerText = "Click to tweet";
+        $blockquote.prepend($a);
+      });
+  });
+</script>
+<main class="section wiki-post">
+  <h1 style="min-height:2.5em;">{{page.title}}</h1>
+  <p>
+    {{page.abstract}}
+  </p>
+  {{content}} {% include share.html %}
+  <hr />
+  <h2>More from Kno</h2>
+  {% for article in site.articles %}
+  <ul class="sections">
+    <li>
+      <a href="{{ article.url }}">
+        <h4>{{ article.title }}</h4>
+        <p>
+          {{ article.abstract }}
+        </p>
+      </a>
+    </li>
+  </ul>
+  {% endfor %}
+</main>
+{% include footer.html %}

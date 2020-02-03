@@ -1,0 +1,54 @@
+---
+layout: null
+sitemap:
+  exclude: true
+<!-- http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/ -->
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for article in site.articles %}
+    {% unless article.published == false %}
+    <url>
+      <loc>{{ article.url | absolute_url }}</loc>
+      {% if article.sitemap.lastmod %}
+        <lastmod>{{ article.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if article.sitemap.changefreq %}
+        <changefreq>{{ article.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if article.sitemap.priority %}
+        <priority>{{ article.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.5</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == "yes" %}
+    <url>
+      <loc>{{ page.url | absolute_url }}</loc>
+      {% if page.sitemap.lastmod %}
+        <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+      {% else %}
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if page.sitemap.changefreq %}
+        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+      {% else %}
+        <changefreq>monthly</changefreq>
+      {% endif %}
+      {% if page.sitemap.priority %}
+        <priority>{{ page.sitemap.priority }}</priority>
+      {% else %}
+        <priority>0.3</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
+</urlset>
