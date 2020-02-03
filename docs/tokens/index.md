@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: "Tokens"
-abstract: "Handling Kno authentication tokens"
+abstract: "Handling DID authentication tokens"
 ---
 
 Tokens grant the holder of them certain privileges.
@@ -10,12 +10,12 @@ There are three different types of token and each needs to be managed carefully.
 
 ### Site tokens
 
-A site token identifies your site with Kno.
+A site token identifies your site with DID.
 This token is not secret and can be safely used in the front end.
 
 ### API tokens
 
-An API token is used to authenticate requests to the Kno API.
+An API token is used to authenticate requests to the DID API.
 **This must be stored securely and used only on the server.**
 
 ### Authentication tokens

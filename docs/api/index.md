@@ -1,7 +1,7 @@
 ---
 layout: "doc"
 title: "API reference"
-abstract: "A complete overview of the KNO API v0."
+abstract: "A complete overview of the DID API v0."
 ---
 
 - [Endpoint URL](#endpoint-url)
@@ -28,7 +28,7 @@ https://api.trykno.app/v0
 
 ## Authentication
 
-All requests to Kno's API require authentication using an API token.
+All requests to DID's API require authentication using an API token.
 The token should be sent as `Bearer` token in the `Authorization` header.
 
 ```bash

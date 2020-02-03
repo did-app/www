@@ -31,4 +31,4 @@ Not everyone minds the way our data is used, some do.  A consumer report in 2008
 
 How about an alternative for web developers that respects the user’s privacy and creates no privacy conditions for website owners to inform their users about?
 
-How about [trykno.com](https://trykno.com)?
+How about [did.app](https://did.app)?

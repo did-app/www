@@ -94,7 +94,7 @@ Instead, your service should record when a link has been used successfully and a
 
 ## Let us help you out
 
-We at Kno are all about providing the best authentication experience.
-Magic links are one half of the Kno authentication solution, and we are focused on making them the best possible.
+We at DID are all about providing the best authentication experience.
+Magic links are one half of the DID authentication solution, and we are focused on making them the best possible.
 
-Our next post is all about the other half of Kno's authentication, registering trusted devices so users can sign in with one-click.
+Our next post is all about the other half of DID's authentication, registering trusted devices so users can sign in with one-click.
