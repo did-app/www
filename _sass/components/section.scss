@@ -61,8 +61,6 @@ ul.sections {
     @include section-accent;
     margin-top: 0.5rem;
 
-    // TODO move, maybe it's a nav
-
     display: grid;
     grid-template-columns: 1fr max-content;
     padding: 0;
