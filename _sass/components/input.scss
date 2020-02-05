@@ -139,14 +139,3 @@ label.full-width > input:hover + span,
 label.full-width > input:active + span {
   outline: #009c98 2px dashed;
 }
-/* label.full-width span::before {
-  line-height: 0.1rem;
-} */
-input[type="checkbox"]:not(old),
-input[type="radio"]:not(old) {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
