@@ -16,7 +16,7 @@
   width: 100%;
   /* Fixed height is good even on smaller phones, otherwise vertically centered items would jump */
   height: 500px;
-  overflow: hidden;
+  // overflow: hidden;
   margin: auto;
 
   display: flex;
@@ -91,7 +91,6 @@
   .qr-space > img {
     width: 100%;
   }
-
 }
 .preload {
   width: 0;
