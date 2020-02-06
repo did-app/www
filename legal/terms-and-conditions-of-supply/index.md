@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 TERMS AND CONDITIONS
 FOR SUPPLY OF GOODS & SERVICES
 OF
