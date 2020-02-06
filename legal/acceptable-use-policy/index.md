@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 Acceptable use policy
 Please read this acceptable use policy ("policy", “AUP”) carefully before using did.app.
 
