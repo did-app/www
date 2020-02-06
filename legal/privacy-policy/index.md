@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 PRIVACY POLICY
 
 Last updated February 06, 2020
