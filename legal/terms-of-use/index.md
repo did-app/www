@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 TERMS AND CONDITIONS
 
 Last Updated 06 February  2020  
