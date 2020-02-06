@@ -27,13 +27,13 @@ If you do not agree with all of these Terms and Conditions, then you are prohibi
 
 1.7  Additional policies which also apply to your use of the Site include:   
 
-●  Our Privacy Notice https://did.app/legal/privacy-policy, which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using the Site, you consent to such processing and you warrant that all data provided by you is accurate.   
-● Our Acceptable Use Policy https://did.app/acceptable-use-policy, which sets out the permitted uses and prohibited uses of the Site. When using the Site, you must comply with this Acceptable Use Policy.    
-● If you purchase software from the Site, our terms and conditions of supply https://did.app/terms-and-conditions-of-supply will apply to the licence.  
+●  Our Privacy Notice https://did.app/legal/privacy-policy/index.md, which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using the Site, you consent to such processing and you warrant that all data provided by you is accurate.   
+● Our Acceptable Use Policy https://did.app/acceptable-use-policy/index.md, which sets out the permitted uses and prohibited uses of the Site. When using the Site, you must comply with this Acceptable Use Policy.    
+● If you purchase software from the Site, our terms and conditions of supply https://did.app/terms-and-conditions-of-supply/index.md will apply to the licence.  
 
 2.    Acceptable Use    
 
-2.1  Our full Acceptable Use Policy https://did.app/acceptable-use-policy, sets out all the permitted uses and prohibited uses of this site.    
+2.1  Our full Acceptable Use Policy https://did.app/acceptable-use-policy/index.md, sets out all the permitted uses and prohibited uses of this site.    
 
 2.2  You may not access or use the Site for any purpose other than that for which we make the site and our services available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.  
 
