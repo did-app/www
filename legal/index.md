@@ -4,8 +4,8 @@ layout: article
 
 ## Legal
 
-- [Privacy Policy](/legal/privacy-policy)
-- [Terms and Conditions of Use](/legal/terms-of-use)
+- [Privacy Policy](/legal/privacy-policy/index.md)
+- [Terms and Conditions of Use](/legal/terms-of-use/index.md)
 
 ### Company Information
 
