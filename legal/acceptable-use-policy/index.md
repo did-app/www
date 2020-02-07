@@ -1,4 +1,9 @@
-Acceptable use policy
+---
+layout: article
+permalink: /legal/acceptable-use-policy
+---
+
+## Acceptable use policy
 Please read this acceptable use policy ("policy", “AUP”) carefully before using did.app.
 
 Services provided by us may only be used for lawful purposes. You agree to comply with all applicable laws, rules, and regulations in connection with your use of the services. Any material or conduct that in our judgment violates this policy in any manner may result in suspension or termination of the services or removal of the user’s account with or without notice.

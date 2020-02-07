@@ -1,11 +1,16 @@
-TERMS AND CONDITIONS
+---
+permalink: /legal/terms-of-use/
+layout: article
+---
+
+## TERMS AND CONDITIONS
 
 Last Updated 06 February  2020  
 
 
 1.   Agreement to Terms     
- 
-1.1  These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (you), and KNO ME LIMITED, doing business as  DID, located at Orway House, Cullompton, Devon, EX15 2EX United Kingdom (we, us), concerning your access to and use of the DID - Digital Identity (https://did.app) website as well as any related applications (the Site).  
+
+1.1  These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (you), and KNO ME LIMITED, doing business as  DID, located at Orway House, Cullompton, Devon, EX15 2EX United Kingdom (we, us), concerning your access to and use of the [DID - Digital Identity](https://did.app) website as well as any related applications (the Site).  
 
 The Site provides the following services: Passwordless authentication (Services). You agree that by accessing the Site and/or Services, you have read, understood, and agree to be bound by all of these Terms and Conditions.  
 
@@ -19,22 +24,22 @@ If you do not agree with all of these Terms and Conditions, then you are prohibi
 
 1.5  Our site is directed to people residing in United Kingdom. The information provided on the Site is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country.   
 
-1.6  The Site is intended for users who are at least 18 years old.  If you are under the age of 18, you are not permitted to register for the Site or use the Services without parental permission. 
+1.6  The Site is intended for users who are at least 18 years old.  If you are under the age of 18, you are not permitted to register for the Site or use the Services without parental permission.
 
 1.7  Additional policies which also apply to your use of the Site include:   
 
-●  Our Privacy Notice https://did.app/legal/privacy-policy, which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using the Site, you consent to such processing and you warrant that all data provided by you is accurate.   
-● Our Acceptable Use Policy https://did.app/acceptable-use-policy, which sets out the permitted uses and prohibited uses of the Site. When using the Site, you must comply with this Acceptable Use Policy.    
-● If you purchase software from the Site, our terms and conditions of supply https://did.app/terms-and-conditions-of-supply will apply to the licence.  
+●  Our [Privacy Notice](/legal/privacy-policy), which sets out the terms on which we process any personal data we collect from you, or that you provide to us. By using the Site, you consent to such processing and you warrant that all data provided by you is accurate.   
+● Our [Acceptable Use Policy](/legal/acceptable-use-policy), which sets out the permitted uses and prohibited uses of the Site. When using the Site, you must comply with this Acceptable Use Policy.    
+● If you purchase software from the Site, our [terms and conditions of supply](/legal/terms-and-conditions-of-supply) will apply to the licence.  
 
 2.    Acceptable Use    
 
-2.1  Our full Acceptable Use Policy https://did.app/acceptable-use-policy, sets out all the permitted uses and prohibited uses of this site.    
+2.1  Our full [Acceptable Use Policy](/legal/acceptable-use-policy), sets out all the permitted uses and prohibited uses of this site.    
 
 2.2  You may not access or use the Site for any purpose other than that for which we make the site and our services available. The Site may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.  
 
 2.3  As a user of this Site, you agree not to:  
-  
+
 ● Systematically retrieve data or other content from the Site to a compile database or directory without written permission from us  
 ● Make any unauthorized use of the Site, including collecting usernames and/or email addresses of users to send unsolicited email or creating user accounts under false pretenses  
 ● Use a buying agent or purchasing agent to make purchases on the Site  
@@ -60,7 +65,7 @@ If you do not agree with all of these Terms and Conditions, then you are prohibi
 ● Use the Site in a manner inconsistent with any applicable laws or regulations  
 ● Threaten users with negative feedback or offering services solely to give positive feedback to users  
 ● Misrepresent experience, skills, or information about a User  
-● Advertise products or services not intended by us 
+● Advertise products or services not intended by us
 ● Falsely imply a relationship with us or another company with whom you do not have a relationship   
 
 3.   Information you provide to us
@@ -71,15 +76,15 @@ If you know or suspect that anyone other than you knows your user information (s
 
 3.2  If you provide any information that is untrue, inaccurate, not current or incomplete, we may suspend or terminate your account. We may remove or change a user name you select if we determine that such user name is inappropriate.  
 
-3.3  As part of the functionality of the Site, you may link your account with online accounts you may have with third party service providers (each such account, a Third Party Account) by either: (a) providing your Third Party Account login information through the Site; or (b) allowing us to access your Third Party Account, as is permitted under the applicable terms and conditions that govern your use of each Third Party Account. 
+3.3  As part of the functionality of the Site, you may link your account with online accounts you may have with third party service providers (each such account, a Third Party Account) by either: (a) providing your Third Party Account login information through the Site; or (b) allowing us to access your Third Party Account, as is permitted under the applicable terms and conditions that govern your use of each Third Party Account.
 
-You represent that you are entitled to disclose your Third Party Account login information to us and/or grant us access to your Third Party Account without breach by you of any of the terms and conditions that govern your use of the applicable Third Party Account and without obligating us to pay any fees or making us subject to any usage limitations imposed by such third party service providers. 
+You represent that you are entitled to disclose your Third Party Account login information to us and/or grant us access to your Third Party Account without breach by you of any of the terms and conditions that govern your use of the applicable Third Party Account and without obligating us to pay any fees or making us subject to any usage limitations imposed by such third party service providers.
 
 3.4  By granting us access to any Third Party Accounts, you understand that (a) we may access, make available and store (if applicable) any content that you have provided to and stored in your Third Party Account (the “Social Network Content”) so that it is available on and through the Site via your account, including without limitation any friend lists;  and (b) we may submit and receive additional information to your Third Party Account to the extent you are notified when you link your account with the Third Party Account.  
 
-Depending on the Third Party Accounts you choose and subject to the privacy settings that you have set in such Third Party Accounts, personally identifiable information that you post to your Third Party Accounts may be available on and through your account on the Site. Please note that if a Third Party Account or associated service becomes unavailable or our access to such Third Party Account is terminated by the third party service provider, then Social Network Content may no longer be available on and through the Site. 
+Depending on the Third Party Accounts you choose and subject to the privacy settings that you have set in such Third Party Accounts, personally identifiable information that you post to your Third Party Accounts may be available on and through your account on the Site. Please note that if a Third Party Account or associated service becomes unavailable or our access to such Third Party Account is terminated by the third party service provider, then Social Network Content may no longer be available on and through the Site.
 
-You will have the ability to disable the connection between your account on the Site and your Third Party Accounts at any time. Please note that your relationship with the third party service providers associated with your third party accounts is governed solely by your agreement(s) with such third party service providers.  We make no effort to review any Social Network Content for any purpose, including but not limited to, for accuracy, legality or non-infringement, and we are not responsible for any Social Network Content. 
+You will have the ability to disable the connection between your account on the Site and your Third Party Accounts at any time. Please note that your relationship with the third party service providers associated with your third party accounts is governed solely by your agreement(s) with such third party service providers.  We make no effort to review any Social Network Content for any purpose, including but not limited to, for accuracy, legality or non-infringement, and we are not responsible for any Social Network Content.
 
 You acknowledge and agree that we may access your email address book associated with a Third Party Account and your contacts list stored on your mobile device or tablet computer solely for purposes of identifying and informing you of those contacts who have also registered to use the Site. At your email request to team@did.app or through your account settings (if applicable), we will deactivate the connection between the Site and your Third Party Account and attempt to delete any information stored on our servers that was obtained through such Third Party Account, except the username and profile picture that became associated with your account.     
 
@@ -87,11 +92,11 @@ You acknowledge and agree that we may access your email address book associated 
 
 4.1  Unless otherwise indicated, the Site and Services including source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (Our Content) are owned or licensed to us, and are protected by copyright and trade mark laws.   
 
-4.2  Except as expressly provided in these Terms and Conditions, no part of the Site, Services or Our Content may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission. 
+4.2  Except as expressly provided in these Terms and Conditions, no part of the Site, Services or Our Content may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
 
 4.3  Provided that you are eligible to use the Site, you are granted a limited licence to access and use the Site and Our Content and to download or print a copy of any portion of the Content to which you have properly gained access solely for your personal, non-commercial use.   
 
-4.4  You shall not (a) try to gain unauthorised access to the Site or any networks, servers or computer systems connected to the Site; and/or (b) make for any purpose including error correction, any modifications, adaptions, additions or enhancements to the Site or Our Content, including the modification of the paper or digital copies you may have downloaded. 
+4.4  You shall not (a) try to gain unauthorised access to the Site or any networks, servers or computer systems connected to the Site; and/or (b) make for any purpose including error correction, any modifications, adaptions, additions or enhancements to the Site or Our Content, including the modification of the paper or digital copies you may have downloaded.
 
 4.5  We shall (a) prepare the Site and Our Content with reasonable skill and care; and (b) use industry standard virus detection software to try to block the uploading of content to the Site that contains viruses.  
 
@@ -103,7 +108,7 @@ You acknowledge and agree that we may access your email address book associated 
 
 5.1  We reserve the right at our sole discretion, to (1) monitor the Site for breaches of these Terms and Conditions; (2) take appropriate legal action against anyone in breach of applicable laws or these Terms and Conditions; (3) remove from the Site or otherwise disable all files and content that are excessive in size or are in any way a burden to our systems; and (4) otherwise manage the Site in a manner designed to protect our rights and property and to facilitate the proper functioning of the Site and Services.  
 
-5.2  We do not guarantee that the Site will be secure or free from bugs or viruses. 
+5.2  We do not guarantee that the Site will be secure or free from bugs or viruses.
 
 5.3  You are responsible for configuring your information technology, computer programs and platform to access the Site and you should use your own virus protection software.  
 
@@ -111,7 +116,7 @@ You acknowledge and agree that we may access your email address book associated 
 
 6.1  We reserve the right to change, modify, or remove the contents of the Site at any time or for any reason at our sole discretion without notice. We also reserve the right to modify or discontinue all or part of the Services without notice at any time.    
 
-6.2  We cannot guarantee the Site and Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Site, resulting in interruptions, delays, or errors. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site or Services during any downtime or discontinuance of the Site or Services.We are not obliged to maintain and support the Site or Services or to supply any corrections, updates, or releases. 
+6.2  We cannot guarantee the Site and Services will be available at all times. We may experience hardware, software, or other problems or need to perform maintenance related to the Site, resulting in interruptions, delays, or errors. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site or Services during any downtime or discontinuance of the Site or Services.We are not obliged to maintain and support the Site or Services or to supply any corrections, updates, or releases.
 
 6.3  There may be information on the Site that contains typographical errors, inaccuracies, or omissions that may relate to the Services, including descriptions, pricing, availability, and various other information. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information at any time, without prior notice.  
 
@@ -119,26 +124,26 @@ You acknowledge and agree that we may access your email address book associated 
 
 7.1  The Site and Services are provided on an as-is and as-available basis. You agree that your use of the Site and/or Services will be at your sole risk except as expressly set out in these Terms and Conditions. All warranties, terms, conditions and undertakings, express or implied (including by statute, custom or usage, a course of dealing, or common law) in connection with the Site and Services and your use thereof including, without limitation, the implied warranties of satisfactory quality, fitness for a particular purpose and non-infringement are excluded to the fullest extent permitted by applicable law.  
 
-We make no warranties or representations about the accuracy or completeness of the Site’s content and are not liable for any (1) errors or omissions in content: (2) any unauthorized access to or use of our servers and/or any and all personal information and/or financial information stored on our server; (3) any interruption or cessation of transmission to or from the site or services; and/or (4) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the site by any third party. We will not be responsible for any delay or failure to comply with our obligations under these Terms and Conditions if such delay or failure is caused by an event beyond our reasonable control. 
+We make no warranties or representations about the accuracy or completeness of the Site’s content and are not liable for any (1) errors or omissions in content: (2) any unauthorized access to or use of our servers and/or any and all personal information and/or financial information stored on our server; (3) any interruption or cessation of transmission to or from the site or services; and/or (4) any bugs, viruses, trojan horses, or the like which may be transmitted to or through the site by any third party. We will not be responsible for any delay or failure to comply with our obligations under these Terms and Conditions if such delay or failure is caused by an event beyond our reasonable control.
 
-7.2  Our responsibility for loss or damage suffered by you: 
+7.2  Our responsibility for loss or damage suffered by you:
 
-Whether you are a consumer or a business user: 
+Whether you are a consumer or a business user:
 
 ● We do not exclude or limit in any way our liability to you where it would be unlawful to do so. This includes liability for death or personal injury caused by our negligence or the negligence of our employees, agents or subcontractors and for fraud or fraudulent misrepresentation.  
 
 ● If we fail to comply with these Terms and Conditions, we will be responsible for loss or damage you suffer that is a foreseeable result of our breach of these Terms and Conditions, but we would not be responsible for any loss or damage that were not foreseeable at the time you started using the Site/Services.  
 
-Notwithstanding anything to the contrary contained in the Disclaimer/Limitation of Liability section, our liability to you for any cause whatsoever and regardless of the form of the action, will at all times be limited to a total aggregate amount equal to the greater of (a) the sum of £5000 or (b) the amount paid, if any, by you to us for the Services/Site during the six (6) month period prior to any cause of action arising. Different limitations and exclusions of liability will apply to liability arising as a result of the supply of any products to you, which will be set out in our Terms and conditions of supply https://did.app/terms-and-conditions-of-supply.  
+Notwithstanding anything to the contrary contained in the Disclaimer/Limitation of Liability section, our liability to you for any cause whatsoever and regardless of the form of the action, will at all times be limited to a total aggregate amount equal to the greater of (a) the sum of £5000 or (b) the amount paid, if any, by you to us for the Services/Site during the six (6) month period prior to any cause of action arising. Different limitations and exclusions of liability will apply to liability arising as a result of the supply of any products to you, which will be set out in our [Terms and conditions of supply](/legal/terms-and-conditions-of-supply).  
 
-If you are a business user: 
+If you are a business user:
 
-We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with: 
+We will not be liable to you for any loss or damage, whether in contract, tort (including negligence), breach of statutory duty, or otherwise, even if foreseeable, arising under or in connection with:
 
 ● use of, or inability to use, our Site/Services; or  
 ● use of or reliance on any content displayed on our Site.  
 
-In particular, we will not be liable for: 
+In particular, we will not be liable for:
 
 ● loss of profits, sales, business, or revenue;  
 ● business interruption;  
@@ -155,7 +160,7 @@ In particular, we will not be liable for:
 If we determine, in our sole discretion, that your use of the Site/Services is in breach of these Terms and Conditions or of any applicable law or regulation, we may terminate your use or participation in the Site and the Services or delete your profile and any content or information that you posted at any time, without warning, in our sole discretion.  
 
 8.3  If we terminate or suspend your account for any reason set out in this Section 9, you are prohibited from registering and creating a new account under your name, a fake or borrowed name, or the name of any third party, even if you may be acting on behalf of the third party. In addition to terminating or suspending your account, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.   
-  
+
 9.    General       
 
 9.1  Visiting the Site, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communication be in writing.  
@@ -176,12 +181,12 @@ You hereby agree to the use of electronic signatures, contracts, orders and othe
 
 9.8  For business users only - If you are a business user, these Terms and Conditions, their subject matter and their formation (and any non-contractual disputes or claims) are governed by English Law. We both agree to the exclusive jurisdiction of the courts of England and Wales.    
 
-9.9  A person who is not a party to these Terms and Conditions shall have no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of these Terms and Conditions. 
+9.9  A person who is not a party to these Terms and Conditions shall have no right under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of these Terms and Conditions.
 
-9.10  In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us by email at team@did.app or by post to: 
+9.10  In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us by email at team@did.app or by post to:
 
- 
+
 KNO ME LIMITED  
 Orway House   
 Cullompton, Devon, EX15 2EX   
-United Kingdom 
+United Kingdom
