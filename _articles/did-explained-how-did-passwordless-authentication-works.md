@@ -13,8 +13,6 @@ DID uses two methods of authenticating a user:  email and public key. Both metho
 
 [Open ID Connect](https://openid.net/connect/) is a simple identity layer on top of the [OAuth 2.0 protocol](https://oauth.net/2/) and allows applications to exchange information about authenticated sessions and end-users.
 
-This diagram explains how Open ID Connect works:
-
 ![How DID works: Open ID Connect Integration](/assets/images/how-did-works/how-did-works-open-id-connect-integration.png)
 
 Let’s look in more detail at step four of the diagram above.  This is the step where DID authenticates the user.
@@ -26,8 +24,6 @@ The user receives and accesses the email that DID sent.  Inside that email is a 
 A signature is also sent to DID via the link in the user's email which also proves to DID that the user has access to their private key.
 
 Finally, DID sends another unique code back to the browser which the requesting website uses to grant the user access.
-
-This diagram explains how DID authenticates a user with their email address:
 
 ![How DID works: Signing In With Email](/assets/images/how-did-works/how-did-works-signing-in-with-email.png)
 
