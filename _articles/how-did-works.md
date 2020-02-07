@@ -1,6 +1,6 @@
 ---
 layout: wiki-post
-abstract: "DID Explained.  A guide to how DID passwordless authentiation works."
+abstract: "DID is an Identity Provider, that authenticates users by verifying access to either an email address or securely stored private key."
 sitemap:
 lastmod: 2020-01-15
 ---
