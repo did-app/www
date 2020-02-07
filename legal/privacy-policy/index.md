@@ -1,4 +1,9 @@
-PRIVACY POLICY
+---
+permalink: /legal/privacy-policy/
+layout: article
+---
+
+## PRIVACY POLICY
 
 Last updated February 06, 2020
 
@@ -54,7 +59,7 @@ We collect personal information that you voluntarily provide to us when register
 
 The personal information that we collect depends on the context of your interactions with us and the Services, the choices you make and the products and features you use. The personal information we collect can include the following:
 
-Publicly Available Personal Information. We collect email addresses; and other similar data. 
+Publicly Available Personal Information. We collect email addresses; and other similar data.
 
 Credentials. We collect passwords, password hints, and similar security information used for authentication and account access.
 
@@ -117,7 +122,7 @@ Business Partners. We may share your information with our business partners to o
 4. WHO WILL YOUR INFORMATION BE SHARED WITH?
 
 In Short:  We only share information with the following third parties.
-  
+
 We only share and disclose your information with the following third parties. We have categorized each party so that you may be easily understand the purpose of our data collection and processing practices. If we have processed your data based on your consent and you wish to revoke your consent, please contact us.
 Communicate and Chat with Users
 Postmark
@@ -214,7 +219,7 @@ We may update this privacy policy from time to time. The updated version will be
 
 If you have questions or comments about this policy, you may contact our Data Protection Officer (DPO), Peter Saxton, by email at peter@did.app, or by post to:
 
-KNO ME LIMITED 
+KNO ME LIMITED
 Peter Saxton
 Orway House
 Kentisbeare
