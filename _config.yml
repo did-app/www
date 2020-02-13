@@ -7,3 +7,7 @@ collections:
   articles:
     output: true
     permalink: /:collection/:title
+
+include:
+  - _headers
+  - .well-known/openid-configuration
