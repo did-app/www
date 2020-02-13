@@ -1,2 +1,2 @@
 /.well-known/openid-configuration
-  content-type: "application/json"
+  Content-Type: "application/json"
