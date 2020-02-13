@@ -31,5 +31,7 @@
   ],
   "claims_supported": [
   ],
-  "service_documentation": "https://did.app/docs"
+  "service_documentation": "https://did.app/docs",
+  "check_session_iframe": "https://auth.did.app/TODO",
+  "end_session_endpoint": "https://auth.did.app/oidc/end_session"
 }
