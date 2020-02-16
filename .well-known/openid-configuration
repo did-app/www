@@ -14,7 +14,9 @@
     "code"
   ],
   "response_modes_supported": [
-    "form_post"
+    "fragment",
+    "form_post",
+    "query"
   ],
   "grant_types_supported": [
     "authorization_code"
