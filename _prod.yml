@@ -1,2 +1,3 @@
 # NOT SUITABLE FOR SECRETS
-admin_origin: "https://admin.did.app"
+auth_origin: "https://auth.did.app"
+did_issuer: "https://did.app"

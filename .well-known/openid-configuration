@@ -1,9 +1,12 @@
+---
+---
+
 {
-  "issuer": "https://did.app",
-  "authorization_endpoint": "https://auth.did.app/oidc/authorize",
-  "token_endpoint": "https://auth.did.app/oidc/token",
-  "userinfo_endpoint": "https://auth.did.app/oidc/userinfo",
-  "jwks_uri": "https://auth.did.app/oidc/jwks",
+  "issuer": "{{ site.did_issuer }}",
+  "authorization_endpoint": "{{ site.auth_origin }}/oidc/authorize",
+  "token_endpoint": "{{ site.auth_origin }}/oidc/token",
+  "userinfo_endpoint": "{{ site.auth_origin }}/oidc/userinfo",
+  "jwks_uri": "{{ site.auth_origin }}/oidc/jwks",
   "scopes_supported": [
     "openid"
   ],
@@ -30,8 +33,13 @@
     "normal"
   ],
   "claims_supported": [
+    "aud",
+    "exp",
+    "iat",
+    "iss",
+    "sub"
   ],
   "service_documentation": "https://did.app/docs",
-  "check_session_iframe": "https://auth.did.app/TODO",
-  "end_session_endpoint": "https://auth.did.app/oidc/end_session"
+  "check_session_iframe": "{{ site.auth_origin }}/TODO",
+  "end_session_endpoint": "{{ site.auth_origin }}/oidc/end_session"
 }

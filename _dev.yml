@@ -1,1 +1,2 @@
-admin_origin: "http://localhost:7001"
+auth_origin: "http://localhost:7000"
+did_issuer: "http://localhost:4000"
