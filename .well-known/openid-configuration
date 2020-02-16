@@ -1,6 +1,6 @@
 ---
+# https://openid.net/specs/openid-connect-discovery-1_0.html#ProviderMetadata
 ---
-
 {
   "issuer": "{{ site.did_issuer }}",
   "authorization_endpoint": "{{ site.auth_origin }}/oidc/authorize",
