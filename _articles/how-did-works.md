@@ -1,6 +1,8 @@
 ---
 layout: wiki-post
+title: "How-DID-Works"
 abstract: "DID is an Identity Provider, that authenticates users by verifying access to either an email address or securely stored private key."
+share_image: /assets/images/how-did-works/how-did-works-signing-in-with-public-key.png
 sitemap:
 lastmod: 2020-01-15
 ---
@@ -17,7 +19,7 @@ DID uses two methods of authenticating a user:  email and public key. Both metho
 
 Let’s look in more detail at step four of the diagram above.  This is the step where DID authenticates the user.
 
-When a user presents themselves at DID for the first time, the user’s browser generates a public and private key.  DID asks for the user’s email address this is sent to DID along with the user’s new public key.  Next, DID generates long, random code and sends it to the user's email address. 
+When a user presents themselves at DID for the first time, the user’s browser generates a public and private key.  DID asks for the user’s email address this is sent to DID along with the user’s new public key.  Next, DID generates long, random code and sends it to the user's email address.
 
 The user receives and accesses the email that DID sent.  Inside that email is a link containing the long code that DID generated.  When this link is clicked it proves to DID that the user has access to the email address.  The long, random nature of the code means it cannot be guessed.  The code is also only valid for a limited period of time.
 
@@ -42,4 +44,3 @@ The result is a very fast and secure sign in process.
 To summarise how DID works into one sentence:
 
 **DID is an Identity Provider, that authenticates users by verifying access to either an email address or securely stored private key.**
-
