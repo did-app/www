@@ -57,7 +57,7 @@ The error object will have the following keys.
   "error": {
     "id": "7670138c-4792-4f7b-8a32-80de82d32bd8",
     "status": 403,
-    "code": "token_denied",
+    "code": "token_declined",
     "title": "Access not granted for API token",
     "detail": "Client could not be authenticated"
   }
