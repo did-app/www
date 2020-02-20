@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: legal
 permalink: /legal/terms-and-conditions-of-supply
 ---
 

@@ -1,6 +1,6 @@
 ---
 permalink: /legal/privacy-policy/
-layout: default
+layout: legal
 ---
 
 ## PRIVACY POLICY

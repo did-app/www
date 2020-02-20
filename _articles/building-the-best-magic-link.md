@@ -1,5 +1,5 @@
 ---
-layout: wiki-post
+layout: article
 abstract: "Magic links are a passwordless solution that is gaining popularity.
 How do we apply best practises to using them in our applications."
 sitemap:

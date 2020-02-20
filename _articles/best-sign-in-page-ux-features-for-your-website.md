@@ -1,5 +1,5 @@
 ---
-layout: wiki-post
+layout: article
 abstract: "Ten excellent sign in page designs"
 sitemap:
   lastmod: 2020-01-15
