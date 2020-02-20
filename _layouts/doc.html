@@ -2,6 +2,9 @@
 layout: base
 ---
 
+<style media="screen">
+
+</style>
 <header class="py-4 px-6 z-10 text-white bg-gray-800">
   <nav class="max-w-6xl mx-auto flex flex-wrap items-center text-lg md:text-xl">
     <span class="my-1 flex-grow">
@@ -32,26 +35,26 @@ layout: base
     </span>
   </nav>
 </header>
-<main>
-  <div class="docs-container">
-    <aside class="">
-      <h3>Overview</h3>
+<main class="px-6">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row">
+    <aside class="text-xl pr-3">
+      <h3 class="mt-4 mb-2" class="mt-4 mb-2">Overview</h3>
       <ul>
-        <li><a href="/docs#title">Introduction</a></li>
-        <li><a href="/docs/core-concepts#title">Core concepts</a></li>
+        <li><a class="border-l-4 hover:border-green-500 hover:text-green-500 pl-4 py-1 text-gray-500" href="/docs">Introduction</a></li>
+        <li><a class="border-l-4 hover:border-green-500 hover:text-green-500 pl-4 py-1 text-gray-500" href="/docs/core-concepts">Core concepts</a></li>
       </ul>
-      <h3>Guides</h3>
+      <h3 class="mt-4 mb-2">Guides</h3>
       <ul>
-        <li><a href="/docs/getting-started#title">Getting started</a></li>
-        <li><a href="/docs/tokens#title">Tokens</a></li>
+        <li><a class="border-l-4 hover:border-green-500 hover:text-green-500 pl-4 py-1 text-gray-500" href="/docs/getting-started">Getting started</a></li>
+        <li><a class="border-l-4 hover:border-green-500 hover:text-green-500 pl-4 py-1 text-gray-500" href="/docs/tokens">Tokens</a></li>
       </ul>
-      <h3>API reference</h3>
+      <h3 class="mt-4 mb-2">API reference</h3>
       <ul>
-        <li><a href="/docs/api#title">Overview</a></li>
-        <li><a href="/docs/api/authenticate#title">Authenticate</a></li>
+        <li><a class="border-l-4 hover:border-green-500 hover:text-green-500 pl-4 py-1 text-gray-500" href="/docs/api">Overview</a></li>
+        <li><a class="border-l-4 hover:border-green-500 hover:text-green-500 pl-4 py-1 text-gray-500" href="/docs/api/authenticate">Authenticate</a></li>
       </ul>
     </aside>
-    <article class="">
+    <article class="flex-1 max-w-2xl mx-auto mb-20 pl-3 markdown-body">
       <header id="title">
         <h1>{{page.title}}</h1>
         <span>{{page.abstract}}</span>
