@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 permalink: /legal/acceptable-use-policy
 ---
 

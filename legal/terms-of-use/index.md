@@ -1,6 +1,6 @@
 ---
 permalink: /legal/terms-of-use/
-layout: article
+layout: default
 ---
 
 ## TERMS AND CONDITIONS

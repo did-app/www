@@ -1,6 +1,6 @@
 ---
-layout: wiki-post
-title: "How-DID-Works"
+layout: article
+title: "How DID Works"
 abstract: "DID is an Identity Provider, that authenticates users by verifying access to either an email address or securely stored private key."
 share_image: /assets/images/how-did-works/how-did-works-signing-in-with-public-key.png
 sitemap:
