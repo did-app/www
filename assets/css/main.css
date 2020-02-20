@@ -8,6 +8,32 @@
 
 /* Write your styles below this line. */
 
+.button {
+  @apply cursor-pointer px-3 py-1;
+}
+.button.green {
+  @apply border-2 font-bold bg-green-500 border-green-500 rounded text-white;
+}
+.button.green:hover {
+  @apply bg-green-600 border-green-600 shadow;
+}
+.button.outline {
+  @apply border-2 border-green-500 rounded;
+}
+.button.outline:hover {
+  @apply border-green-600;
+}
+.button.minor {
+  @apply border-transparent border-b-2;
+}
+.button.minor:hover {
+  @apply border-green-500;
+}
+/* .button */
+/* .button:focus {
+  @apply shadow-outline outline-none;
+} */
+
 /* Write your styles above this line. */
 
 @tailwind utilities;
