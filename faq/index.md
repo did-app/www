@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: legal
 ---
-
-
 
 # How may we help?
 

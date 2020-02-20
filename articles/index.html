@@ -5,8 +5,27 @@ sitemap:
   changefreq: "weekly"
 ---
 
-<div class="max-w-xl mx-auto text-center text-2xl ">
-  <h1 class="mb-8">Articles from DID.app</h1>
+<div class="max-w-xl mx-auto text-center">
+  <h1 class="font-bold text-3xl">Articles from DID.app</h1>
+  <p class="max-w-sm mx-auto py-8">
+    Stay up to date with DID news and updates by joining our mailing list.
+  </p>
+  <div class="mb-6 max-w-sm mx-auto">
+    <form class="" data-netlify="true" name="join our mailing list">
+      <input
+      class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
+      class="central"
+      type="email"
+      required=""
+      name="email_address"
+      placeholder="you@example.com"
+      id="email-address"
+      />
+      <button type="submit" class="button solid green">
+        Subscribe
+      </button>
+    </form>
+  </div>
   <hr>
 </div>
 {% for article in site.articles %}
