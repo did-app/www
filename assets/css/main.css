@@ -11,10 +11,10 @@
 .button {
   @apply cursor-pointer px-3 py-1;
 }
-.button.green {
+.button.solid.green {
   @apply border-2 font-bold bg-green-500 border-green-500 rounded text-white;
 }
-.button.green:hover {
+.button.solid.green:hover {
   @apply bg-green-600 border-green-600 shadow;
 }
 .button.outline {
@@ -26,13 +26,19 @@
 .button.minor {
   @apply border-transparent border-b-2;
 }
-.button.minor:hover {
+.button.minor.green:hover {
   @apply border-green-500;
+}
+.button.minor.white:hover {
+  @apply border-white;
 }
 /* .button */
 /* .button:focus {
   @apply shadow-outline outline-none;
 } */
+.gradient {
+  background: radial-gradient(circle farthest-side at right bottom, #2aa1c0 5%, #384d71 98%);
+}
 
 /* Write your styles above this line. */
 
