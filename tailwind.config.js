@@ -3,6 +3,7 @@ module.exports = {
     extend: {
       colors: {
         green: {
+          "100": "#cbfff8",
           "500": "#00dfc0",
           "600": "#00bba1",
           "700": "#00b39a",
@@ -11,6 +12,8 @@ module.exports = {
       }
     }
   },
-  variants: {},
+  variants: {
+    order: ['responsive'],
+  },
   plugins: []
 };
