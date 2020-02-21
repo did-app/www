@@ -1,3 +1,8 @@
+---
+layout: article
+permalink: /legal/cookies
+---
+
 ## Cookies at DID.app
 
 DID.app uses cookies set by [plausible.io](https://plausible.io/).  This cookie is used to measure traffic to pages at did.app.  Absolutely no personal data is collected and no users are identified individually by DID.app or Plausible.
