@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: "DID documentation"
+title: "DID Documentation"
 abstract: "The documentation for authentication with DID."
 share_image: "/assets/images/docs-screenshot.png"
 sitemap:
@@ -13,14 +13,10 @@ Didn't find the answer you were looking for? [Get in touch](mailto:team@did.app)
 
 ### Getting started
 
-New to DID? Follow our guide to [getting started](/docs/getting-started) or find out more about the [core concepts](/docs/core-concepts).
-
-Technology specific guides are also available:
-
-- [Elixir/Phoenix](https://github.com/trykno/kno-elixir#phoenix-integration-guide)
+New to DID.app?
+The simplest way to integrate with did is using an OpenID Connect library for your platform.
+A list of certified implementations is maintained at [https://openid.net/developers/certified/](https://openid.net/developers/certified/).
 
 ### API reference
 
 See our full [API reference](/docs/api).
-
-<!-- grid of guides. -->

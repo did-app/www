@@ -1,11 +1,12 @@
 ---
-layout: article
+layout: legal
 ---
 
 ## Legal
 
 - [Privacy Policy](/legal/privacy-policy)
 - [Terms and Conditions of Use](/legal/terms-of-use)
+- [Cookie Policy](/legal/cookies)
 
 ### Company Information
 

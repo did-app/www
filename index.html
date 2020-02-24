@@ -1,40 +1,47 @@
 ---
 layout: default
 ---
-
-<header>
-  <nav class="nav">
-    <span>
-      <a class="button brand" href="/"><img style="width:5em;" src="/assets/images/DID_logo_ident_colour.svg" alt="DID Digital Identity Logo"></a>
-    </span>
-    <span>
-      <a href="/articles/how-did-works" class="button tertiary">How it works</a>
-      <a href="/docs" class="button tertiary">Documentation</a>
-      <a href="#pricing" class="button tertiary hide-small">Pricing</a>
-    </span>
-    <span class="right">
-      <a href="/welcome" class="button tertiary">Sign in</a>
-      <a href="/welcome" class="button secondary">Get started</a>
-    </span>
-  </nav>
-</header>
-<main>
-  <div class="section wide offcenter left-paragraph">
-    <img src="/assets/images/login-concept-illustration/3094352.jpg" alt="user account concept as a vector illustration">
-    <div class="text">
-      <header>
-        <h1>{{HEllo}}</h1>
-        <h1 class="emphasis">Go Passwordless</h1>
-        <p>
-          DID is the simplest way to add <strong style="color:#ff33c0;">superior</strong> authentication to your website.
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+    <div class="flex-1">
+      <header class="max-w-lg mx-4 text-center md:text-left">
+        <h1 class="my-6 text-4xl">
+          Authentication for websites and apps that <strong>users will love</strong>
+        </h1>
+        <p class="text-xl max-w-md">
+          Users sign in with a single click using a private key stored securely on their personal device.
         </p>
-        <a href="/welcome" class="button action">Get started: Free tier</a>
-        <a href="/articles/creating-great-authentication-user-experiences-and-why-it-matters" class="button secondary">Why passwordless?</a>
-        <p style="font-size:0.8em;font-style:italic;">Free forever, no catch</p>
+        <div class="my-6">
+          <a href="/welcome" class="button solid green text-2xl">Get started</a>
+          <!-- <a href="/articles/creating-great-authentication-user-experiences-and-why-it-matters" class="button secondary">Why passwordless?</a> -->
+          <a href="/articles/how-did-works" class="button outline ml-6 text-2xl">How it works</a>
+        </div>
       </header>
     </div>
+    <img class="w-1/2" src="/assets/images/login-concept-illustration/3094352.jpg" alt="user account concept as a vector illustration">
+    <!-- <img class="w-1/2" src="https://via.placeholder.com/400x300" alt=""> -->
   </div>
-  <section class="section wide cards cards-3 large-only">
+
+  <!-- <h1 class="max-w-6xl text-center">Feedback</h1> -->
+  <div class="my-12 max-w-6xl mx-auto flex flex-col md:flex-row">
+    <div class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 border-1 rounded shadow">
+      <span class="text-6xl -mt-16 inline-block">„</span>
+      <p>"Wish we had this before we built our own."</p>
+      <p class="mt-4 font-bold">Celey</p>
+    </div>
+    <div class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 rounded shadow">
+      <span class="text-6xl -mt-16 inline-block">„</span>
+      <p>"Epic, well done Peter & team. love the concept of DID. Makes much more sense than passwords IMO."</p>
+      <p class="mt-4 font-bold">alxcnwy</p>
+    </div>
+    <div class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 rounded shadow">
+      <span class="text-6xl -mt-16 inline-block">„</span>
+      <p>"I'm really impressed with what you are doing."</p>
+      <p class="mt-4 font-bold">Philip Kwok</p>
+    </div>
+
+  </div>
+
+  <!-- <section class="section wide cards cards-3 large-only">
     <article class="card">
       <h3>Develop Faster</h3>
       <p>Add robust &amp; reliable authentication in a snip</p>
@@ -69,8 +76,8 @@ layout: default
       <p>
         Frictionless, fast and simple to use. Your users will love DID Authentication.
       </p>
-      <!--    https://heap.io/blog/data-stories/good-conversion-rate-signup-flow-->
-      <!-- https://blog.dashlane.com/infographic-online-overload-its-worse-than-you-thought/ -->
+          https://heap.io/blog/data-stories/good-conversion-rate-signup-flow
+       https://blog.dashlane.com/infographic-online-overload-its-worse-than-you-thought/
     </div>
   </section>
   <section class="section wide cards cards-3 large-only">
@@ -78,25 +85,25 @@ layout: default
       <h3>Goodbye passwords!</h3>
       <p>It's been nice knowing you.</p>
       <p>Hard to remember, easy to guess. It's hard to think of good reasons to hold on to passwords.</p>
-      <!--<a href="/articles">Read more: 'Why the password's days are numbered.'</a>-->
+      <a href="/articles">Read more: 'Why the password's days are numbered.'</a>
     </article>
     <article class="card">
       <h3>Hello one-click-sign-in.</h3>
       <p>Where have you been all my life?</p>
       <p>Authenticate with your device instead. It's secure, safe and easy to use. One-click-sign-in for personal smartphones, tablets and computers.</p>
-      <!--<a href="/articles">Read more: 'How one-click-sign-in works.'</a>-->
+      <a href="/articles">Read more: 'How one-click-sign-in works.'</a>
     </article>
     <article class="card">
       <h3>You respected my privacy.</h3>
       <p>Well that's refreshing.</p>
       <p>Do you really want to know how many cat pictures your new user looked at last year? Thought not.</p>
-      <!--<a href="/articles">Read more: 'Social logins have got a privacy problem.'</a>-->
+      <a href="/articles">Read more: 'Social logins have got a privacy problem.'</a>
     </article>
-  </section>
-  <section class="section wide offcenter left-paragraph">
-    <img src="/assets/images/iphone-approve_iphone8silver_portrait.png" alt="screenshot of confirm sign in with DID on an iphone">
-    <div class="text">
-      <h2>Signing in with DID</h2>
+  </section> -->
+  <section class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center">
+    <img class="md:w-1/3" src="/assets/images/fast-sign-up.gif" alt="screenshot of confirm sign in with DID on an iphone">
+    <div class="md:mr-16 xl:mr-32">
+      <h2 class="text-2xl md:text-3xl font-bold text-secondary-800 mb-4">Signing in with DID</h2>
       <p>
         DID offers two passwordless ways for users to sign in. They can either authenticate using their email address or their device.
         <b>No app required.</b>
@@ -110,10 +117,10 @@ layout: default
       </p>
     </div>
   </section>
-  <section class="section wide offcenter right-paragraph">
-    <img src="/assets/images/code.png" alt="HTML code sample showing using DID" class="">
-    <div class="text">
-      <h2>Quick development</h2>
+  <section class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+    <img class="md:w-1/3" src="/assets/images/code.png" alt="HTML code sample showing using DID" class="">
+    <div class="md:ml-16 xl:ml-32">
+      <h2 class="text-2xl md:text-3xl font-bold text-secondary-800 mb-4">Quick development</h2>
       <p>
         Implement DID in just five lines of code.
       </p>
@@ -126,177 +133,106 @@ layout: default
     </div>
   </section>
 
-  <section class="section centered">
-    <header class="header padded">
-      <h2>Built with development agencies in mind</h2>
-    </header>
-    <div>
-      <div>
-        <h3>Always secure and up to date</h3>
-        <p>Maintenance and security patching are all taken care of keeping you and your users secure.</p>
-        <h3>Ready Made Sign In Designs</h3>
-        <p>Stand out from the crowd with one of our stylish sign in templates.</p>
-        <h3>Supporting Your Brand</h3>
-        <p>Use our whitelabelled integration to blend DID auth into your application.</p>
-        <h3>Simple Pricing</h3>
-        <p>Confidently estimate for implementing DID onto a customer's website.</p>
 
-      </div>
-    </div>
-  </section>
-  <section class="sash blue">
-    <div class="section centered">
-      <h3>Reconnect with your long lost users</h3>
-      <p>
-        64% of signups are abandoned. DID helps user conversion, engagement and retention by making sign in simpler.
-      </p>
-      <!--    https://heap.io/blog/data-stories/good-conversion-rate-signup-flow-->
-      <!-- https://blog.dashlane.com/infographic-online-overload-its-worse-than-you-thought/ -->
-    </div>
-  </section>
-  <section class="section wide offcenter right-paragraph">
-    <img src="/assets/images/social-growth-concept/2794142.jpg" alt="social growth as a vector illustration">
-    <div class="text">
-      <h2>Grow with us</h2>
-      <p>
-        We are always refining.
-        Use DID and depend upon a robust modern authentication flow.
-      </p>
-      <p>
-        Let us manage the nitty gritty so you never have to.
-      </p>
-    </div>
-  </section>
 
-  <section class="section wide offcenter left-paragraph">
-    <img src="/assets/images/iphone-email_iphone8silver_portrait.png" alt="screenshot of new sign in using magic link or QR code on iphone">
-    <div class="text">
-      <h2>New user or new device?</h2>
-      <p>
-        No trouble, we can offer the right fallback process.
-      </p>
-      <p>
-        DID offers an email flow fallback using <b>magic links</b>.
-        Or use the <b>QR scan</b> for secure authentication via an existing device.
-      </p>
-    </div>
-  </section>
 
-  <section class="section wide offcenter right-paragraph">
-    <img src="/assets/images/server-concept/2794209.jpg" alt="access server computing as a vector illustration">
-    <div class="text">
-      <h2>Enhanced device security</h2>
-      <p>
-        DID verifies the digital signature of each device.
-        Use our <b>trusted devices</b> API to:
-        <!-- Protect your internal tools by
-          Giving enchanced phishing protection and integrating with your own security checks. -->
-          <ul>
-            <li>
-              Protect internal tools from phishing by linking workstations and personal devices.
-            </li>
-            <li>
-              Approve customer devices against your own additional security checks.
-            </li>
-          </ul>
-        </p>
-        <h3 style="color:orange;">Enterprise tier - Get in touch</h3>
-      </div>
-    </section>
-    <section class="section wide centered" id="pricing">
-      <header class="header padded">
-        <h2>Pricing</h2>
+  <h2 class="font-bold mt-8 text-center md:text-3xl text-2xl">Pricing</h2>
+  <section class="mb-12 max-w-4xl m-auto flex flex-col md:flex-row">
+    <div class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl">
+      <header class="py-4 px-4 bg-gray-100">
+        <h1 class="font-bold text-xl text-green-600">Lean</h1>
       </header>
-      <div class="cards cards-4">
-        <article class="card payment">
-          <hr class="accent grey">
-          <h3>Free</h3>
-          <div class="price">
-            <span class="money">0</span>
-            <span>Per month</span>
-          </div>
-          <ul>
-            <li><b>100</b> users</li>
-            <li>For small projects</li>
-            <li>Forever free</li>
-            <li>DID branding</li>
-          </ul>
-          <footer class="footer">
-            <a href="/welcome" class="button secondary center">Get started</a>
-          </footer>
-        </article>
-        <article class="card payment">
-          <hr class="accent blue">
-          <h3>Lean</h3>
-          <div class="price">
-            <span class="money">29</span>
-            <span>Per month</span>
-          </div>
-          <ul>
-            <li><b>1,000</b> users</li>
-            <li>One-click sign in</li>
-            <li>Instant account creation</li>
-            <li>Email backup auth</li>
-            <li></li>
-          </ul>
-          <footer class="footer">
-            <a href="/welcome" class="button secondary center">Start free trial</a>
-          </footer>
-        </article>
-        <article class="card payment focus">
-          <hr class="accent green">
-          <h3>Pro</h3>
-          <div class="price">
-            <span class="money">119</span>
-            <span>Per month</span>
-          </div>
-          <ul>
-            <li><b>10,000</b> users</li>
-            <li><b>10</b> sites</li>
-            <li>Custom branding</li>
-            <li>Action confirmation</li>
-          </ul>
-          <footer class="footer">
-            <a href="/welcome" class="button secondary center">Start free trial</a>
-          </footer>
-        </article>
-        <article class="card payment">
-          <hr class="accent purple">
-          <h3>Enterprise</h3>
-          <div class="price">
-            <span>Contact us for pricing</span>
-            <p>
-              <a href="mailto:team@did.app?subject=Enterprise%20query">team@did.app</a>
-            </p>
-          </div>
-          <ul>
-            <li>Enhanced device security</li>
-            <li>Invite links</li>
-            <li>Growth metrics</li>
-            <li>SLA</li>
-          </ul>
-
-          <footer class="footer">
-            <a href="/welcome" class="button secondary center">Start free trial</a>
-          </footer>
-        </article>
+      <div class="leading-none px-4 my-4">
+        <span class="text-6xl">
+          $0
+        </span>
+        <span class="block font-bold text-gray-500">
+          per month
+        </span>
       </div>
-      <div class="cards-comment">
 
-      </div>
-    </section>
-    <section class="section wide centered" id="contact">
-      <header class="header padded">
-        <h2>Get in touch</h2>
+      <ul class="px-4 my-4">
+        <li><span class="text-lg font-bold text-green-500">✓</span> <strong>1,000</strong> users</li>
+        <li><span class="text-lg font-bold text-green-500">✓</span> Unlimited apps</li>
+        <li><span class="text-lg font-bold text-green-500">✓</span> Free forever</li>
+      </ul>
+      <footer class="px-4 pb-4 text-center">
+        <a class="button solid green w-full inline-block" href="#">Sign up</a>
+        <span class="inline-block pt-2 text-gray-500">
+          No payment required
+        </span>
+      </footer>
+    </div>
+    <div class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl">
+      <header class="py-4 px-4 bg-gray-100">
+        <h1 class="font-bold text-xl text-green-600">Startup</h1>
       </header>
-      <div>
-        <div>
-          <a href="mailto:team@did.app?subject=Getting%20in%20touch">team@did.app</a>
-          <p>
-            We are always pleased to get your email.
-          </p>
-        </div>
+      <div class="leading-none px-4 my-4">
+        <span class="text-6xl">
+          $29
+        </span>
+        <span class="block font-bold text-gray-500">
+          per month
+        </span>
       </div>
-    </section>
-</main>
-{% include footer.html %}
+
+      <ul class="px-4 my-4">
+        <li><span class="text-lg font-bold text-green-500">✓</span> <strong>10,000</strong> users</li>
+        <li><span class="text-lg font-bold text-green-500">✓</span> Custom branding</li>
+        <li><span class="text-lg font-bold text-green-500">✓</span> Priority support</li>
+      </ul>
+      <footer class="px-4 pb-4 text-center">
+        <a class="button solid green w-full inline-block" href="#">Start free trial</a>
+        <span class="inline-block pt-2 text-gray-500">
+          No payment required
+        </span>
+      </footer>
+    </div>
+    <div class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl">
+      <header class="py-4 px-4 bg-gray-100">
+        <h1 class="font-bold text-xl text-green-600">Business</h1>
+      </header>
+      <div class="leading-none px-4 my-4">
+        <span class="text-6xl">
+          $199
+        </span>
+        <span class="block font-bold text-gray-500">
+          per month
+        </span>
+      </div>
+      <ul class="px-4 my-4">
+        <li><span class="text-lg font-bold text-green-500">✓</span> <strong>100,000</strong> users</li>
+        <li><span class="text-lg font-bold text-green-500">✓</span> Active user insights</li>
+        <li><span class="text-lg font-bold text-green-500">✓</span> Support SLA</li>
+      </ul>
+      <footer class="px-4 pb-4 text-center">
+        <a class="button solid green w-full inline-block" href="#">Start free trial</a>
+        <span class="inline-block pt-2 text-gray-500">
+          No payment required
+        </span>
+      </footer>
+    </div>
+  </section>
+  <div class=" max-w-sm mx-auto text-center">
+    <h2 class="font-bold md:text-3xl text-2xl">Contact us</h2>
+    <p class="py-8">
+      Get updates from DID in your inbox.
+    </p>
+    <form class="" data-netlify="true" name="join our mailing list">
+      <input
+      class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
+      class="central"
+      type="email"
+      required=""
+      name="email_address"
+      placeholder="you@example.com"
+      id="email-address"
+      />
+      <button type="submit" class="button solid green">
+        Subscribe
+      </button>
+    </form>
+    <p class="pt-8">
+      Or you can message us <a class="text-green-500" href="#">team@did.app</a>
+    </p>
+  </div>

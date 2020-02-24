@@ -1,58 +1,38 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="google-site-verification" content="tCQQ_pGKjU7ooN5UsaPiFBFzF50JUe9KaEzbDC5o-ao" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    {% if page.title %}
-    <title>{{ page.title }} | DID</title>
-    {% else %}
-    <title>DID - Passwordless Authentication</title>
-    {% endif %}
-    <meta name="description" content="{{ page.abstract | default: site.abstract}}">
-    <meta name="keywords" content="DID,digital id, digital identity, decentralized id, passwordless authentication, magic link, privacy, secure, MFA">
+---
+layout: base
+---
 
-    <!--  Sharing META Tags -->
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}">
-    {% else %}
-    <meta property="og:title" content="DID - Passwordless Authentication">
-    {% endif %}
-    <meta property="og:description" content="{{ page.abstract | default: site.abstract}}">
-    <meta property="og:image" content="{{ page.share_image | default: "/assets/images/did-screenshot.png" | absolute_url}}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:site_name" content="DID - Digital IDentity, did.app">
-    <meta name="twitter:image:alt" content="smart phone showing demo of DID passwordless authentication ">
+<header class="py-4 px-6 z-10">
+  <nav class="max-w-6xl mx-auto flex flex-wrap items-center text-lg md:text-xl">
+    <span class="my-1 flex-grow">
+      <a class="text-green-500 hover:text-green-700" href="/">
+        <svg class="h-10 md:h-12 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 80 41" enable-background="new 0 0 80 41" xml:space="preserve">
 
-    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/mono-blue.min.css"> -->
-    <link rel="stylesheet"
-      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/atom-one-dark.min.css">
-    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <style media="screen">
-      .blur {
-        filter: blur(8px);
-      }
-    </style>
-
-    <script>
-      (function (w,d,s,o,f,js,fjs) {
-      w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
-      js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
-      js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-      }(window, document, 'script', 'plausible', 'https://plausible.io/js/p.js'));
-
-      plausible('page')
-    </script>
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-  </head>
-  <body>
-    <div id="blur" class="page">
-      {{ content}}
-    </div>
-  </body>
-</html>
+        	<path d="M70.3,0.6H28.4c-3.4,0-6.3,2-7.5,4.9h3.7c0.9-1,2.2-1.7,3.7-1.7h41.9c2.7,0,4.8,2.2,4.8,4.8v23.2
+        	c0,2.7-2.2,4.8-4.8,4.8H9.1c-2.7,0-4.8-2.2-4.8-4.8v-3.4c0-1.8,0.9-3.4,2.3-4.2v-3.5c-3.2,1-5.5,4.1-5.5,7.8v3.4
+        	c0,4.4,3.6,8.1,8.1,8.1h61.2c4.4,0,8.1-3.6,8.1-8.1V8.7C78.4,4.2,74.8,0.6,70.3,0.6z"/>
+        	<path fill="#2A454E" d="M29.9,18.5c0,2.2-0.5,4.2-1.4,5.9c-0.9,1.7-2.3,3-4,3.9c-1.7,0.9-3.7,1.4-6,1.4H9.4V7.8h9
+        	C26.1,7.8,29.9,11.4,29.9,18.5z M22.9,18.5c0-1.1-0.2-2-0.6-2.9c-0.4-0.9-1-1.5-1.8-2c-0.8-0.5-1.7-0.7-2.8-0.7h-1.7v11.5h1.8
+        	c1.6,0,2.8-0.5,3.8-1.6C22.5,21.8,22.9,20.3,22.9,18.5z"/>
+        	<path fill="#2A454E" d="M33,29.6V7.8h6.6v21.8H33z"/>
+        	<path fill="#2A454E" d="M64.4,18.5c0,2.2-0.5,4.2-1.4,5.9c-0.9,1.7-2.3,3-4,3.9c-1.7,0.9-3.7,1.4-6,1.4h-9.2V7.8h9
+        	C60.6,7.8,64.4,11.4,64.4,18.5z M57.4,18.5c0-1.1-0.2-2-0.6-2.9c-0.4-0.9-1-1.5-1.8-2c-0.8-0.5-1.7-0.7-2.8-0.7h-1.7v11.5h1.8
+        	c1.6,0,2.8-0.5,3.8-1.6C57,21.8,57.4,20.3,57.4,18.5z"/>
+        </svg>
+      </a>
+    </span>
+    <span class="my-1 w-full sm:w-auto order-last sm:order-none text-right">
+      <a href="/articles/how-did-works" class="button minor green">How it works</a>
+      <a href="/docs" class="button minor green">Docs</a>
+      <a href="/#pricing" class="button minor green">Pricing</a>
+    </span>
+    <span class="my-1 ml-4">
+      <a href="/welcome" class="button solid green">Sign in</a>
+    </span>
+  </nav>
+</header>
+<main class="px-6 mb-12">
+  {{ content }}
+</main>
+{% include footer.html %}

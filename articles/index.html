@@ -1,37 +1,44 @@
 ---
-layout: article
+layout: default
 sitemap:
   priority: 1.0
   changefreq: "weekly"
 ---
-<div class="header">
-  <h1>DID Knowledge</h1>
+
+<div class="max-w-xl mx-auto text-center">
+  <h1 class="font-bold text-3xl">DID Blog</h1>
+  <p class="max-w-sm mx-auto py-8">
+    Get new articles from DID in your inbox.
+  </p>
+  <div class="mb-6 max-w-sm mx-auto">
+    <form class="" data-netlify="true" name="join our mailing list">
+      <input
+      class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
+      class="central"
+      type="email"
+      required=""
+      name="email_address"
+      placeholder="you@example.com"
+      id="email-address"
+      />
+      <button type="submit" class="button solid green">
+        Subscribe
+      </button>
+    </form>
+  </div>
+  <hr>
 </div>
-<style>
-.article-wrap {
-  padding:1em;
-  margin:0 0 1.5em 0;
-}
-.article-wrap h2 {
-  font-size:1em;
-  line-height:1.3;
-}
-.article-wrap a {
-  font-size:0.8em;
-}
-</style>
 {% for article in site.articles %}
-<div class="article-wrap">
-  <h2>{{ article.title }}</h2>
-  <div>
-    <p>
+<div class="max-w-xl mx-auto">
+  <a href="{{ article.url }}">
+    <h2 class="mt-8 text-xl font-bold">{{ article.title }}</h2>
+    <p class="my-4">
       {{ article.abstract }}
     </p>
-  </div>
-  <div>
-    <a href="{{ article.url }}">
-      Read Article
-    </a>
-  </div>
+    <span class="my-4 button minor green text-green-500">
+        Read Article ⭢
+    </span>
+  </a>
+  <hr class="my-8">
 </div>
 {% endfor %}

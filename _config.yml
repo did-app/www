@@ -11,3 +11,14 @@ collections:
 include:
   - _headers
   - .well-known/openid-configuration
+
+exclude:
+  - "package-lock.json"
+  - "package.json"
+  - "postcss.config.js"
+  - "purgecss.config.js"
+  - "tailwind.config.js"
+
+plugins:
+  - jekyll-postcss
+  - jekyll-purgecss

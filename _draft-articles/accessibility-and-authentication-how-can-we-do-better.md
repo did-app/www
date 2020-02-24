@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 title: Accessibility and authentication - how can we do better?
 publish-date: 16.12.19
 ---

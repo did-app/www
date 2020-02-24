@@ -2,28 +2,150 @@
 layout: default
 ---
 
-<header class="header with-background">
-  <nav class="nav">
-    <span>
-      <a class="button brand" href="/"
-        ><img
-          style="width:5em;"
-          src="/assets/images/DID_logo_ident_mono_blue.svg"
-          alt="DID Digital Identity Logo"
-      /></a>
-    </span>
-    <span>
-      <a href="/articles/how-did-works" class="button tertiary">How it works</a>
-      <a href="/docs" class="button tertiary">Documentation</a>
-      <a href="/#pricing" class="button tertiary hide-small">Pricing</a>
-    </span>
-    <span class="right">
-      <a href="/welcome" class="button tertiary">Sign in</a>
-      <a href="/welcome" class="button secondary">Get started</a>
-    </span>
-  </nav>
-</header>
-<main class="section accent">
-  {{content}}
-</main>
-{% include footer.html %}
+<style>
+  .post h2 {
+    font-size: 200%;
+    margin: 1em 0 1.5em 0;
+  }
+
+  .post p {
+    margin: 1rem 0;
+  }
+  /* .post p {
+  } */
+  .post li {
+    /* font-size: 0.8em; */
+    margin: 1em 0 1em 0;
+  }
+  .highlight span {
+    font-size: 0.8em;
+  }
+  /* ol {
+    background: #d9d9d9;
+    padding: 1.5em;
+  } */
+  .wiki-post img {
+    width: 100%;
+  }
+  table {
+    background: white;
+    border: 1px solid grey;
+    font-size: 0.8em;
+    border-collapse: collapse;
+  }
+  table thead th,
+  table tfoot th {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  table caption {
+    padding: 0.5em;
+  }
+  table th,
+  table td {
+    padding: 0.5em;
+    border: 1px solid lightgrey;
+    font-size: 0.8em;
+  }
+
+  blockquote {
+    margin: 0;
+    /* border-left: 4px solid; */
+    /* padding-left: 16px;
+    margin-left: -20px; */
+    /* font-size: 120%; */
+    font-style: italic;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  blockquote > p::before {
+    content: " ";
+    display: block;
+    width: 5rem;
+    height: 5px;
+    margin-bottom: 1rem;
+    background: grey;
+  }
+  blockquote > a:hover ~ p::before {
+    background: #2aa9e0;
+  }
+  blockquote a {
+    border-width: 0;
+  }
+  blockquote a:hover {
+    color: #2aa9e0;
+    border-color: #2aa9e0;
+    cursor: pointer;
+  }
+  blockquote a:hover ~ * {
+    color: #2aa9e0;
+    border-color: #2aa9e0;
+  }
+</style>
+<script type="text/javascript">
+  function ready(fn) {
+    if (document.readyState != "loading") {
+      fn();
+    } else {
+      document.addEventListener("DOMContentLoaded", fn);
+    }
+  }
+
+  ready(function() {
+    document
+      .querySelectorAll("main.wiki-post > blockquote")
+      .forEach(function($blockquote) {
+        var text = $blockquote.innerText;
+        var $a = document.createElement("a");
+        $a.href = "#";
+        $a.onclick = function() {
+          window.open(
+            "https://twitter.com/intent/tweet?text=" +
+              text +
+              "&url=" +
+              window.location.href +
+              "&via=crowdhailer",
+            "_blank",
+            "width=500,height=500"
+          );
+          return false;
+        };
+        $a.innerText = "Click to tweet";
+        $blockquote.prepend($a);
+      });
+  });
+</script>
+<div class="max-w-xl mx-auto">
+  <a class="button minor green px-0 text-green-500" href="/articles"><strong>⭠</strong> All articles</a>
+  <h1 class="my-4 text-4xl font-bold">{{page.title}}</h1>
+  <p>
+    {{page.abstract}}
+  </p>
+  <section class="post">
+    {{content}}
+  </section>
+  {% include share.html %}
+  <hr />
+  <div class="mt-4 max-w-sm">
+    <p class="py-2">
+      Get new articles from DID in your inbox.
+    </p>
+    <form class="" data-netlify="true" name="articles subscribe">
+      <input
+      class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
+      class="central"
+      type="email"
+      required=""
+      name="email_address"
+      placeholder="you@example.com"
+      id="email-address"
+      />
+      <button type="submit" class="button solid green">
+        Subscribe
+      </button>
+    </form>
+
+    <a class="button minor green inline-block pt-6 px-0 text-green-500" href="/articles"><strong>⭠</strong> Back to articles</a>
+  </div>
+</div>

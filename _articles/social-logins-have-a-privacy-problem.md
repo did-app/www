@@ -1,5 +1,5 @@
 ---
-layout: wiki-post
+layout: article
 abstract: "Social giants offer their social logins for free but why would they do this and how does it affect our privacy?"
 sitemap:
   lastmod: 2020-01-08

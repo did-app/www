@@ -4,21 +4,13 @@ title: "Core concepts"
 abstract: "A glossary of key terms"
 ---
 
-The core concepts in Kno are:
 
-- [Spaces](#spaces)
-- [Personas](#personas)
+## Apps
 
-## Spaces
+An app on DID can be used by a web page executing in the browser, a native app on a mobile device, an API or multiple of the above.
 
-A Space is the context for which an end user presents the same identity.
+An single app on DID is the context for which an end user presents the same identity.
+Multiple services should belong to the same DID app if they appear to the end user as part of a single unified service.
+For example: `example.com` and `blog.example.com`.
 
-Multiple sites, services and applications can be grouped together in a single Space.
-If you have multiple services, but a user switching between them represents the same entity, group those services in a single Space.
-
-## Personas
-
-A Persona is the information about a user that is available to a particular Space.
-
-Personas identify a user but only have meaning within the single Space.
-The same user accessing two different spaces will have a separate Persona for each.
+> **Naming things is hard.** What DID calls apps are referred to as Clients in the OAuth 2.0 specification and Relying Parties (RPs) in the OpenID Connect specification.

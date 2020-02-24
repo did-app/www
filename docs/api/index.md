@@ -5,36 +5,18 @@ abstract: "A complete overview of the DID API v0."
 ---
 
 - [Endpoint URL](#endpoint-url)
-- [Authentication](#authentication)
 - [Errors](#errors)
 
 ## Endpoint URL
 
-The API is hosted at `api.trykno.app`.
-
-#### Version
-
-All requests must specify an API version, which is prepended to the path.
-
-The current version is v0.
+The API is hosted at `auth.did.app`.
 
 #### SSL encryption
 
 All endpoints enforce SSL encryption, requests should be made using HTTPS.
 
 ```text
-https://api.trykno.app/v0
-```
-
-## Authentication
-
-All requests to DID's API require authentication using an API token.
-The token should be sent as `Bearer` token in the `Authorization` header.
-
-```bash
-curl \
-  -H "authorization: Bearer [api-token]" \
-  https://api.trykno.app/v0
+https://auth.did.app/
 ```
 
 ## Errors

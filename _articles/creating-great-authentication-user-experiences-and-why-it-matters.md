@@ -1,5 +1,5 @@
 ---
-layout: wiki-post
+layout: article
 title: Creating great authentication user experiences and why it matters
 abstract: "What makes for a great authentication user experience and what’s wrong with what we’ve got right now?"
 sitemap:
