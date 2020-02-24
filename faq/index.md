@@ -2,12 +2,31 @@
 layout: legal
 ---
 
-# How may we help?
+# Frequently asked questions
 
 If you have a question we have not answered here please do email it to us: [team@did.app](team@did.app)
 
+<a name="what-happens-if-my-device-is-broken"></a>
+### What happens if my device is broken?
+
+You can always fall back to using email authentication to login. If your device gets broken, simply login from your new device using the same email address and then authenticate that new device in the same way you authenticated your original device.
+
+<a name="what-happens-if-my-device-is-lost-or-stolen"></a>
+### What happens if my device is lost or stolen?
+
+In this case your device could be accessed by someone other than you.  Your devices should always be locked either with a pin code or biometric key such as your fingerprint or face to prevent thieves accessing any of your device’s data.
+
+As an additional security step you can remove authorisation for the lost or stolen device inside your DID account (this feature is currently being developed).
+
+<a name="what-happens-if-i-want-to-sell-my-device"></a>
+### What happens if I want to sell my device?
+
+Before you sell any device you would need to remove all of your personal data including any keys used by DID to authenticate that device.
+
+If you forget to remove all your data from the device when you sell it you can remove authorisation for that device inside your DID account at any time (this feature is currently in development).
+
 <a name="how-is-authentication-via-email-secured"></a>
-### How is authentication via email secured?
+### How is account recovery via email secured?
 
 A link containing a single use code is generated and emailed to the user.
 As only the owner of the email address can receive the link only they can access the account.
@@ -59,22 +78,3 @@ For a deeper look at the issues surrounding password theft [read this post by Al
 Password managers are a way to manage and remember large numbers of passwords but they fundamentally don’t solve the security issues with password theft.  A user can still be tricked into handing over their password during a phishing attack. The password manager's ‘master password’ grants access to all username and password combinations stored in the password manager and is vulnerable to the same risks as any other password.  Password managers are a high-value target for hackers.
 
 Using a password manager is a choice the user has to make and, in some cases, pay for.  The website owner has no control over how well the user looks after their passwords either in a password manager or not.  DID is different because the website owner chooses to use it to improve user experience and remove the password problem.
-
-<a name="what-happens-if-my-device-is-broken"></a>
-### What happens if my device is broken?
-
-You can always fall back to using email authentication to login. If your device gets broken, simply login from your new device using the same email address and then authenticate that new device in the same way you authenticated your original device.
-
-<a name="what-happens-if-my-device-is-lost-or-stolen"></a>
-### What happens if my device is lost or stolen?
-
-In this case your device could be accessed by someone other than you.  Your devices should always be locked either with a pin code or biometric key such as your fingerprint or face to prevent thieves accessing any of your device’s data.
-
-As an additional security step you can remove authorisation for the lost or stolen device inside your DID account (this feature is currently being developed).
-
-<a name="what-happens-if-i-want-to-sell-my-device"></a>
-### What happens if I want to sell my device?
-
-Before you sell any device you would need to remove all of your personal data including any keys used by DID to authenticate that device.
-
-If you forget to remove all your data from the device when you sell it you can remove authorisation for that device inside your DID account at any time (this feature is currently in development).
