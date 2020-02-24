@@ -127,17 +127,25 @@ layout: default
   </section>
   {% include share.html %}
   <hr />
-  <h2>More from DID</h2>
-  {% for article in site.articles %}
-  <ul class="sections">
-    <li>
-      <a href="{{ article.url }}">
-        <h4>{{ article.title }}</h4>
-        <p>
-          {{ article.abstract }}
-        </p>
-      </a>
-    </li>
-  </ul>
-  {% endfor %}
+  <div class="mt-4 max-w-sm">
+    <p class="py-2">
+      Get new articles from DID in your inbox.
+    </p>
+    <form class="" data-netlify="true" name="articles subscribe">
+      <input
+      class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
+      class="central"
+      type="email"
+      required=""
+      name="email_address"
+      placeholder="you@example.com"
+      id="email-address"
+      />
+      <button type="submit" class="button solid green">
+        Subscribe
+      </button>
+    </form>
+
+    <a class="button minor green inline-block pt-6 px-0 text-green-500" href="/articles"><strong>⭠</strong> Back to articles</a>
+  </div>
 </div>
