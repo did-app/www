@@ -211,6 +211,9 @@ background-color: #FF6600
   background-color: #046293;
   border-color: #046293;
 }
+
+/* https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/github-markdown.css */
+
 .markdown-body .octicon {
   display: inline-block;
   fill: currentColor;
