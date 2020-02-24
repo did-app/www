@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: "DID documentation"
+title: "DID Documentation"
 abstract: "The documentation for authentication with DID."
 share_image: "/assets/images/docs-screenshot.png"
 sitemap:
