@@ -1,54 +1,30 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="/assets/css/main.css" />
-    <style>
-      h1 {
-        font-weight: normal;
-      }
-      .subheading {
-        opacity: 0.7;
-        font-size: 16px;
-      }
-      input {
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <main class="modal" style="box-shadow:none;margin-top:1em;">
-      <section>
-        <h1>Welcome to DID.app</h1>
-        <p class="subheading">
-          Great to see you here. We are currently working on a new release,
-          expected 10 Feb 2020.
-        </p>
-        <p class="subheading">
-          In the meantime why not join our mailing list and we will keep you
-          updated on progress.
-        </p>
-        <form data-netlify="true" name="sign up form">
-          <div>
-            <input
-              type="email"
-              name="email_address"
-              required=""
-              value=""
-              placeholder="you@example.com"
-            />
-          </div>
-          <button type="submit" class="button action wide">
-            Join mailing list
-          </button>
-        </form>
-      </section>
-      <footer>
-        <p>
-          <a href="/" target="_blank" class="logo"><span>did.app</span></a>
-        </p>
-      </footer>
-    </main>
-  </body>
-</html>
+---
+layout: default
+---
+<div class=" max-w-sm mx-auto text-center">
+  <h2 class="font-bold md:text-3xl text-2xl">Great to see you</h2>
+  <p class="py-4">
+     We are currently adding the finishing touches to the next version of DID.
+  </p>
+  <p class="py-4">
+    In the meantime why not join our mailing list and we will keep you updated on progress.
+  </p>
+  <form class="" data-netlify="true" name="sign up form">
+    <input
+    class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
+    class="central"
+    type="email"
+    required=""
+    name="email_address"
+    placeholder="you@example.com"
+    id="email-address"
+    />
+    <button type="submit" class="button solid green">
+      Subscribe
+    </button>
+  </form>
+  <p class="pt-8">
+    Or you can always message us <a class="text-green-500" href="#">team@did.app</a>
+  </p>
+  <img src="/assets/images/product-teardown-concept-illustration/3366891.jpg" alt="">
+</div>
