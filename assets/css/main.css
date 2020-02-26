@@ -11,11 +11,20 @@
 .button {
   @apply cursor-pointer px-3 py-1;
 }
+.button.solid {
+  @apply border-2 font-bold rounded;
+}
 .button.solid.green {
-  @apply border-2 font-bold bg-green-500 border-green-500 rounded text-white;
+  @apply bg-green-500 border-green-500 text-white;
 }
 .button.solid.green:hover {
   @apply bg-green-600 border-green-600 shadow;
+}
+.button.solid.red {
+  @apply bg-red-500 border-red-500 text-white;
+}
+.button.solid.red:hover {
+  @apply bg-red-600 border-red-600 shadow;
 }
 .button.outline {
   @apply border-2 border-green-500 rounded;
@@ -36,13 +45,24 @@
 /* .button:focus {
   @apply shadow-outline outline-none;
 } */
+.input-text {
+  @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight;
+}
+
+.input-text:focus {
+  @apply outline-none bg-white border-green-500;
+}
 .gradient {
-  background: radial-gradient(circle farthest-side at right bottom, #2aa1c0 5%, #384d71 98%);
+  background: radial-gradient(
+    circle farthest-side at right bottom,
+    #2aa1c0 5%,
+    #384d71 98%
+  );
 }
 
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
-  display: inline-block
+  display: inline-block;
 }
 
 .resp-sharing-button__link {
@@ -58,125 +78,128 @@
   transition: 25ms ease-out;
   /* padding: 0.5em 0.75em; */
   padding: 0.25em 0.4em;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .resp-sharing-button__icon svg {
   width: 1em;
   height: 1em;
   margin-right: 0.4em;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .resp-sharing-button--small svg {
   margin: 0;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 /* Non solid icons get a stroke */
 .resp-sharing-button__icon {
   stroke: #fff;
-  fill: none
+  fill: none;
 }
 
 /* Solid icons get a fill */
 .resp-sharing-button__icon--solid,
 .resp-sharing-button__icon--solidcircle {
   fill: #fff;
-  stroke: none
+  stroke: none;
 }
 
 .resp-sharing-button--twitter {
-  background-color: #55acee
+  background-color: #55acee;
 }
 
 .resp-sharing-button--twitter:hover {
-  background-color: #2795e9
+  background-color: #2795e9;
 }
 
 .resp-sharing-button--pinterest {
-  background-color: #bd081c
+  background-color: #bd081c;
 }
 
 .resp-sharing-button--pinterest:hover {
-  background-color: #8c0615
+  background-color: #8c0615;
 }
 
 .resp-sharing-button--facebook {
-  background-color: #3b5998
+  background-color: #3b5998;
 }
 
 .resp-sharing-button--facebook:hover {
-  background-color: #2d4373
+  background-color: #2d4373;
 }
 
 .resp-sharing-button--tumblr {
-  background-color: #35465C
+  background-color: #35465c;
 }
 
 .resp-sharing-button--tumblr:hover {
-  background-color: #222d3c
+  background-color: #222d3c;
 }
 
 .resp-sharing-button--reddit {
-  background-color: #5f99cf
+  background-color: #5f99cf;
 }
 
 .resp-sharing-button--reddit:hover {
-  background-color: #3a80c1
+  background-color: #3a80c1;
 }
 
 .resp-sharing-button--google {
-  background-color: #dd4b39
+  background-color: #dd4b39;
 }
 
 .resp-sharing-button--google:hover {
-  background-color: #c23321
+  background-color: #c23321;
 }
 
 .resp-sharing-button--linkedin {
-  background-color: #0077b5
+  background-color: #0077b5;
 }
 
 .resp-sharing-button--linkedin:hover {
-  background-color: #046293
+  background-color: #046293;
 }
 
 .resp-sharing-button--email {
-  background-color: #777
+  background-color: #777;
 }
 
 .resp-sharing-button--email:hover {
-  background-color: #5e5e5e
+  background-color: #5e5e5e;
 }
 
 .resp-sharing-button--xing {
-  background-color: #1a7576
+  background-color: #1a7576;
 }
 
 .resp-sharing-button--xing:hover {
-  background-color: #114c4c
+  background-color: #114c4c;
 }
 
 .resp-sharing-button--whatsapp {
-  background-color: #25D366
+  background-color: #25d366;
 }
 
 .resp-sharing-button--whatsapp:hover {
-  background-color: #1da851
+  background-color: #1da851;
 }
 
 .resp-sharing-button--hackernews {
-background-color: #FF6600
+  background-color: #ff6600;
 }
-.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+.resp-sharing-button--hackernews:hover,
+.resp-sharing-button--hackernews:focus {
+  background-color: #fb6200;
+}
 
 .resp-sharing-button--vk {
-  background-color: #507299
+  background-color: #507299;
 }
 
 .resp-sharing-button--vk:hover {
-  background-color: #43648c
+  background-color: #43648c;
 }
 
 .resp-sharing-button--facebook {
@@ -265,7 +288,8 @@ background-color: #FF6600
   -webkit-text-size-adjust: 100%;
   color: #24292e;
   line-height: 1.5;
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 16px;
   line-height: 1.5;
   word-wrap: break-word;
@@ -419,7 +443,7 @@ background-color: #FF6600
 
 .markdown-body h1 {
   font-size: 2em;
-  margin: .67em 0;
+  margin: 0.67em 0;
 }
 
 .markdown-body img {
@@ -429,7 +453,7 @@ background-color: #FF6600
 .markdown-body code,
 .markdown-body kbd,
 .markdown-body pre {
-  font-family: monospace,monospace;
+  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -448,7 +472,7 @@ background-color: #FF6600
   overflow: visible;
 }
 
-.markdown-body [type=checkbox] {
+.markdown-body [type="checkbox"] {
   box-sizing: border-box;
   padding: 0;
 }
@@ -593,7 +617,8 @@ background-color: #FF6600
 
 .markdown-body code,
 .markdown-body pre {
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
   font-size: 12px;
 }
 
@@ -610,95 +635,95 @@ background-color: #FF6600
 }
 
 .markdown-body .border {
-  border: 1px solid #e1e4e8!important;
+  border: 1px solid #e1e4e8 !important;
 }
 
 .markdown-body .border-0 {
-  border: 0!important;
+  border: 0 !important;
 }
 
 .markdown-body .border-bottom {
-  border-bottom: 1px solid #e1e4e8!important;
+  border-bottom: 1px solid #e1e4e8 !important;
 }
 
 .markdown-body .rounded-1 {
-  border-radius: 3px!important;
+  border-radius: 3px !important;
 }
 
 .markdown-body .bg-white {
-  background-color: #fff!important;
+  background-color: #fff !important;
 }
 
 .markdown-body .bg-gray-light {
-  background-color: #fafbfc!important;
+  background-color: #fafbfc !important;
 }
 
 .markdown-body .text-gray-light {
-  color: #6a737d!important;
+  color: #6a737d !important;
 }
 
 .markdown-body .mb-0 {
-  margin-bottom: 0!important;
+  margin-bottom: 0 !important;
 }
 
 .markdown-body .my-2 {
-  margin-bottom: 8px!important;
-  margin-top: 8px!important;
+  margin-bottom: 8px !important;
+  margin-top: 8px !important;
 }
 
 .markdown-body .pl-0 {
-  padding-left: 0!important;
+  padding-left: 0 !important;
 }
 
 .markdown-body .py-0 {
-  padding-bottom: 0!important;
-  padding-top: 0!important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
 }
 
 .markdown-body .pl-1 {
-  padding-left: 4px!important;
+  padding-left: 4px !important;
 }
 
 .markdown-body .pl-2 {
-  padding-left: 8px!important;
+  padding-left: 8px !important;
 }
 
 .markdown-body .py-2 {
-  padding-bottom: 8px!important;
-  padding-top: 8px!important;
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
 }
 
 .markdown-body .pl-3,
 .markdown-body .px-3 {
-  padding-left: 16px!important;
+  padding-left: 16px !important;
 }
 
 .markdown-body .px-3 {
-  padding-right: 16px!important;
+  padding-right: 16px !important;
 }
 
 .markdown-body .pl-4 {
-  padding-left: 24px!important;
+  padding-left: 24px !important;
 }
 
 .markdown-body .pl-5 {
-  padding-left: 32px!important;
+  padding-left: 32px !important;
 }
 
 .markdown-body .pl-6 {
-  padding-left: 40px!important;
+  padding-left: 40px !important;
 }
 
 .markdown-body .f6 {
-  font-size: 12px!important;
+  font-size: 12px !important;
 }
 
 .markdown-body .lh-condensed {
-  line-height: 1.25!important;
+  line-height: 1.25 !important;
 }
 
 .markdown-body .text-bold {
-  font-weight: 600!important;
+  font-weight: 600 !important;
 }
 
 .markdown-body:before {
@@ -712,12 +737,12 @@ background-color: #FF6600
   display: table;
 }
 
-.markdown-body>:first-child {
-  margin-top: 0!important;
+.markdown-body > :first-child {
+  margin-top: 0 !important;
 }
 
-.markdown-body>:last-child {
-  margin-bottom: 0!important;
+.markdown-body > :last-child {
+  margin-bottom: 0 !important;
 }
 
 .markdown-body a:not([href]) {
@@ -739,22 +764,22 @@ background-color: #FF6600
 .markdown-body hr {
   background-color: #e1e4e8;
   border: 0;
-  height: .25em;
+  height: 0.25em;
   margin: 24px 0;
   padding: 0;
 }
 
 .markdown-body blockquote {
-  border-left: .25em solid #dfe2e5;
+  border-left: 0.25em solid #dfe2e5;
   color: #6a737d;
   padding: 0 1em;
 }
 
-.markdown-body blockquote>:first-child {
+.markdown-body blockquote > :first-child {
   margin-top: 0;
 }
 
-.markdown-body blockquote>:last-child {
+.markdown-body blockquote > :last-child {
   margin-bottom: 0;
 }
 
@@ -791,7 +816,7 @@ background-color: #FF6600
 .markdown-body h1,
 .markdown-body h2 {
   border-bottom: 1px solid #eaecef;
-  padding-bottom: .3em;
+  padding-bottom: 0.3em;
 }
 
 .markdown-body h2 {
@@ -807,12 +832,12 @@ background-color: #FF6600
 }
 
 .markdown-body h5 {
-  font-size: .875em;
+  font-size: 0.875em;
 }
 
 .markdown-body h6 {
   color: #6a737d;
-  font-size: .85em;
+  font-size: 0.85em;
 }
 
 .markdown-body ol,
@@ -832,12 +857,12 @@ background-color: #FF6600
   word-wrap: break-all;
 }
 
-.markdown-body li>p {
+.markdown-body li > p {
   margin-top: 16px;
 }
 
-.markdown-body li+li {
-  margin-top: .25em;
+.markdown-body li + li {
+  margin-top: 0.25em;
 }
 
 .markdown-body dl {
@@ -888,27 +913,27 @@ background-color: #FF6600
   max-width: 100%;
 }
 
-.markdown-body img[align=right] {
+.markdown-body img[align="right"] {
   padding-left: 20px;
 }
 
-.markdown-body img[align=left] {
+.markdown-body img[align="left"] {
   padding-right: 20px;
 }
 
 .markdown-body code {
-  background-color: rgba(27,31,35,.05);
+  background-color: rgba(27, 31, 35, 0.05);
   border-radius: 3px;
   font-size: 85%;
   margin: 0;
-  padding: .2em .4em;
+  padding: 0.2em 0.4em;
 }
 
 .markdown-body pre {
   word-wrap: normal;
 }
 
-.markdown-body pre>code {
+.markdown-body pre > code {
   background: transparent;
   border: 0;
   font-size: 100%;
@@ -952,7 +977,8 @@ background-color: #FF6600
 .markdown-body .commit-tease-sha {
   color: #444d56;
   display: inline-block;
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
   font-size: 90%;
 }
 
@@ -972,9 +998,10 @@ background-color: #FF6600
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-user-select: none;
-  color: rgba(27,31,35,.3);
+  color: rgba(27, 31, 35, 0.3);
   cursor: pointer;
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
   font-size: 12px;
   line-height: 20px;
   min-width: 50px;
@@ -988,7 +1015,7 @@ background-color: #FF6600
 }
 
 .markdown-body .blob-num:hover {
-  color: rgba(27,31,35,.6);
+  color: rgba(27, 31, 35, 0.6);
 }
 
 .markdown-body .blob-num:before {
@@ -1005,7 +1032,8 @@ background-color: #FF6600
 
 .markdown-body .blob-code-inner {
   color: #24292e;
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
   font-size: 12px;
   overflow: visible;
   white-space: pre;
@@ -1026,13 +1054,14 @@ background-color: #FF6600
   box-shadow: inset 0 -1px 0 #c6cbd1;
   color: #444d56;
   display: inline-block;
-  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font: 11px SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier,
+    monospace;
   line-height: 10px;
   padding: 3px 5px;
   vertical-align: middle;
 }
 
-.markdown-body :checked+.radio-label {
+.markdown-body :checked + .radio-label {
   border-color: #0366d6;
   position: relative;
   z-index: 1;
@@ -1102,12 +1131,12 @@ background-color: #FF6600
   list-style-type: none;
 }
 
-.markdown-body .task-list-item+.task-list-item {
+.markdown-body .task-list-item + .task-list-item {
   margin-top: 3px;
 }
 
 .markdown-body .task-list-item input {
-  margin: 0 .2em .25em -1.6em;
+  margin: 0 0.2em 0.25em -1.6em;
   vertical-align: middle;
 }
 
@@ -1116,57 +1145,56 @@ background-color: #FF6600
 }
 
 .markdown-body .pl-0 {
-  padding-left: 0!important;
+  padding-left: 0 !important;
 }
 
 .markdown-body .pl-1 {
-  padding-left: 4px!important;
+  padding-left: 4px !important;
 }
 
 .markdown-body .pl-2 {
-  padding-left: 8px!important;
+  padding-left: 8px !important;
 }
 
 .markdown-body .pl-3 {
-  padding-left: 16px!important;
+  padding-left: 16px !important;
 }
 
 .markdown-body .pl-4 {
-  padding-left: 24px!important;
+  padding-left: 24px !important;
 }
 
 .markdown-body .pl-5 {
-  padding-left: 32px!important;
+  padding-left: 32px !important;
 }
 
 .markdown-body .pl-6 {
-  padding-left: 40px!important;
+  padding-left: 40px !important;
 }
 
 .markdown-body .pl-7 {
-  padding-left: 48px!important;
+  padding-left: 48px !important;
 }
 
 .markdown-body .pl-8 {
-  padding-left: 64px!important;
+  padding-left: 64px !important;
 }
 
 .markdown-body .pl-9 {
-  padding-left: 80px!important;
+  padding-left: 80px !important;
 }
 
 .markdown-body .pl-10 {
-  padding-left: 96px!important;
+  padding-left: 96px !important;
 }
 
 .markdown-body .pl-11 {
-  padding-left: 112px!important;
+  padding-left: 112px !important;
 }
 
 .markdown-body .pl-12 {
-  padding-left: 128px!important;
+  padding-left: 128px !important;
 }
-
 
 /* Write your styles above this line. */
 
