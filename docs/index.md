@@ -7,7 +7,7 @@ sitemap:
   priority: 1.0
 ---
 
-## We are here to help
+### We are here to help
 
 Didn't find the answer you were looking for? [Get in touch](mailto:team@did.app).
 
