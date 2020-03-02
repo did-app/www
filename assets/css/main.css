@@ -49,7 +49,7 @@
   @apply bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight;
 }
 
-.input-text:focus {
+.input-text.active:focus {
   @apply outline-none bg-white border-green-500;
 }
 .gradient {
