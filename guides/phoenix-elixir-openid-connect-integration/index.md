@@ -71,7 +71,7 @@ The `client_id` and `client_secret` will be provided by DID when you create an a
 Signing in, or up, using the OpenID connect flow requires two endpoints.
 
 One endpoint redirects the user to the OpenID provider (in this case DID.app) to authenticate themselves.
-And a callback where the result of authenticating is handled.
+A second callback endpoint is where the result of authenticating is handled.
 
 We will add both of these in a session controller.
 
@@ -125,7 +125,7 @@ Edit the template in `lib/my_notes_web/templates/layout/app.html.eex` with the n
 
 You will need a DID account. [Sign up]({{ site.auth_origin }}) to create one now.
 
-After signing up, you will be directed to setup your first app.
+After signing up, you will be directed to set up your first app.
 _Because we will run on localhost we need to use test app, select test mode._
 
 ![Screenshot of creating an app on DID](/assets/images/create-app-screenshot.png)
@@ -141,10 +141,10 @@ CLIENT_ID=test_abc CLIENT_SECRET=test_abcdef mix phx.server
 ```
 
 Visit [localhost:4000](http://localhost:4000/),
-you should see your new app phoenix app with a shiny sign in button.
+you should see your new phoenix app with a shiny sign in button.
 
-Any problems see [this commit](https://github.com/did-app/did-elixir/commit/654a39d697efc551c725e8871b5b4fee1b8bd63c) for the complete set of changes.
+Any problems, see [this commit](https://github.com/did-app/did-elixir/commit/654a39d697efc551c725e8871b5b4fee1b8bd63c) for the complete set of changes.
 
-### Have a question
+### Have a question?
 
 If you have any further questions contact us at [team@did.app](mailto:team@did.app?subject=DID-Elixir%20question).
