@@ -4,7 +4,7 @@ title: "Phoenix Integration Guide"
 abstract: ""
 ---
 
-Just want the code? Find this example on [github]()
+Just want the code? Find this example on [github](https://github.com/did-app/did-elixir/tree/master/examples/elixir-phoenix-openid-connect)
 
 ### Requirements
 
@@ -142,6 +142,8 @@ CLIENT_ID=test_abc CLIENT_SECRET=test_abcdef mix phx.server
 
 Visit [localhost:4000](http://localhost:4000/),
 you should see your new app phoenix app with a shiny sign in button.
+
+Any problems see [this commit](https://github.com/did-app/did-elixir/commit/bf8d76b0b0c9b8ea77a741bb9cf376ab893b64b1) for the complete set of changes.
 
 ### Have a question
 
