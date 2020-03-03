@@ -121,19 +121,6 @@ Edit the template in `lib/my_notes_web/templates/layout/app.html.eex` with the n
 <% end %>
 ```
 
-<!-- ### Try out sign in/out
-
-At this point you should be able to start you application.
-
-```shell
-mix phx.server
-```
-
-visit [localhost:4000](http://localhost:4000) and try signing in and out.
-At this point our application can't do any more than this.
-
-![screenshot of the sign in page](TODO) -->
-
 ### Setup the App on DID
 
 You will need a DID account. [Sign up]({{ site.auth_origin }}) to create one now.
