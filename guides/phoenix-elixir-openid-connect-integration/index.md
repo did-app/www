@@ -1,5 +1,7 @@
 ---
 layout: doc
+title: "Core concepts"
+abstract: "A glossary of key terms"
 ---
 
 TODO look into the relative merit of SSO authentication OAuth as keys words
