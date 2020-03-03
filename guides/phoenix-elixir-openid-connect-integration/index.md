@@ -143,7 +143,7 @@ CLIENT_ID=test_abc CLIENT_SECRET=test_abcdef mix phx.server
 Visit [localhost:4000](http://localhost:4000/),
 you should see your new app phoenix app with a shiny sign in button.
 
-Any problems see [this commit](https://github.com/did-app/did-elixir/commit/bf8d76b0b0c9b8ea77a741bb9cf376ab893b64b1) for the complete set of changes.
+Any problems see [this commit](https://github.com/did-app/did-elixir/commit/654a39d697efc551c725e8871b5b4fee1b8bd63c) for the complete set of changes.
 
 ### Have a question
 
