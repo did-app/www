@@ -13,7 +13,8 @@ module.exports = {
     }
   },
   variants: {
-    order: ['responsive'],
+    order: ["responsive"],
+    borderColor: ["responsive", "hover", "focus", "focus-within"]
   },
   plugins: []
 };

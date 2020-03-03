@@ -20,16 +20,25 @@
 .button.solid.green:hover {
   @apply bg-green-600 border-green-600 shadow;
 }
+.button.solid.green:focus {
+  @apply bg-green-600 border-green-600;
+}
 .button.solid.red {
   @apply bg-red-500 border-red-500 text-white;
 }
 .button.solid.red:hover {
   @apply bg-red-600 border-red-600 shadow;
 }
+.button.solid.red:focus {
+  @apply bg-red-600 border-red-600;
+}
 .button.outline {
   @apply border-2 border-green-500 rounded;
 }
 .button.outline:hover {
+  @apply border-green-600;
+}
+.button.outline:focus {
   @apply border-green-600;
 }
 .button.minor {
