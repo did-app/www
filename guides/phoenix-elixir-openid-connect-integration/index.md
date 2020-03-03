@@ -40,7 +40,7 @@ use Application
 
 def start(_type, _args) do
   children = [
-    {OpenIDConnect.Worker, [[did: did_config()]]},
+    {OpenIDConnect.Worker, did: did_config()},
     # ...
   ]
 
@@ -99,7 +99,7 @@ end
 Both of these actions need to be added to the router .
 
 ```elixir
-scope "/", HelloWeb do
+scope "/", MyAppWeb do
   pipe_through :browser
 
   get "/session/authenticate", SessionController, :authenticate
@@ -117,7 +117,7 @@ Edit the template in `lib/my_notes_web/templates/layout/app.html.eex` with the n
 <%= if Plug.Conn.get_session(@conn, :user_id) do %>
   <!-- show the user something about their account -->
 <% else %>
-  <%= link "Sign in", to: Routes.session_path(@conn, :authenticate), class= "button" %>
+  <%= link "Sign in", to: Routes.session_path(@conn, :authenticate), class: "button" %>
 <% end %>
 ```
 
