@@ -23,16 +23,32 @@ cd myapp
 npm install
 ```
 
-Install the `openid-client` from npm.
+Install `openid-client` and `cookie-session` from npm.
 
 ```bash
-npm install --save openid-client
+npm install --save openid-client cookie-session
 ```
+
+### Add sessions to the application
+
+We will use [cookie-session](https://www.npmjs.com/package/cookie-session) so that we can keep a user signed in after we have authenticated them.
+To use it, require the module and add to the apps middleware in `app.js`.
+
+```js
+// other dependencies
+var cookieSession = require("cookie-session");
+
+// other middleware
+var { SESSION_SECRET } = process.env;
+app.use(cookieSession({ name: "myapp", secret: SESSION_SECRET }));
+```
+
+It is best practise to keep your session secret out of your source code.
 
 ### Fetch OpenID Connect configuration
 
 Only routes for handing authentication will require the OpenID Configuration for DID.app.
-Create a routes file for sessions `/routes/session.js` and configure the client library.
+Create a routes file for sessions `routes/session.js` and configure the client library.
 
 ```js
 var express = require("express");
@@ -110,8 +126,15 @@ app.use("/session", sessionRouter);
 
 ### Display authentication status
 
+```js
+router.get("/", function(req, res, next) {
+  var session = req.session || {};
+  res.render("index", { title: "Express", userId: session.userId });
+});
+```
+
 Our users need a button that lets them sign in.
-Add this code to show a button into `/views/index.pug`.
+Add this code to show a button into `views/index.pug`.
 
 ```pug
 if userId
@@ -138,7 +161,7 @@ After setting the details for the app, copy the client id and secret for use in 
 Start Express, passing in the required configuration as environment variables.
 
 ```bash
-CLIENT_ID=test_abc CLIENT_SECRET=test_abcdef npm start
+CLIENT_ID=test_abc CLIENT_SECRET=test_abcdef SESSION_SECRET=somesecret npm start
 ```
 
 Visit [localhost:3000](http://localhost:3000/),
