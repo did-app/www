@@ -1,17 +1,17 @@
 ---
 layout: doc
-title: "Express Nodejs Integration Guide"
+title: "Express Node.js Integration Guide"
 abstract: ""
 ---
 
-Just want the code? Find this example on [github]()
+Just want the code? Find this example on [github](https://github.com/did-app/did-nodejs/tree/master/examples/myapp)
 
 ### Requirements
 
 This tutorial will require you to have Node.js and Express installed.
 
-- [Express install guide]()
-- [Node.js install guide]()
+- [Express install guide](https://expressjs.com/en/starter/installing.html)
+- [Node.js install guide](https://nodejs.org/en/)
 
 ### New Express project
 
@@ -126,6 +126,11 @@ app.use("/session", sessionRouter);
 
 ### Display authentication status
 
+Our users need a button that lets them sign in.
+To add one to the homepage the route handler checks if there is already a user session,
+if so we make this user id available to the view.
+Make these changes to `routes/index.js`
+
 ```js
 router.get("/", function(req, res, next) {
   var session = req.session || {};
@@ -133,8 +138,8 @@ router.get("/", function(req, res, next) {
 });
 ```
 
-Our users need a button that lets them sign in.
-Add this code to show a button into `views/index.pug`.
+In the view we use the user id to show them some information about them, or if no user a sign in button this code to show a button
+Add this snippet into `views/index.pug`.
 
 ```pug
 if userId
@@ -152,7 +157,7 @@ _Because we will run on localhost we need to use test app, select test mode._
 
 <!-- TODO new screenshot -->
 
-![Screenshot of creating an app on DID](/assets/images/create-app-screenshot.png)
+![Screenshot of creating an app on DID](screenshot.png)
 
 After setting the details for the app, copy the client id and secret for use in our application.
 
@@ -167,7 +172,7 @@ CLIENT_ID=test_abc CLIENT_SECRET=test_abcdef SESSION_SECRET=somesecret npm start
 Visit [localhost:3000](http://localhost:3000/),
 you should see your new Express app with a shiny sign in button.
 
-Any problems, see [this commit](https://github.com/did-app/did-elixir/commit/654a39d697efc551c725e8871b5b4fee1b8bd63c) for the complete set of changes.
+Any problems, see [this commit](https://github.com/did-app/did-nodejs/commit/e1bda6971b5e4b3b19655c8f915860107cbdc061) for the complete set of changes.
 
 ### Have a question?
 
