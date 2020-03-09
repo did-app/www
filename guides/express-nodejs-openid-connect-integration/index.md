@@ -155,8 +155,6 @@ You will need a DID account. [Sign up]({{ site.auth_origin }}) to create one now
 After signing up, you will be directed to set up your first app.
 _Because we will run on localhost we need to use test app, select test mode._
 
-<!-- TODO new screenshot -->
-
 ![Screenshot of creating an app on DID](screenshot.png)
 
 After setting the details for the app, copy the client id and secret for use in our application.
