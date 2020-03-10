@@ -22,8 +22,6 @@
     "authorization_code"
   ],
   "acr_values_supported": [
-    "DID:1",
-    "DID:2"
   ],
   "subject_types_supported": [
     "public"
@@ -45,6 +43,5 @@
     "iss",
     "sub"
   ],
-  "service_documentation": "https://did.app/docs",
-  "end_session_endpoint": "{{ site.auth_origin }}/oidc/end_session"
+  "service_documentation": "https://did.app/docs"
 }
