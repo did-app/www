@@ -244,6 +244,10 @@
   border-color: #046293;
 }
 
+/* Write your styles above this line. */
+
+@tailwind utilities;
+
 /* https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/github-markdown.css */
 
 .markdown-body .octicon {
@@ -608,6 +612,12 @@
   padding-left: 0;
 }
 
+.markdown-body ol {
+  list-style-type: decimal;
+}
+.markdown-body ul {
+  list-style-type: disc;
+}
 .markdown-body ol ol,
 .markdown-body ul ol {
   list-style-type: lower-roman;
@@ -1204,7 +1214,3 @@
 .markdown-body .pl-12 {
   padding-left: 128px !important;
 }
-
-/* Write your styles above this line. */
-
-@tailwind utilities;
