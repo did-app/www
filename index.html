@@ -1,190 +1,388 @@
 ---
 layout: default
 ---
-  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
-    <div class="flex-1">
-      <header class="max-w-lg mx-4 text-center md:text-left">
-        <h1 class="my-6 text-3xl sm:text-4xl">
-          Authentication for websites and apps that <strong>users will love</strong>
-        </h1>
-        <p class="text-lg sm:text-xl max-w-md mx-auto md:ml-0">
-          Users sign in with a single click using a private key stored securely on their personal device.
-        </p>
-        <div class="my-3 -mx-3">
-          <a href="{{ site.auth_origin }}" class="button solid green inline-block m-3 sm:text-2xl">Get started</a>
-          <a href="/articles/how-did-works" class="button outline inline-block m-3 sm:text-2xl">How DID works</a>
-        </div>
-      </header>
-    </div>
-    <img class="w-1/2" src="/assets/images/login-concept-illustration/3094352.jpg" alt="user account concept as a vector illustration">
-  </div>
 
-
-  <div class="my-12 max-w-6xl mx-auto flex flex-wrap">
-    <div class="w-full md:w-1/2 xl:w-1/3 p-6">
-      <h4 class="my-4 font-bold text-green-900 text-xl flex items-center">
-        <svg class="inline-block mr-2 text-green-500" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg> One Click Sign In</h4>
-      <p>
-        Device authentication is fast and simple to use.
-        Just a single click to confirm the creation of a new account or to sign in to an existing on.
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center">
+  <div class="flex-1">
+    <header class="max-w-lg mx-4 text-center md:text-left">
+      <h1 class="my-6 text-3xl sm:text-4xl">
+        Authentication for websites and apps that
+        <strong>users will love</strong>
+      </h1>
+      <p class="text-lg sm:text-xl max-w-md mx-auto md:ml-0">
+        Users sign in with a single click using a private key stored securely on
+        their personal device.
       </p>
-    </div>
-    <div class="w-full md:w-1/2 xl:w-1/3 p-6">
-      <h4 class="my-4 font-bold text-green-900 text-xl">
-        <svg class="inline-block mr-2 text-green-500" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg> Account Recovery</h4>
-      <p>
-        DID handles onboarding new users and recovery from lost devices using secure magic links.
-      </p>
-    </div>
-    <div class="w-full md:w-1/2 xl:w-1/3 p-6">
-      <h4 class="my-4 font-bold text-green-900 text-xl">
-        <svg class="inline-block mr-2 text-green-500" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg> Passwordless</h4>
-      <p>
-        Users already have many passwords and don't want to remember more.
-        With passwordless there is no password to forget.
-      </p>
-    </div>
-    <div class="w-full md:w-1/2 xl:w-1/3 p-6">
-      <h4 class="my-4 font-bold text-green-900 text-xl">
-        <svg class="inline-block mr-2 text-green-500" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg> Save Development Time</h4>
-      <p>
-        DID supports the OpenID connect protocol and integrates with 100's of platforms, web and native.
-        With a few lines of code authentication is done.
-      </p>
-    </div>
-    <div class="w-full md:w-1/2 xl:w-1/3 p-6">
-      <h4 class="my-4 font-bold text-green-900 text-xl">
-        <svg class="inline-block mr-2 text-green-500" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg> Customisable UI</h4>
-      <p>
-        We provide the best authentication UI, and you add details that make it fit perfectly into your application.
-      </p>
-    </div>
-    <div class="w-full md:w-1/2 xl:w-1/3 p-6">
-      <h4 class="my-4 font-bold text-green-900 text-xl">
-        <svg class="inline-block mr-2 text-green-500" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg> Always Up To Date</h4>
-      <p>Install once and forget all about it. We maintain your authentication so you don't have to.</p>
-    </div>
-  </div>
-
-  <h2 class="font-bold my-8 text-center md:text-3xl text-2xl">It's time to go passwordless.</h2>
-  <div class="max-w-2xl mx-auto w-full">
-    <script src="https://fast.wistia.com/embed/medias/fjyw8007i1.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_fjyw8007i1 videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/fjyw8007i1/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-  </div>
-
-  <div class="my-12 max-w-6xl mx-auto flex flex-col md:flex-row">
-    <div class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 border-1 rounded shadow">
-      <span class="text-6xl -mt-16 inline-block">„</span>
-      <p>"Great idea! Love it. It's funny how devs have had this with servers for a while but client side users do not!"</p>
-      <p class="mt-4 font-bold">furiosa-sa</p>
-    </div>
-    <div class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 rounded shadow">
-      <span class="text-6xl -mt-16 inline-block">„</span>
-      <p>"Epic, well done Peter & team. love the concept of DID. Makes much more sense than passwords IMO."</p>
-      <p class="mt-4 font-bold">alxcnwy</p>
-    </div>
-    <div class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 rounded shadow">
-      <span class="text-6xl -mt-16 inline-block">„</span>
-      <p>"Love it! OIDC is the future and using a users device as the something they have helps to unlock a true passwordless experience!"</p>
-      <p class="mt-4 font-bold">DLCExchange</p>
-    </div>
-  </div>
-
-  <h2 class="font-bold mt-8 text-center md:text-3xl text-2xl" id="pricing">Pricing</h2>
-  <section class="mb-12 max-w-4xl m-auto flex flex-col md:flex-row">
-    <div class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl">
-      <header class="py-4 px-4 bg-gray-100">
-        <h1 class="font-bold text-xl text-green-600">Lean</h1>
-      </header>
-      <div class="leading-none px-4 my-4">
-        <span class="text-6xl">
-          $0
-        </span>
-        <span class="block font-bold text-gray-500">
-          per month
-        </span>
+      <div class="my-3 -mx-3">
+        <a
+          href="{{ site.auth_origin }}"
+          class="button solid green inline-block m-3 sm:text-2xl"
+          >Get started</a
+        >
+        <a
+          href="/articles/how-did-works"
+          class="button outline inline-block m-3 sm:text-2xl"
+          >How DID works</a
+        >
       </div>
+    </header>
+  </div>
+  <img
+    class="w-1/2"
+    src="/assets/images/login-concept-illustration/3094352.jpg"
+    alt="user account concept as a vector illustration"
+  />
+</div>
 
-      <ul class="px-4 my-4">
-        <li><span class="text-lg font-bold text-green-500">✓</span> <strong>1,000</strong> users</li>
-        <li><span class="text-lg font-bold text-green-500">✓</span> Unlimited apps</li>
-        <li><span class="text-lg font-bold text-green-500">✓</span> Free forever</li>
-      </ul>
-      <footer class="px-4 pb-4 text-center">
-        <a class="button solid green w-full inline-block" href="{{ site.auth_origin }}">Sign up</a>
-        <span class="inline-block pt-2 text-gray-500">
-          No payment required
-        </span>
-      </footer>
-    </div>
-    <div class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl">
-      <header class="py-4 px-4 bg-gray-100">
-        <h1 class="font-bold text-xl text-green-600">Startup</h1>
-      </header>
-      <div class="leading-none px-4 my-4">
-        <span class="text-6xl">
-          $29
-        </span>
-        <span class="block font-bold text-gray-500">
-          per month
-        </span>
-      </div>
-
-      <ul class="px-4 my-4">
-        <li><span class="text-lg font-bold text-green-500">✓</span> <strong>10,000</strong> users</li>
-        <li><span class="text-lg font-bold text-green-500">✓</span> Custom branding</li>
-        <li><span class="text-lg font-bold text-green-500">✓</span> Priority support</li>
-      </ul>
-      <footer class="px-4 pb-4 text-center">
-        <a class="button solid green w-full inline-block" href="{{ site.auth_origin }}">Start free trial</a>
-        <span class="inline-block pt-2 text-gray-500">
-          No payment required
-        </span>
-      </footer>
-    </div>
-    <div class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl">
-      <header class="py-4 px-4 bg-gray-100">
-        <h1 class="font-bold text-xl text-green-600">Business</h1>
-      </header>
-      <div class="leading-none px-4 my-4">
-        <span class="text-6xl">
-          $199
-        </span>
-        <span class="block font-bold text-gray-500">
-          per month
-        </span>
-      </div>
-      <ul class="px-4 my-4">
-        <li><span class="text-lg font-bold text-green-500">✓</span> <strong>100,000</strong> users</li>
-        <li><span class="text-lg font-bold text-green-500">✓</span> Active user insights</li>
-        <li><span class="text-lg font-bold text-green-500">✓</span> Support SLA</li>
-      </ul>
-      <footer class="px-4 pb-4 text-center">
-        <a class="button solid green w-full inline-block" href="{{ site.auth_origin }}">Start free trial</a>
-        <span class="inline-block pt-2 text-gray-500">
-          No payment required
-        </span>
-      </footer>
-    </div>
-  </section>
-  <div class=" max-w-sm mx-auto text-center">
-    <h2 class="font-bold md:text-3xl text-2xl">Contact us</h2>
-    <p class="py-8">
-      Get updates from DID in your inbox.
+<a data-nolt="button" href="https://4397ea9c.nolt.io">Feedback</a
+><script async src="https://cdn.nolt.io/widgets.js"></script>
+<div class="my-12 max-w-6xl mx-auto flex flex-wrap">
+  <div class="w-full md:w-1/2 xl:w-1/3 p-6">
+    <h4 class="my-4 font-bold text-green-900 text-xl flex items-center">
+      <svg
+        class="inline-block mr-2 text-green-500"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      One Click Sign In
+    </h4>
+    <p>
+      Device authentication is fast and simple to use. Just a single click to
+      confirm the creation of a new account or to sign in to an existing on.
     </p>
-    <form class="" data-netlify="true" name="join our mailing list">
-      <input
+  </div>
+  <div class="w-full md:w-1/2 xl:w-1/3 p-6">
+    <h4 class="my-4 font-bold text-green-900 text-xl">
+      <svg
+        class="inline-block mr-2 text-green-500"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Account Recovery
+    </h4>
+    <p>
+      DID handles onboarding new users and recovery from lost devices using
+      secure magic links.
+    </p>
+  </div>
+  <div class="w-full md:w-1/2 xl:w-1/3 p-6">
+    <h4 class="my-4 font-bold text-green-900 text-xl">
+      <svg
+        class="inline-block mr-2 text-green-500"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Passwordless
+    </h4>
+    <p>
+      Users already have many passwords and don't want to remember more. With
+      passwordless there is no password to forget.
+    </p>
+  </div>
+  <div class="w-full md:w-1/2 xl:w-1/3 p-6">
+    <h4 class="my-4 font-bold text-green-900 text-xl">
+      <svg
+        class="inline-block mr-2 text-green-500"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Save Development Time
+    </h4>
+    <p>
+      DID supports the OpenID connect protocol and integrates with 100's of
+      platforms, web and native. With a few lines of code authentication is
+      done.
+    </p>
+  </div>
+  <div class="w-full md:w-1/2 xl:w-1/3 p-6">
+    <h4 class="my-4 font-bold text-green-900 text-xl">
+      <svg
+        class="inline-block mr-2 text-green-500"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Customisable UI
+    </h4>
+    <p>
+      We provide the best authentication UI, and you add details that make it
+      fit perfectly into your application.
+    </p>
+  </div>
+  <div class="w-full md:w-1/2 xl:w-1/3 p-6">
+    <h4 class="my-4 font-bold text-green-900 text-xl">
+      <svg
+        class="inline-block mr-2 text-green-500"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M9.66347 17H14.3364M11.9999 3V4M18.3639 5.63604L17.6568 6.34315M21 11.9999H20M4 11.9999H3M6.34309 6.34315L5.63599 5.63604M8.46441 15.5356C6.51179 13.5829 6.51179 10.4171 8.46441 8.46449C10.417 6.51187 13.5829 6.51187 15.5355 8.46449C17.4881 10.4171 17.4881 13.5829 15.5355 15.5356L14.9884 16.0827C14.3555 16.7155 13.9999 17.5739 13.9999 18.469V19C13.9999 20.1046 13.1045 21 11.9999 21C10.8954 21 9.99995 20.1046 9.99995 19V18.469C9.99995 17.5739 9.6444 16.7155 9.01151 16.0827L8.46441 15.5356Z"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Always Up To Date
+    </h4>
+    <p>
+      Install once and forget all about it. We maintain your authentication so
+      you don't have to.
+    </p>
+  </div>
+</div>
+
+<h2 class="font-bold my-8 text-center md:text-3xl text-2xl">
+  It's time to go passwordless.
+</h2>
+<div class="max-w-2xl mx-auto w-full">
+  <script
+    src="https://fast.wistia.com/embed/medias/fjyw8007i1.jsonp"
+    async
+  ></script
+  ><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+  <div
+    class="wistia_responsive_padding"
+    style="padding:56.25% 0 0 0;position:relative;"
+  >
+    <div
+      class="wistia_responsive_wrapper"
+      style="height:100%;left:0;position:absolute;top:0;width:100%;"
+    >
+      <div
+        class="wistia_embed wistia_async_fjyw8007i1 videoFoam=true"
+        style="height:100%;position:relative;width:100%"
+      >
+        <div
+          class="wistia_swatch"
+          style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"
+        >
+          <img
+            src="https://fast.wistia.com/embed/medias/fjyw8007i1/swatch"
+            style="filter:blur(5px);height:100%;object-fit:contain;width:100%;"
+            alt=""
+            aria-hidden="true"
+            onload="this.parentNode.style.opacity=1;"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="my-12 max-w-6xl mx-auto flex flex-col md:flex-row">
+  <div
+    class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 border-1 rounded shadow"
+  >
+    <span class="text-6xl -mt-16 inline-block">„</span>
+    <p>
+      "Great idea! Love it. It's funny how devs have had this with servers for a
+      while but client side users do not!"
+    </p>
+    <p class="mt-4 font-bold">furiosa-sa</p>
+  </div>
+  <div class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 rounded shadow">
+    <span class="text-6xl -mt-16 inline-block">„</span>
+    <p>
+      "Epic, well done Peter & team. love the concept of DID. Makes much more
+      sense than passwords IMO."
+    </p>
+    <p class="mt-4 font-bold">alxcnwy</p>
+  </div>
+  <div class="flex-1 p-6 w-full max-w-md my-4 mx-auto md:mx-4 rounded shadow">
+    <span class="text-6xl -mt-16 inline-block">„</span>
+    <p>
+      "Love it! OIDC is the future and using a users device as the something
+      they have helps to unlock a true passwordless experience!"
+    </p>
+    <p class="mt-4 font-bold">DLCExchange</p>
+  </div>
+</div>
+
+<h2 class="font-bold mt-8 text-center md:text-3xl text-2xl" id="pricing">
+  Pricing
+</h2>
+<section class="mb-12 max-w-4xl m-auto flex flex-col md:flex-row">
+  <div
+    class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl"
+  >
+    <header class="py-4 px-4 bg-gray-100">
+      <h1 class="font-bold text-xl text-green-600">Lean</h1>
+    </header>
+    <div class="leading-none px-4 my-4">
+      <span class="text-6xl">
+        $0
+      </span>
+      <span class="block font-bold text-gray-500">
+        per month
+      </span>
+    </div>
+
+    <ul class="px-4 my-4">
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span>
+        <strong>1,000</strong> users
+      </li>
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span> Unlimited apps
+      </li>
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span> Free forever
+      </li>
+    </ul>
+    <footer class="px-4 pb-4 text-center">
+      <a
+        class="button solid green w-full inline-block"
+        href="{{ site.auth_origin }}"
+        >Sign up</a
+      >
+      <span class="inline-block pt-2 text-gray-500">
+        No payment required
+      </span>
+    </footer>
+  </div>
+  <div
+    class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl"
+  >
+    <header class="py-4 px-4 bg-gray-100">
+      <h1 class="font-bold text-xl text-green-600">Startup</h1>
+    </header>
+    <div class="leading-none px-4 my-4">
+      <span class="text-6xl">
+        $29
+      </span>
+      <span class="block font-bold text-gray-500">
+        per month
+      </span>
+    </div>
+
+    <ul class="px-4 my-4">
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span>
+        <strong>10,000</strong> users
+      </li>
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span> Custom branding
+      </li>
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span> Priority support
+      </li>
+    </ul>
+    <footer class="px-4 pb-4 text-center">
+      <a
+        class="button solid green w-full inline-block"
+        href="{{ site.auth_origin }}"
+        >Start free trial</a
+      >
+      <span class="inline-block pt-2 text-gray-500">
+        No payment required
+      </span>
+    </footer>
+  </div>
+  <div
+    class="flex-1 w-full max-w-xs my-4 mx-auto md:mx-4 rounded-lg overflow-hidden shadow-2xl"
+  >
+    <header class="py-4 px-4 bg-gray-100">
+      <h1 class="font-bold text-xl text-green-600">Business</h1>
+    </header>
+    <div class="leading-none px-4 my-4">
+      <span class="text-6xl">
+        $199
+      </span>
+      <span class="block font-bold text-gray-500">
+        per month
+      </span>
+    </div>
+    <ul class="px-4 my-4">
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span>
+        <strong>100,000</strong> users
+      </li>
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span> Active user
+        insights
+      </li>
+      <li>
+        <span class="text-lg font-bold text-green-500">✓</span> Support SLA
+      </li>
+    </ul>
+    <footer class="px-4 pb-4 text-center">
+      <a
+        class="button solid green w-full inline-block"
+        href="{{ site.auth_origin }}"
+        >Start free trial</a
+      >
+      <span class="inline-block pt-2 text-gray-500">
+        No payment required
+      </span>
+    </footer>
+  </div>
+</section>
+<div class=" max-w-sm mx-auto text-center">
+  <h2 class="font-bold md:text-3xl text-2xl">Contact us</h2>
+  <p class="py-8">
+    Get updates from DID in your inbox.
+  </p>
+  <form class="" data-netlify="true" name="join our mailing list">
+    <input
       class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
       class="central"
       type="email"
@@ -192,12 +390,12 @@ layout: default
       name="email_address"
       placeholder="you@example.com"
       id="email-address"
-      />
-      <button type="submit" class="button solid green">
-        Subscribe
-      </button>
-    </form>
-    <p class="pt-8">
-      Or you can message us <a class="text-green-500" href="#">team@did.app</a>
-    </p>
-  </div>
+    />
+    <button type="submit" class="button solid green">
+      Subscribe
+    </button>
+  </form>
+  <p class="pt-8">
+    Or you can message us <a class="text-green-500" href="#">team@did.app</a>
+  </p>
+</div>
