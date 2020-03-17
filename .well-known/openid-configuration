@@ -8,7 +8,8 @@
   "userinfo_endpoint": "{{ site.auth_origin }}/oidc/userinfo",
   "jwks_uri": "{{ site.auth_origin }}/oidc/jwks",
   "scopes_supported": [
-    "openid"
+    "openid",
+    "email"
   ],
   "response_types_supported": [
     "code"
@@ -41,7 +42,9 @@
     "exp",
     "iat",
     "iss",
-    "sub"
+    "sub",
+    "email",
+    "email_verified"
   ],
   "service_documentation": "https://did.app/docs"
 }
