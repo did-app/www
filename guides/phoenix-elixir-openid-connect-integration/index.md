@@ -123,7 +123,7 @@ Edit the template in `lib/my_notes_web/templates/layout/app.html.eex` with the n
 
 ### Setup the App on DID
 
-You will need a DID account. [Sign up]({{ site.auth_origin }}) to create one now.
+You will need a DID account. [Sign up]({{ site.auth_origin }}/sign_up) to create one now.
 
 After signing up, you will be directed to set up your first app.
 _Because we will run on localhost we need to use test app, select test mode._
