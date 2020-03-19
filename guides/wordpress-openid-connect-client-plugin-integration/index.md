@@ -4,25 +4,17 @@ title: "Wordpress Integration Guide"
 abstract: ""
 ---
 
-This guide will step you through the process of adding DID to your Wordpress website using the ‘WordPress OpenID Connect Client' plugin by miniOrange.  If you have any difficulty completing the guide please email us for support: [team@did.app](mailto:team@did.app).
+This guide will step you through the process of adding DID to your Wordpress website using the ‘WordPress OpenID Connect Client' plugin by miniOrange.
 
-You can also refer to a working example on our demo website: [wordpress.did.app](https://wordpress.did.app).  This guide assumes you have a working knowledge of Wordpress and a Wordpress website up and running.
+There is a working example website here: [wordpress.did.app](https://wordpress.did.app).
 
-## Step 1: Create a new app in your DID account
+### Requirements
 
-Visit [did.app](https://did.app), sign in and create a new app.  
+This tutorial requires you to have Wordpress installed.
 
-Give your new app a descriptive name e.g. ‘Wordpress Demo’ and use the full URL of the website in the ‘host’ box.
+[Wordpress install guide](https://wordpress.org/support/category/installation/)
 
-Leave the ‘Test mode’ box unchecked.
-
-Click ‘Create App’.
-
-DID will now generate a Client ID and a Client Secret for your app.  Retain this information for step 3 (leave the tab open so you can come back to it).
-
-![screenshot of DID app configuration](/assets/images/wordpress-guide/configure-did.PNG)
-
-## Step 2: Install the plugin on your Wordpress website
+### Install the plugin on your Wordpress website
 
 In your Wordpress admin dashboard, select __Plugins > Add New__ from the main menu.
 
@@ -34,7 +26,21 @@ You can also visit the plugin’s page to download, install and activate manuall
 
 [wordpress.org/plugins/miniorange-openid-connect-client/](https://wordpress.org/plugins/miniorange-openid-connect-client/)
 
-## Step 3. Configure the plugin
+### Setup the App on did
+
+You will need a DID account. [Sign up]({{ site.auth_origin }}) to create one now.
+
+After signing up, you will be directed to set up your first app.
+
+Give your new app a descriptive name e.g. ‘Wordpress Demo’ and use the full URL of the website in the ‘host’ box.
+
+Leave the ‘Test mode’ box unchecked to use this app on a live Wordpress website. Test mode can be used for localhost installations.
+
+DID will generate a Client ID and a Client Secret for your app.  Retain this information for the next step (leave the tab open so you can come back to it).
+
+![screenshot of DID app configuration](/assets/images/wordpress-guide/configure-did.PNG)
+
+### Configure the plugin
 
 Once activated, the plugin creates a menu option called ‘miniOrange OpenID Connect’.  Click on this to start configuring the plugin to work with DID.
 
@@ -75,7 +81,7 @@ DID’s integration with this plugin is now complete.  A ‘Sign in with DID’ 
 
 ![screenshot of logging into Wordpress with DID](/assets/images/wordpress-guide/login-with-did.PNG)
 
-## Optional: Adding Login Buttons to your Wordpress Template
+### Optional: Adding Login Buttons to your Wordpress Template
 
 You can add ‘Login with DID’ buttons elsewhere on your Wordpress website using the plugin.  To do this, choose the menu options: __Appearance > Widgets__.
 
@@ -83,7 +89,7 @@ In the example Wordpress theme we are using, we have been able to add a login bu
 
 ![screenshot of adding login buttons to Wordpress template content blocks](/assets/images/wordpress-guide/widget1.PNG)
 
-## Optional: Login Button Styling
+### Optional: Login Button Styling
 
 The ‘Login with DID’ button can be styled with some simple CSS rules.  The following CSS can be used to style the button with DID’s colour scheme:
 
