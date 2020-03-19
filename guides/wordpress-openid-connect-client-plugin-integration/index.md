@@ -60,15 +60,15 @@ Select ‘Custom OpenID Connect App’.  You will now see this screen:
 
 Complete the fields using the following values:
 
-```
-App Name: DID
-Client ID: *copy and paste this from your DID app settings page.*
-Client Secret: *copy and paste this from DID app settings page.*
-Scope: openid
-Authorize Endpoint: https://auth.did.app/oidc/authorize
-Access Token Endpoint: https://auth.did.app/oidc/token
 
-```
+- **App Name:** DID
+- **Client ID:** *copy and paste this from your DID app settings page.*
+- **Client Secret:** *copy and paste this from DID app settings page.*
+- **Scope: openid**
+- **Authorize Endpoint:** https://auth.did.app/oidc/authorize
+- **Access Token Endpoint:** https://auth.did.app/oidc/token
+
+
 Make sure these options are set as follows:
 
 1. Set client credentials in header: checked.
@@ -95,11 +95,11 @@ The ‘Login with DID’ button can be styled with some simple CSS rules.  The f
 
 ```
 .mo_oauth_login_button {
-display: block;
-border: 1px solid #00dfc0;
-width: auto;
-text-align: center;
-background-color: #00dfc0;
+    display: block;
+    border: 1px solid #00dfc0;
+    width: auto;
+    text-align: center;
+    background-color: #00dfc0;
 }
 .mo_oauth_login_button_icon {
      display: none;
