@@ -34,8 +34,6 @@ After signing up, you will be directed to set up your first app.
 
 Give your new app a descriptive name e.g. ‘Wordpress Demo’ and use the full URL of the website in the ‘host’ box.
 
-Leave the ‘Test mode’ box unchecked to use this app on a live Wordpress website. Test mode can be used for localhost installations.
-
 DID will generate a Client ID and a Client Secret for your app.  Retain this information for the next step (leave the tab open so you can come back to it).
 
 ![screenshot of DID app configuration](/assets/images/wordpress-guide/configure-did.PNG)
