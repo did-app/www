@@ -2,9 +2,12 @@
 layout: article
 title: "The three factors of authentication"
 abstract: "All methods of authentication, belong to one of three types; what you know, what you have, and what your are."
+share_image: /assets/images/key-business-concept-with-flat-design/cropped.jpg
 sitemap:
   lastmod: 2020-03-124
 ---
+
+![](/assets/images/key-business-concept-with-flat-design/cropped.jpg)
 
 ## What is authentication
 
