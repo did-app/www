@@ -33,7 +33,9 @@ Assuming the password has not been written down or stored anywhere.
 A weakness of this approach is the difficulty in restricting knowledge of the secret to a single individual.
 It is important to realise that a user must reveal their password to a system to authenticate.
 The system therefore knows the secret and could use it to impersonate the user anywhere else they have used the same password.
-This problem with passwords is the reason you should use a different passwords for each service.
+
+The fact both user and service know the password is why it is sometimes called a shared secret.
+To stay secure, a user needs to use a different password with each service.
 
 Another problems is forgetfulness.
 Human beings are not perfect at retaining information.
