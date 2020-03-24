@@ -36,12 +36,14 @@ layout: default
   });
 </script>
 <div class="max-w-xl mx-auto">
-  <a class="button minor green px-0 text-green-500" href="/articles"><strong>⭠</strong> All articles</a>
+  <a class="button minor green px-0 text-green-500" href="/articles"
+    ><strong>⭠</strong> All articles</a
+  >
   <h1 class="my-4 text-4xl font-bold">{{page.title}}</h1>
   <p>
     {{page.abstract}}
   </p>
-  <section class="markdown-body">
+  <section class="markdown-body py-6">
     {{content}}
   </section>
   {% include share.html %}
@@ -52,19 +54,23 @@ layout: default
     </p>
     <form class="" data-netlify="true" name="articles subscribe">
       <input
-      class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
-      class="central"
-      type="email"
-      required=""
-      name="email_address"
-      placeholder="you@example.com"
-      id="email-address"
+        class="bg-gray-200 appearance-none border-2 border-gray-200 rounded py-2 px-4 text-gray-700 leading-tight"
+        class="central"
+        type="email"
+        required=""
+        name="email_address"
+        placeholder="you@example.com"
+        id="email-address"
       />
       <button type="submit" class="button solid green">
         Subscribe
       </button>
     </form>
 
-    <a class="button minor green inline-block pt-6 px-0 text-green-500" href="/articles"><strong>⭠</strong> Back to articles</a>
+    <a
+      class="button minor green inline-block pt-6 px-0 text-green-500"
+      href="/articles"
+      ><strong>⭠</strong> Back to articles</a
+    >
   </div>
 </div>
