@@ -11,7 +11,7 @@ abstract: "A glossary of key terms"
 > OpenID Connect is the widely used, industry-standard protocol for authentication.
 > It is an extension to the OAuth 2.0 framework.
 >
-> The standard is controlled by the [OpenID Foundation]()
+> The standard is controlled by the [OpenID Foundation](https://openid.net/)
 
 
 Three parties are involved when using OpenID Connect to authenticate.
