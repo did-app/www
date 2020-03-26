@@ -66,7 +66,7 @@ A value of `form_post` indicates the data will be sent using a `POST` request an
 
 ### Handle Authentication Response
 
-Parse the authentication response, it will contain the following parameters.
+Parse the authentication response, it will contain the following parameters:
 
 - code  
   (Success Responses) A single use code that can be exchanged for user information.
