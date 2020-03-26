@@ -34,7 +34,6 @@ Provide the details of the authentication request as query parameters.
 #### Example
 
 Using a form to create an authentication request.
-<!-- Using the `get` method will add each input as a query parameter to the   -->
 
 {% highlight html %}
 <form action="https://auth.did.app/oidc/authorize" method="get">
@@ -45,8 +44,6 @@ Using a form to create an authentication request.
   <button type="submit">Sign in</button>
 </form>
 {% endhighlight %}
-
-
 
 <!-- <input name="scope" value="openid" type="hidden" />
 <input name="response_type" value="code" type="hidden" /> -->
