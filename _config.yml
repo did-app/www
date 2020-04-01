@@ -1,7 +1,7 @@
 url: "https://did.app" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
-abstract: "DID is the simplest way to add superior authentication to your website."
+abstract: "Passwordless authentication for your websites and apps."
 
 collections:
   articles:

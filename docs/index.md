@@ -17,18 +17,17 @@ Incorporating DID.app gives your users a fast, easy, and safe way to sign in usi
 
 Follow our step-by-step [integration guide](/docs/step-by-step-integration) to get started.
 
+Or try one of our specific platform guides.
 
-
-<!-- New to DID.app? Follow one of our implementation guides
-
-- [Phoenix & Elixir](/guides/phoenix-elixir-openid-connect-integration)
 - [Express & Node.js](/guides/express-nodejs-openid-connect-integration)
+- [Ruby on Rails](/guides/ruby-on-rails-openid-connect-integration)
+- [Phoenix & Elixir](/guides/phoenix-elixir-openid-connect-integration)
 - [Wordpress](/guides/wordpress-openid-connect-client-plugin-integration/)
 
-Can't find what your platform, the simplest way to integrate with DID is using an OpenID Connect library for your platform.
+<!-- Can't find your platform? The simplest way to integrate with DID is using an OpenID Connect library for your platform.
 A list of certified implementations is maintained at [https://openid.net/developers/certified/](https://openid.net/developers/certified/).
 
-Visit our [Roadmap](https://did.nolt.io) to request an integration guide for a new platform. -->
+Visit our [Roadmap](https://did.nolt.io) to request an integration guide for a new platform.  -->
 
 ### API reference
 
