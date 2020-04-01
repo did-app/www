@@ -50,7 +50,7 @@ end
 
 ### Outline of Authentication Flow
 
-Authenticating End Users takes two steps.
+Authenticating end users takes two steps.
 
 1. Redirect a user to DID.app with an authentication request from your application.
 2. Fetch user information associated with the code returned in the authentication response.
@@ -89,7 +89,7 @@ end
 ```
 
 Create a new file for a session controller.
-Add the following code to implement the callback route.
+Add the following code to implement the callback route:
 
 ```rb
 require 'faraday'
@@ -111,17 +111,17 @@ end
 ```
 
 The redirect url back to your app will include a query parameter containing a one-time code.
-To finish authenticating a user this code needs to be exchanged for a token and user information.
+To finish authenticating a user, this code needs to be exchanged for a token and user information.
 
-From this user information we extract the `sub` parameter, short for `subject`, this parameter is a stable identifier for the user.
+From this user information we extract the `sub` parameter which is short for `subject`. This parameter is a stable identifier for the user.
 A verified email address is also returned as part of the user information.
 
 This request will require your `CLIENT_ID` and `CLIENT_SECRET`.
-It is good practice to keep these values out of your source code and so we are using environment variables to configure them.
+It is good practice to keep these values out of your source code so we are using environment variables to configure them.
 
 ### Display Sign Out Button to Authenticated User
 
-Once a user has authenticated we no longer want to show them a sign in button.
+Once a user has authenticated, we no longer want to show them a sign in button.
 Probably the most helpful thing to show instead would be a sign out button.
 
 ```erb
@@ -165,7 +165,7 @@ Signing out a user is done by clearing the session information.
 ### Get App Identifiers DID.app
 
 The final step is to get a `CLIENT_ID` and `CLIENT_SECRET` for you app.
-You will need a account, [Sign up]({{ site.auth_origin }}/sign_up) to create one.
+You will need an account, [Sign up]({{ site.auth_origin }}/sign_up) to create one.
 
 After signing up, you will be directed to set up your first app.
 _Because we will run on localhost we need to use test app, select test mode._

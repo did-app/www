@@ -23,7 +23,7 @@ Or try one of our specific platform guides.
 - [Express & Node.js](/guides/express-nodejs-openid-connect-integration)
 - [Wordpress](/guides/wordpress-openid-connect-client-plugin-integration/)
 
-<!-- Can't find what your platform, the simplest way to integrate with DID is using an OpenID Connect library for your platform.
+<!-- Can't find your platform? The simplest way to integrate with DID is using an OpenID Connect library for your platform.
 A list of certified implementations is maintained at [https://openid.net/developers/certified/](https://openid.net/developers/certified/).
 
 Visit our [Roadmap](https://did.nolt.io) to request an integration guide for a new platform.  -->
