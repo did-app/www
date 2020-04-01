@@ -19,8 +19,9 @@ Follow our step-by-step [integration guide](/docs/step-by-step-integration) to g
 
 Or try one of our specific platform guides.
 
-- [Phoenix & Elixir](/guides/phoenix-elixir-openid-connect-integration)
 - [Express & Node.js](/guides/express-nodejs-openid-connect-integration)
+- [Ruby on Rails](/guides/ruby-on-rails-openid-connect-integration)
+- [Phoenix & Elixir](/guides/phoenix-elixir-openid-connect-integration)
 - [Wordpress](/guides/wordpress-openid-connect-client-plugin-integration/)
 
 <!-- Can't find your platform? The simplest way to integrate with DID is using an OpenID Connect library for your platform.

@@ -4,7 +4,7 @@ title: "Ruby on Rails Integration Guide"
 abstract: ""
 ---
 
-<!-- TODO Just want the code? Find this example on [github](https://github.com/did-app/did-elixir/tree/master/examples/elixir-phoenix-openid-connect) -->
+Just want the code? see [this commit](https://github.com/did-app/did-ruby/commit/73a975810e53efc9d4b54bdb8d504be51d7e0b13) for the complete set of changes.
 
 ### Requirements
 
@@ -31,8 +31,7 @@ gem 'faraday', '~> 1.0', '>= 1.0.1'
 *For this guide we will use [Faraday](https://rubygems.org/gems/faraday) to make HTTP requests.
 However you can replace this with your preferred client library.*
 
-To finish setting up our new Rails project we will create a welcome page.
-Use the Rails generator.
+To finish setting up our new Rails project we will create a welcome page, using the Rails generator.
 
 ```
 bin/rails generate controller Welcome index
@@ -47,6 +46,16 @@ Rails.application.routes.draw do
 end
 ```
 
+You should now have a working Rails application.
+Start it with the following command:
+
+```sh
+./bin/rails server
+```
+
+Visit [http://localhost:3000](http://localhost:3000) and check you see the new homepage.
+
+![screenshot of new rails app](new-rails-controller.png)
 
 ### Outline of Authentication Flow
 
@@ -103,6 +112,7 @@ class SessionController < ApplicationController
       client_secret: ENV["CLIENT_SECRET"],
       code: params["code"]
     )
+    data = JSON.parse(response.body)
 
     session[:current_user_id] = data["userinfo"]["sub"]
     redirect_to root_path
@@ -170,7 +180,7 @@ You will need an account, [Sign up]({{ site.auth_origin }}/sign_up) to create on
 After signing up, you will be directed to set up your first app.
 _Because we will run on localhost we need to use test app, select test mode._
 
-![Screenshot of creating an app on DID](/assets/images/create-app-screenshot.png)
+![Screenshot of creating an app on DID](screenshot-of-did-setup.png)
 
 After setting the details for the app, copy the client id and secret for use in our application.
 
@@ -185,7 +195,7 @@ CLIENT_ID=test_abc CLIENT_SECRET=test_abcdef ./bin/rails server
 Visit [localhost:3000](http://localhost:3000/),
 you should see your new Rails app with a shiny sign in button.
 
-<!-- TODO Any problems, see [this commit](https://github.com/did-app/did-elixir/commit/654a39d697efc551c725e8871b5b4fee1b8bd63c) for the complete set of changes. -->
+Any problems, see [this commit](https://github.com/did-app/did-ruby/commit/73a975810e53efc9d4b54bdb8d504be51d7e0b13) for the complete set of changes.
 
 ### Have a question?
 
