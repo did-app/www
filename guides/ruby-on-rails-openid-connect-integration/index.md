@@ -69,6 +69,11 @@ Authenticating end users takes two steps.
 Start the authentication process by redirecting a user to the authorization endpoint.
 The redirect must include the authentication request parameters.
 
+This form needs to be added to a template.
+It is up you where you locate your sign in button.
+We added it to our application layout in `/app/views/layouts/application.html.erb`,
+this ensures a user can sign in from anywhere.
+
 ```erb
 <form action="https://auth.did.app/oidc/authorize" method="get">
   <input name="client_id" value="<%= ENV["CLIENT_ID"] %>" type="hidden" />
@@ -134,11 +139,21 @@ It is good practice to keep these values out of your source code so we are using
 Once a user has authenticated, we no longer want to show them a sign in button.
 Probably the most helpful thing to show instead would be a sign out button.
 
+Update the code added to your application layout.
+We want to show our sign in button only if our session doesn't have a current user id.
+If we do have a user id, and therefore an authenticated session, we should show a sign out button.
+
 ```erb
 <% if session[:current_user_id] %>
   <%= link_to 'Sign out', sign_out_path %>
 <% else %>
   <!-- Sign in form from earlier -->
+  <form action="https://auth.did.app/oidc/authorize" method="get">
+    <input name="client_id" value="<%= ENV["CLIENT_ID"] %>" type="hidden" />
+    <input name="redirect_uri" value="<%= callback_url %>" type="hidden" />
+
+    <button type="submit">Sign in</button>
+  </form>
 <% end %>
 ```
 
