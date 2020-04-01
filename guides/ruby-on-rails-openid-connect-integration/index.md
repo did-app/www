@@ -70,9 +70,9 @@ Start the authentication process by redirecting a user to the authorization endp
 The redirect must include the authentication request parameters.
 
 This form needs to be added to a template.
-It is up you where you locate your sign in button.
-We added it to our application layout in `/app/views/layouts/application.html.erb`,
-this ensures a user can sign in from anywhere.
+It is up to you where you locate your sign in button.
+We added it to our application layout in `/app/views/layouts/application.html.erb`.
+This ensures a user can sign in from anywhere.
 
 ```erb
 <form action="https://auth.did.app/oidc/authorize" method="get">
@@ -88,7 +88,7 @@ The `callback_url` refers to a controller action that we will implement in the n
 
 ### Create a session controller to handle authentication callback
 
-Once a user has authenticated, with DID.app, they will be redirected to the url that was specified in the authentication request.
+Once a user has authenticated with DID.app, they will be redirected to the url that was specified in the authentication request.
 We need to create a route to handle this.
 
 First add the route into `routes.rb`.
@@ -189,7 +189,7 @@ Signing out a user is done by clearing the session information.
 
 ### Get App Identifiers DID.app
 
-The final step is to get a `CLIENT_ID` and `CLIENT_SECRET` for you app.
+The final step is to get a `CLIENT_ID` and `CLIENT_SECRET` for your app.
 You will need an account, [Sign up]({{ site.auth_origin }}/sign_up) to create one.
 
 After signing up, you will be directed to set up your first app.
