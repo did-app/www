@@ -27,7 +27,7 @@ A signature is also sent to DID via the link in the user's email which also prov
 
 Finally, DID sends another unique code back to the browser which the requesting website uses to grant the user access.
 
-![How DID works: Signing In With Email](/assets/images/how-did-works/how-did-works-signing-in-with-email.png)
+![How DID works: Signing In With Email](/assets/images/how-did-works/how-did-works-signing-in-with-email-version-2.png)
 
 Once a user has initially authenticated by email they can, in future, authenticate with the keys they now have on their device. The device can provide a trusted signature to DID instead of this process having to be done via email.
 
