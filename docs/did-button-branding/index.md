@@ -45,7 +45,7 @@ Both come in four styles; **default**, **light**, **dark-mono** and **light-mono
 <img src="/icon.svg#dark-mono" style="padding:0.5em;background:#00dfc0;">
 ```
 
-### Creating buttons
+### How to use DID.app buttons
 
 ##### Using DID.app buttons alongside other social sign in providers
 
