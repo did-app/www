@@ -78,7 +78,7 @@ A block style sign in button
 ```html
 <div style="display:inline-block;padding:0.3em;margin:1em;background:#00dfc0;color:white;">
   <span style="display:flex;align-items:center;">
-    <img src="/logo.svg#light-mono"  style="height:30px">
+    <img src="/logo.svg#light-mono" style="height:30px">
     <span style="padding:0 1rem;font-weight:bold;white-space:nowrap;">Sign in</span>
   </span>
 </div>
@@ -86,17 +86,17 @@ A block style sign in button
 
 A dark sign in button
 
-<div style="display:inline-block;padding:0.3em;margin:1em;background:#2A454E;color:white;">
+<div style="display:inline-block;padding:0.3em;margin:1em;background:#2a454e;color:white;">
   <span style="display:flex;align-items:center;">
-    <img src="/logo.svg#light"  style="height:30px">
+    <img src="/logo.svg#light" style="height:30px">
     <span style="padding:0 1rem;font-weight:bold;white-space:nowrap;">Sign in</span>
   </span>
 </div>
 
 ```html
-<div style="display:inline-block;padding:0.3em;margin:1em;background:#2A454E;color:white;">
+<div style="display:inline-block;padding:0.3em;margin:1em;background:#2a454e;color:white;">
   <span style="display:flex;align-items:center;">
-    <img src="/logo.svg#light"  style="height:30px">
+    <img src="/logo.svg#light" style="height:30px">
     <span style="padding:0 1rem;font-weight:bold;white-space:nowrap;">Sign in</span>
   </span>
 </div>
@@ -104,24 +104,24 @@ A dark sign in button
 
 Icon only button.
 
-<img height="50px" src="/icon.svg#light-mono" alt="" style="background:#00dfc0;padding:0.5em;border-radius:1em;">
+<img src="/icon.svg#light-mono" alt="" style="height:40px;background:#00dfc0;padding:0.5em;border-radius:1em;">
 
 ```html
-<img height="50px" src="/icon.svg#light-mono" alt="" style="background:#00dfc0;padding:0.5em;border-radius:1em;">
+<img src="/icon.svg#light-mono" alt="" style="height:40px;background:#00dfc0;padding:0.5em;border-radius:1em;">
 ```
 
 Matching your own app's color pallet.
 
 When not using the DID.app green pallet, it is recommended to use the mono style icon/logo.
 
-<img height="50px" src="/icon.svg#light-mono" alt="" style="background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
+<img src="/icon.svg#light-mono" alt="" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 
 ```html
-<img height="50px" src="/icon.svg#light-mono" alt="" style="background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
+<img src="/icon.svg#light-mono" alt="" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 ```
 
-<img height="50px" src="/logo.svg#dark-mono" alt="" style="background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
+<img src="/logo.svg#dark-mono" alt="" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 
 ```html
-<img height="50px" src="/logo.svg#dark-mono" alt="" style="background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
+<img src="/logo.svg#dark-mono" alt="" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 ```
