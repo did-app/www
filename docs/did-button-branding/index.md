@@ -26,6 +26,16 @@ Both come in three styles; **default**, **light** and **dark**.
 
 ### The D Icon
 
+<img src="/icon.svg" style="height:50px;padding:0.5em;">
+<img src="/icon.svg#light" style="height:50px;background:#00dfc0;padding:0.5em;">
+<img src="/icon.svg#dark" style="height:50px;background:#00dfc0;padding:0.5em;">
+
+```html
+<img src="/icon.svg" style="height:50px;padding:0.5em;">
+<img src="/icon.svg#light" style="height:50px;background:#00dfc0;padding:0.5em;">
+<img src="/icon.svg#dark" style="height:50px;background:#00dfc0;padding:0.5em;">
+```
+
 ### Equal Prominence
 
 ### Creating buttons
