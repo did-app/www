@@ -76,7 +76,7 @@ A block style sign in button
 
 <div style="display:inline-block;padding:0.3em;margin:1em;background:#00dfc0;color:white;">
   <span style="display:flex;align-items:center;">
-    <img src="/logo.svg#light-mono"  style="height:30px">
+    <img src="/logo.svg#light-mono" style="height:30px">
     <span style="padding:0 1rem;font-weight:bold;white-space:nowrap;">Sign in</span>
   </span>
 </div>
@@ -110,24 +110,24 @@ A dark sign in button
 
 Icon only button.
 
-<img src="/icon.svg#light-mono" alt="" style="height:40px;background:#00dfc0;padding:0.5em;border-radius:1em;">
+<img src="/icon.svg#light-mono" style="height:40px;background:#00dfc0;padding:0.5em;border-radius:1em;">
 
 ```html
-<img src="/icon.svg#light-mono" alt="" style="height:40px;background:#00dfc0;padding:0.5em;border-radius:1em;">
+<img src="/icon.svg#light-mono" style="height:40px;background:#00dfc0;padding:0.5em;border-radius:1em;">
 ```
 
 Matching your own app's color pallet.
 
 When not using the DID.app green pallet, it is recommended to use the mono style icon/logo.
 
-<img src="/icon.svg#light-mono" alt="" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
+<img src="/icon.svg#light-mono" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 
 ```html
-<img src="/icon.svg#light-mono" alt="" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
+<img src="/icon.svg#light-mono" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 ```
 
-<img src="/logo.svg#dark-mono" alt="" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
+<img src="/logo.svg#dark-mono" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 
 ```html
-<img src="/logo.svg#dark-mono" alt="" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
+<img src="/logo.svg#dark-mono" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 ```
