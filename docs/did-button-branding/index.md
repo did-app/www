@@ -1,7 +1,7 @@
 ---
 layout: "doc"
 title: "Branding DID.app buttons."
-abstract: "DID.app provides several styles of icon that you can use to let people sign in."
+abstract: "DID.app provides several button designs that you can use on your website to let users know they can sign in with DID.app"
 ---
 
 <style>
@@ -47,14 +47,14 @@ Both come in four styles; **default**, **light**, **dark-mono** and **light-mono
 
 ### Creating buttons
 
-##### DID.app as a social login provider
+##### Using DID.app buttons alongside other social sign in providers
 
-When offering DID.app as one option among several login providers you **should** follow the guidance on this page.
+When offering DID.app as one option among several sign in providers you **should** follow the guidance on this page.
 If your authentication process is only handled by DID.app you may use the buttons show here, but are not required to.
 
 ### Examples
 
-A light button that can be used on most pages.
+A light button that can be used on most pages:
 
 <div style="display:inline-block;padding:0.3em;border:1px solid gray;margin:1em;border-radius:4px;">
   <span style="display:flex;align-items:center;">
@@ -72,7 +72,7 @@ A light button that can be used on most pages.
 </div>
 ```
 
-A block style sign in button
+A block style sign in button:
 
 <div style="display:inline-block;padding:0.3em;margin:1em;background:#00dfc0;color:white;">
   <span style="display:flex;align-items:center;">
@@ -90,7 +90,7 @@ A block style sign in button
 </div>
 ```
 
-A dark sign in button
+A dark sign in button:
 
 <div style="display:inline-block;padding:0.3em;margin:1em;background:#2a454e;color:white;">
   <span style="display:flex;align-items:center;">
@@ -108,7 +108,7 @@ A dark sign in button
 </div>
 ```
 
-Icon only button.
+Icon only button:
 
 <img src="/icon.svg#light-mono" style="height:40px;background:#00dfc0;padding:0.5em;border-radius:1em;">
 
@@ -118,7 +118,7 @@ Icon only button.
 
 Matching your own app's color pallet.
 
-When not using the DID.app green pallet, it is recommended to use the mono style icon/logo.
+If you would like to use the DID.app buttons within your own color scheme we recommend to use the mono style icon and logo:
 
 <img src="/icon.svg#light-mono" style="height:40px;background:rgb(29, 161, 242);padding:0.5em;border-radius:1em;">
 
