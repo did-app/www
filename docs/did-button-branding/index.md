@@ -16,10 +16,10 @@ Both come in four styles; **default**, **light**, **dark-mono** and **light-mono
 ### The D.I.D Logo
 
 <div style="display:flex;justify-content:center;>
-<img src="/logo.svg" style="height:50px;margin:0.5em;padding:0.5em;">
-<img src="/logo.svg#light" style="height:50px;background:#2a454e;margin:0.5em;padding:0.5em;">
-<img src="/logo.svg#light-mono" style="height:50px;background:#00dfc0;margin:0.5em;padding:0.5em;">
-<img src="/logo.svg#dark-mono" style="height:50px;background:#00dfc0;margin:0.5em;padding:0.5em;">
+  <img src="/logo.svg" style="height:50px;margin:0.5em;padding:0.5em;">
+  <img src="/logo.svg#light" style="height:50px;background:#2a454e;margin:0.5em;padding:0.5em;">
+  <img src="/logo.svg#light-mono" style="height:50px;background:#00dfc0;margin:0.5em;padding:0.5em;">
+  <img src="/logo.svg#dark-mono" style="height:50px;background:#00dfc0;margin:0.5em;padding:0.5em;">
 </div>
 
 ```html
@@ -32,10 +32,10 @@ Both come in four styles; **default**, **light**, **dark-mono** and **light-mono
 ### The D Icon
 
 <div style="display:flex;justify-content:center;>
-<img src="/icon.svg" style="height:50px;margin:0.5em;padding:0.5em;">
-<img src="/icon.svg#light" style="height:50px;background:#2a454e;margin:0.5em;padding:0.5em;">
-<img src="/icon.svg#light-mono" style="height:50px;background:#00dfc0;margin:0.5em;padding:0.5em;">
-<img src="/icon.svg#dark-mono" style="height:50px;background:#00dfc0;margin:0.5em;padding:0.5em;">
+  <img src="/icon.svg" style="height:50px;margin:0.5em;padding:0.5em;">
+  <img src="/icon.svg#light" style="height:50px;background:#2a454e;margin:0.5em;padding:0.5em;">
+  <img src="/icon.svg#light-mono" style="height:50px;background:#00dfc0;margin:0.5em;padding:0.5em;">
+  <img src="/icon.svg#dark-mono" style="height:50px;background:#00dfc0;margin:0.5em;padding:0.5em;">
 </div>
 
 ```html
