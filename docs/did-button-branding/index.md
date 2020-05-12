@@ -4,6 +4,12 @@ title: "Branding DID.app buttons."
 abstract: "DID.app provides several styles of icon that you can use to let people sign in."
 ---
 
+<style>
+  .markdown-body img {
+    background: none;
+  }
+</style>
+
 You can use either our "D.I.D Logo" or "D Icon" to indicate to your users that they may sign in with DID.app.
 Both come in four styles; **default**, **light**, **dark-mono** and **light-mono**.
 
