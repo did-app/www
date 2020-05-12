@@ -8,21 +8,22 @@ viewBox="0 0 80 41" enable-background="new 0 0 80 41" xml:space="preserve">
 		.letter {
 			fill: #2A454E;
 		}
-		#light:target .border {
-			fill: white !important;
-		}
 		#light:target .letter {
-			fill: white !important;
+			fill: white;
 		}
-		#dark:target .border {
-			fill: #2A454E !important;
+		#light-mono:target .border {
+			fill: white;
 		}
-		#dark:target .letter {
-			fill: #2A454E !important;
+		#light-mono:target .letter {
+			fill: white;
+		}
+		#dark-mono:target .border, #dark-mono:target .letter {
+			fill: #2A454E;
 		}
 	</style>
 	<g id="light">
-	<g id="dark">
+	<g id="light-mono">
+	<g id="dark-mono">
 	<path class="border" d="M70.3,0.6H28.4c-3.4,0-6.3,2-7.5,4.9h3.7c0.9-1,2.2-1.7,3.7-1.7h41.9c2.7,0,4.8,2.2,4.8,4.8v23.2
 	c0,2.7-2.2,4.8-4.8,4.8H9.1c-2.7,0-4.8-2.2-4.8-4.8v-3.4c0-1.8,0.9-3.4,2.3-4.2v-3.5c-3.2,1-5.5,4.1-5.5,7.8v3.4
 	c0,4.4,3.6,8.1,8.1,8.1h61.2c4.4,0,8.1-3.6,8.1-8.1V8.7C78.4,4.2,74.8,0.6,70.3,0.6z"/>
@@ -33,6 +34,7 @@ viewBox="0 0 80 41" enable-background="new 0 0 80 41" xml:space="preserve">
 	<path class="letter" d="M64.4,18.5c0,2.2-0.5,4.2-1.4,5.9c-0.9,1.7-2.3,3-4,3.9c-1.7,0.9-3.7,1.4-6,1.4h-9.2V7.8h9
 	C60.6,7.8,64.4,11.4,64.4,18.5z M57.4,18.5c0-1.1-0.2-2-0.6-2.9c-0.4-0.9-1-1.5-1.8-2c-0.8-0.5-1.7-0.7-2.8-0.7h-1.7v11.5h1.8
 	c1.6,0,2.8-0.5,3.8-1.6C57,21.8,57.4,20.3,57.4,18.5z"/>
+	</g>
 	</g>
 	</g>
 </svg>
