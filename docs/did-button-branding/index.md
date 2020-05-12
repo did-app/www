@@ -14,9 +14,15 @@ Both come in three styles; **default**, **light** and **dark**.
 
 ### The D.I.D Logo
 
-<img height="40px" src="/logo.svg" style="padding:0.5em;">
-<img height="40px" src="/logo.svg#light" style="background:#00dfc0;padding:0.5em;">
-<img height="40px" src="/logo.svg#dark" style="background:#00dfc0;padding:0.5em;">
+<img src="/logo.svg" style="height:50px;padding:0.5em;">
+<img src="/logo.svg#light" style="height:50px;background:#00dfc0;padding:0.5em;">
+<img src="/logo.svg#dark" style="height:50px;background:#00dfc0;padding:0.5em;">
+
+```html
+<img src="/logo.svg" style="height:50px;padding:0.5em;">
+<img src="/logo.svg#light" style="height:50px;background:#00dfc0;padding:0.5em;">
+<img src="/logo.svg#dark" style="height:50px;background:#00dfc0;padding:0.5em;">
+```
 
 ### The D Icon
 
