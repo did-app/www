@@ -13,7 +13,7 @@ abstract: "DID.app provides several button designs that you can use on your webs
 You can use either our "D.I.D Logo" or "D Icon" to indicate to your users that they may sign in with DID.app.
 Both come in four styles; **default**, **light**, **dark-mono** and **light-mono**.
 
-### The D.I.D Logo
+### The DID.app Logo
 
 <div style="display:flex;justify-content:center;">
   <img src="/logo.svg" style="height:50px;margin:0.5em;padding:0.5em;">
