@@ -1,6 +1,6 @@
 ---
 layout: "doc"
-title: "Branding DID.app buttons."
+title: "Sign in with DID.app branding guidelines"
 abstract: "DID.app provides several button designs that you can use on your website to let users know they can sign in with DID.app"
 ---
 
