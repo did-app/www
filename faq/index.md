@@ -31,6 +31,7 @@ If you forget to remove all your data from the device when you sell it you can r
 A link containing a single use code is generated and emailed to the user.
 As only the owner of the email address can receive the link only they can access the account.
 
+<a name="where-are-the-private-keys-for-my-device-stored"></a>
 ### Where are the private keys for my device stored?
 
 Key pairs are generated and stored by your browser.
@@ -59,8 +60,8 @@ Some users are also aware of the privacy concerns around the business models of 
 
 DID.app offers a simple, secure solution that is easier to use than social logins and respects the user’s privacy.
 
+<a name="why-send-a-magic-link-rather-than-a-code"></a>
 ### Why does DID.app send a magic link rather than a code?
-
 
 When copying a code it is possible for an attacker to mislead a user in to copying a code into the attacker's website.
 This would enable the attacker to compromise the user's account.
