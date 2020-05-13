@@ -10,7 +10,7 @@ abstract: "DID.app provides several button designs that you can use on your webs
   }
 </style>
 
-You can use either our "D.I.D Logo" or "D Icon" to indicate to your users that they may sign in with DID.app.
+You can use either our three letter 'DID' logo or single letter 'D' icon to indicate to your users that they may sign in with DID.app.
 Both come in four styles; **default**, **light**, **dark-mono** and **light-mono**.
 
 ### The DID.app Logo
