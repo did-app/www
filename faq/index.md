@@ -31,13 +31,13 @@ If you forget to remove all your data from the device when you sell it you can r
 A link containing a single use code is generated and emailed to the user.
 As only the owner of the email address can receive the link only they can access the account.
 
-### Where are the private keys for my device stored.
+### Where are the private keys for my device stored?
 
-Key pairs are generated and stored by the browser.
+Key pairs are generated and stored by your browser.
 
 From within the browser it is not possible to access the private key, only a reference to a private key.
 Private key references are stored in [indexeddb](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB),
-To see all the key references stored select the storage tab in web developer tools.
+To see all the key references stored, select the storage tab in web developer tools.
 
 Where in your computers filesystem the browser stores depends on both the browser and the operating system you are using.
 For example Firefox stores data in a `storage` directory located under `profile`. Full details are explained [here](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Browser_storage_limits_and_eviction_criteria#Where_is_the_data_stored)
@@ -62,8 +62,8 @@ DID.app offers a simple, secure solution that is easier to use than social login
 ### Why does DID.app send a magic link rather than a code?
 
 
-When copying a code it is possible for an attacker to mislead a user in to copying a code into the attackers website.
-This enables the attacker to compromise the users account.
+When copying a code it is possible for an attacker to mislead a user in to copying a code into the attacker's website.
+This would enable the attacker to compromise the user's account.
 
 Requiring users to click on a link is more secure than asking them to copy a code.
 The link includes the correct domain and is more resistant to phishing attack described above.
