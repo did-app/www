@@ -66,7 +66,7 @@ When copying a code it is possible for an attacker to mislead a user in to copyi
 This would enable the attacker to compromise the user's account.
 
 Requiring users to click on a link is more secure than asking them to copy a code.
-The link includes the correct domain and is more resistant to phishing attack described above.
+The link includes the correct domain and is more resistant to the kind of phishing attack described above.
 
 <a name="what-is-wrong-with-passwords"></a>
 ### What is wrong with passwords?
