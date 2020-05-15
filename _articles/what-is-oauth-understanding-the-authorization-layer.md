@@ -23,6 +23,8 @@ OAuth is all about granting authorization to access private things.  OAuth is no
 
 This diagram illustrates the six steps that are taken when one website requests information from another:
 
+![Diagram showing the 6 steps of OAuth](/assets/images/how-oauth-works.png "How OAuth works diagram")
+
 By granting access, the resource owner gives the requesting website (client) to ask the authorization server for access to the resource the owner has given it permission to access.
 
 A token is exchanged which is used to prove to the resource server that the requesting website has authorization to access the resource.
