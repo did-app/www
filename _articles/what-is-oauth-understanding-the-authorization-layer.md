@@ -2,9 +2,8 @@
 layout: article
 title: "What is OAuth? Understanding the authorization layer"
 abstract: "A simple explanation of what OAuth is, how it works and what it is used for."
-share_image: /assets/images/how-did-works/how-did-works-signing-in-with-public-key.png
 sitemap:
-  lastmod: 2020-01-15
+  lastmod: 2020-05-15
 ---
 
 OAuth is short for Open Authorization.  OAuth is a framework for token-based authorization on the internet. What does that mean?  Basically, OAuth is a way for websites to share private information with each other. Authorization tokens are issued which grants access to specific pieces of information hence the term token-based authorization.
