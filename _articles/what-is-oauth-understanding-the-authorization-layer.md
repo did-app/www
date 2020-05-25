@@ -6,7 +6,7 @@ sitemap:
   lastmod: 2020-05-15
 ---
 
-OAuth is short for Open Authorization.  OAuth is a framework for token-based authorization on the internet. What does that mean?  Basically, OAuth is a way for websites to share private information with each other. Authorization tokens are issued which grants access to specific pieces of information hence the term token-based authorization.
+OAuth is short for Open Authorization.  OAuth 2.0 is a framework for token-based authorization on the web. What does that mean?  Basically, OAuth is a way for websites to share private information that belongs to an authenticated user of that website.  Authorization tokens are issued which grants access to specific pieces of information hence the term token-based authorization.
 
 For example, let’s say you want your social media profile to share with a dating website your name, date of birth and height.  OAuth can be used to authorize the dating app access to those details on your social media profile.  The OAuth framework allows the social media profile to create an access token with certain attributes, such as an expiry date, which the dating website can use to access the data the token has scope for.
 
@@ -63,4 +63,3 @@ Here are some useful resources if you would like to find out more about OAuth, O
 - [Open ID Connect FAQ](https://openid.net/connect/faq/)
 
 If you have any questions about OAuth, Open ID Connect, passwordless authentication or any of the concepts discussed on this website please do reach out to us on team@did.app. 
-
