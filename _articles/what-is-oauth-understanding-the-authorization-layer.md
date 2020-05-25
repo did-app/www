@@ -10,7 +10,7 @@ OAuth is short for Open Authorization.  OAuth 2.0 is a framework for token-based
 **OAuth 1.0 and OAuth 2.0 are distinctly different.  When I refer to OAuth I am referring specifically to OAuth 2.0.  If you would like to find out more about the differences between versions 1 and 2 you can[ read the OAuth entry on Wikipedia](https://en.wikipedia.org/wiki/OAuth) as the differences are not relevant to this article.**
 For example, let’s say you want your social media profile to share with a dating website your name, date of birth and height.  OAuth can be used to authorize the dating app access to those details on your social media profile.  The OAuth framework allows the social media profile to create an access token with certain attributes, such as an expiry date, which the dating website can use to access the data the token has scope for.
 
-This method allows websites to share only the specific pieces of information it chooses with other websites.  Before OAuth was invented, if two websites wanted to share information they had little choice but to share everything at an account level:
+This method allows you, the user, to share specific pieces of information stored on one website with another website.  Before OAuth was invented, if two websites wanted to share information they had little choice but to share actual login credentials and therefore share all the information stored in that account.
 
 > “Third-party applications gain overly broad access to the resource owner's protected resources, leaving resource owners without any ability to restrict duration or access to a limited subset of resources.”
 
