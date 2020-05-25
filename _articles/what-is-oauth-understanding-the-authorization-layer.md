@@ -18,6 +18,8 @@ This method allows you, the user, to share specific pieces of information stored
 
 OAuth is all about granting authorization to access private things.  OAuth is not used for authentication.  A mistake commonly made is to assume the ‘auth’ in OAuth stands for authentication.
 
+DID.app is an authentication provider that works with the OAuth 2.0 framework helping to add an authentication layer on top of OAuth's authorization layer.
+
 ## How does OAuth work?
 
 This diagram illustrates the six steps that are taken when one website requests information from another:
