@@ -1,7 +1,7 @@
 ---
 layout: "doc"
 title: "Customise authentication pages"
-abstract: "Add custom messaging and color schemes to the DID.app sign in."
+abstract: "Add custom messaging and colour schemes to the DID.app sign in."
 ---
 
 *Upgrade to our startup tier, or higher, to start customising your sign in pages.*
