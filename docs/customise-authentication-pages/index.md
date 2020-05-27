@@ -9,9 +9,13 @@ abstract: "Add custom messaging and color schemes to the DID.app sign in."
 To edit the customisation options for an app, visit the admin page for that app.
 You will see the following options if there are available.
 
+PICTURE of options
+
 You can set a color to match your brand color scheme, this will be usef on all the buttons and highlights in the sign in widget.
 An optional welcome message can also be added, this can help set a feel for your application.
 Keep it light or serious it's up to you.
+
+PICTURE of customised screens 
 
 ## Custom UI (Coming Soon)
 
