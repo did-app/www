@@ -7,7 +7,7 @@ abstract: "Add custom messaging and colour schemes to the DID.app sign in."
 *Upgrade to our startup tier, or higher, to start customising your sign in pages.*
 
 To edit the customisation options for an app, visit the admin page for that app.
-You will see the following options if there are available.
+You will see the following options if they are available:
 
 PICTURE of options
 
