@@ -25,10 +25,14 @@ Or try one of our specific platform guides.
 - [Wordpress](/guides/wordpress-openid-connect-client-plugin-integration/)
 
 <!-- Can't find your platform? The simplest way to integrate with DID is using an OpenID Connect library for your platform.
-A list of certified implementations is maintained at [https://openid.net/developers/certified/](https://openid.net/developers/certified/).
+A list of certified implementations is maintained at [https://openid.net/developers/certified/](https://openid.net/developers/certified/). -->
 
-Visit our [Roadmap](https://did.nolt.io) to request an integration guide for a new platform.  -->
+Visit our [Roadmap](https://did.nolt.io) to request an integration guide for your platform.
 
-### API reference
+### Next steps
+
+- Style your sign in experience. [Read more...](/docs/customise-authentication-pages)
+
+#### API reference
 
 See our full [API reference](/docs/api).
