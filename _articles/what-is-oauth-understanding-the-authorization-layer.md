@@ -6,9 +6,15 @@ sitemap:
   lastmod: 2020-05-15
 ---
 
-OAuth is short for Open Authorization.  OAuth 2.0 is a framework for token-based authorization on the web. What does that mean?  Basically, OAuth is a way for websites to share private information that belongs to an authenticated user of that website.  Authorization tokens are issued which grants access to specific pieces of information hence the term token-based authorization.
+OAuth is short for Open Authorization.  
+
+OAuth 2.0 is a framework for token-based authorization on the web. What does that mean?  Basically, OAuth is a way for websites to share private information that belongs to an authenticated user of that website.  Authorization tokens are issued which grants access to specific pieces of information hence the term token-based authorization.
+
 **OAuth 1.0 and OAuth 2.0 are distinctly different.  When I refer to OAuth I am referring specifically to OAuth 2.0.  If you would like to find out more about the differences between versions 1 and 2 you can[ read the OAuth entry on Wikipedia](https://en.wikipedia.org/wiki/OAuth) as the differences are not relevant to this article.**
-For example, let’s say you want to share your social media profile with a dating website.  You would like the social media website to share your name, date of birth and profile image.  OAuth can be used to grant the dating app access to those details on the social media website.  The framework allows the social media website to create an access token which the dating website uses to request the data you shared from your social media profile.
+
+For example, let’s say you want to share your social media profile with a dating website.  You would like the social media website to share your name, date of birth and profile image.  OAuth can be used to grant the dating app access to those details on the social media website.  
+
+The framework allows the social media website to create an access token which the dating website uses to request the data you shared from your social media profile.
 
 This method allows you, the user, to share specific pieces of information stored on one website with another website.  Before OAuth was invented, if two websites wanted to share information they had little choice but to share actual login credentials and therefore share all the information stored in that account.
 
