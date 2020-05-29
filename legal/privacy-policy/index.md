@@ -49,7 +49,7 @@ TABLE OF CONTENTS
 
 
 
-1. WHAT INFORMATION DO WE COLLECT?
+(1.) WHAT INFORMATION DO WE COLLECT?
 
 
 Personal information you disclose to us
@@ -77,7 +77,7 @@ Online Identifiers. We collect cookie identifiers for analytics.
 
 
 
-2. HOW DO WE USE YOUR INFORMATION?
+(2.) HOW DO WE USE YOUR INFORMATION?
 
 In Short:  We process your information for purposes based on legitimate business interests, the fulfillment of our contract with you, compliance with our legal obligations, and/or your consent.
 
@@ -96,7 +96,7 @@ To manage user accounts. We may use your information for the purposes of managin
 For other Business Purposes. We may use your information for other Business Purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Services, products, marketing and your experience. We may use and store this information in aggregated and anonymized form so that it is not associated with individual end users and does not include personal information. We will not use identifiable personal information without your consent.
 
 
-3. WILL YOUR INFORMATION BE SHARED WITH ANYONE?
+(3.) WILL YOUR INFORMATION BE SHARED WITH ANYONE?
 
 In Short:  We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations.
 
@@ -119,7 +119,7 @@ Business Transfers. We may share or transfer your information in connection with
 Business Partners. We may share your information with our business partners to offer you certain products, services or promotions.
 
 
-4. WHO WILL YOUR INFORMATION BE SHARED WITH?
+(4.) WHO WILL YOUR INFORMATION BE SHARED WITH?
 
 In Short:  We only share information with the following third parties.
 
@@ -132,7 +132,7 @@ Web and Mobile Analytics
 plausible.io
 
 
-5. HOW LONG DO WE KEEP YOUR INFORMATION?
+(5.) HOW LONG DO WE KEEP YOUR INFORMATION?
 
 In Short:  We keep your information for as long as necessary to fulfill the purposes outlined in this privacy policy unless otherwise required by law.
 
@@ -141,7 +141,7 @@ We will only keep your personal information for as long as it is necessary for t
 When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize it, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.
 
 
-6. HOW DO WE KEEP YOUR INFORMATION SAFE?
+(6.) HOW DO WE KEEP YOUR INFORMATION SAFE?
 
 In Short:  We aim to protect your personal information through a system of organizational and technical security measures.
 
@@ -149,7 +149,7 @@ We have implemented appropriate technical and organizational security measures d
 
 
 
-7. DO WE COLLECT INFORMATION FROM MINORS?
+(7.) DO WE COLLECT INFORMATION FROM MINORS?
 
 In Short:  We do not knowingly collect data from or market to children under 18 years of age.
 
@@ -157,7 +157,7 @@ We do not knowingly solicit data from or market to children under 18 years of ag
 
 
 
-8. WHAT ARE YOUR PRIVACY RIGHTS?
+(8.) WHAT ARE YOUR PRIVACY RIGHTS?
 
 In Short:  In some regions, such as the European Economic Area, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.
 
@@ -185,19 +185,19 @@ Opting out of email marketing: You can unsubscribe from our marketing email list
 
 
 
-9. DATA BREACH
+(9.) DATA BREACH
 
 A privacy breach occurs when there is unauthorized access to or collection, use, disclosure or disposal of personal information. You will be notified about data breaches when KNO ME LIMITED believes you are likely to be at risk or serious harm. For example, a data breach may be likely to result in serious financial harm or harm to your mental or physical well-being. In the event that KNO ME LIMITED becomes aware of a security breach which has resulted or may result in unauthorized access, use or disclosure of personal information KNO ME LIMITED will promptly investigate the matter and notify the applicable Supervisory Authority not later than 72 hours after having become aware of it, unless the personal data breach is unlikely to result in a risk to the rights and freedoms of natural persons.
 
 
 
-10. CONTROLS FOR DO-NOT-TRACK FEATURES
+(10.) CONTROLS FOR DO-NOT-TRACK FEATURES
 
 Most web browsers and some mobile operating systems and mobile applications include a Do-Not-Track (“DNT”) feature or setting you can activate to signal your privacy preference not to have data about your online browsing activities monitored and collected. No uniform technology standard for recognizing and implementing DNT signals has been finalized. As such, we do not currently respond to DNT browser signals or any other mechanism that automatically communicates your choice not to be tracked online. If a standard for online tracking is adopted that we must follow in the future, we will inform you about that practice in a revised version of this privacy policy.
 
 
 
-11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+(11.) DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
 
 In Short:  Yes, if you are a resident of California, you are granted specific rights regarding access to your personal information.
 
@@ -207,7 +207,7 @@ If you are under 18 years of age, reside in California, and have a registered ac
 
 
 
-12. DO WE MAKE UPDATES TO THIS POLICY?
+(12.) DO WE MAKE UPDATES TO THIS POLICY?
 
 In Short:  Yes, we will update this policy as necessary to stay compliant with relevant laws.
 
@@ -215,7 +215,7 @@ We may update this privacy policy from time to time. The updated version will be
 
 
 
-13. HOW CAN YOU CONTACT US ABOUT THIS POLICY?
+(13.) HOW CAN YOU CONTACT US ABOUT THIS POLICY?
 
 If you have questions or comments about this policy, you may contact our Data Protection Officer (DPO), Peter Saxton, by email at peter@did.app, or by post to:
 
