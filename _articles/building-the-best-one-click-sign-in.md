@@ -20,6 +20,8 @@ Single factor authentication can relies on either: something you know, something
 
 The user authenticates by proving they have access to a specific device. If the device is present, the user is authenticated.  This is achieved with a simple cryptographic transaction between DID.app and the user’s device initiated by a single click.
 
+Users should be familiar with this type of authentication. It works on the same principle as using as a key to unlock your front door or using debit card to pay for something.  These are both forms of authentication that rely on something the users has (a key or a debit card) and are used multiple times every day.
+
 ## Speed, Security and Safeguards
 
 We set ourselves the challenge of making One Click Sign In really fast and more secure with sensible safeguarding for fallback.
