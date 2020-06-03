@@ -4,19 +4,19 @@ title: SPA integration guide
 abstract: How to integrate Single Page Webapps with DID.app
 ---
 
-Single Page WebApps (SPAs) can use DID.app can authenticate users via OpenID Connect.
-Authenticating End Users takes two steps.
+Single Page WebApps (SPAs) can use DID.app for authentication using OpenID Connect.
+There are two steps to authenticating End Users:
 
 1. Redirect a user to DID.app with an authentication request from your application.
-2. Fetch the user information from the authentication response.
+2. Fetch the user's information from the authentication response.
 
-Fetching user information for authenticated users can be achieved via two methods.
+Fetching user information from the authentication response can be done in one of two ways:
 
-1. Have an API endpoint on your application backend fetch an id token.
+1. Have an API endpoint on your application's backend to fetch an id token.  Or;
 2. Use PKCE and fetch the id token from within the web app.
 
-Use option 1. if you are using cookie based sessions.
-If using DID.app to send invite emails you will have to use option 1.
+If you are using cookie based sessions, use option 1.  
+If you are using DID.app to send invite emails you must use option 1.
 
 ### Create Authentication Request
 
@@ -59,11 +59,11 @@ window.location.replace("#")
 ```
 
 The final line is not required, but can make for a nicer user experience.
-Replacing the location will remove the code from the browsers navigation bar.
+Replacing the location will remove the code from the browser's navigation bar.
 
 ### Fetch User Data
 
-#### Option 1. Using backend endpoint
+#### Option 1, using backend API endpoint
 
 **The CLIENT_SECRET for you application must not be used in your front end.**
 Send a request to your backend containg the code extracted in the previous section.
@@ -79,7 +79,7 @@ let response = await fetch("https://auth.did.app/oidc/token", {
 let data = response.json();
 ```
 
-The data will contain your users information.
+The data will contain the user's information.
 
 <a name="pkce"></a>
 #### Option 2. Proof Key for Code Exchange (PKCE)
@@ -109,7 +109,7 @@ let response = await fetch("https://auth.did.app/oidc/token", {
 let data = response.json();
 ```
 
-The data will contain your users information.
+The data will contain the user's information.
 
 ### Using user information
 
@@ -130,7 +130,7 @@ In both cases the returned payload will contain an id_token, access_token and us
 The `sub` is the identifier of a user within your application.
 It is intended to be used as the primary identifier of your user and does not change.
 
-You should not rely on a users email being constant over time.
+You should not rely on a user's email being constant over time.
 
 At this point authentication is complete.
 It is up to your service to handle things from here.
