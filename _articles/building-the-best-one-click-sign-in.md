@@ -38,7 +38,7 @@ By comparison, passwords are prone to phishing, guesswork and brute force.  Soci
 
 No solution is perfect but device authentication is the least scalable form of account theft simply by virtue of the fact the hacker must have access to an unlocked physical device.
 
-Finally, the best solutions recognise when a fallback may be needed.  On the rare occasion the user wants to use a shared computer to access their account, OCSI is not possible so DID.app falls back to [magic links](https://did.app/articles/building-the-best-magic-link).
+Finally, the best solutions recognise when a fallback may be needed.  On the rare occasion the user wants to use a shared computer to access their account, One Click Sign In is not possible so DID.app falls back to [magic links](https://did.app/articles/building-the-best-magic-link).
 
 ## One Click Sign In Goes Hand in Hand With Conversions
 
