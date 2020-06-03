@@ -36,7 +36,7 @@ Devices today are locked with passcodes and biometrics. As parents will likely a
 
 By comparison, passwords are prone to phishing, guesswork and brute force.  Social media accounts secured with passwords fall victim to the same threat and even some text messaging based MFA has weaknesses given that sim cards can be cloned.
 
-No solution is perfect but device authentication is the least scalable form of account theft simply by virtue of the fact the hacker must have access to an unlocked physical device to be even in with a chance.
+No solution is perfect but device authentication is the least scalable form of account theft simply by virtue of the fact the hacker must have access to an unlocked physical device.
 
 Finally, the best solutions recognise when a fallback may be needed.  On the rare occasion the user wants to use a shared computer to access their account, OCSI is not possible so DID.app falls back to [magic links](https://did.app/articles/building-the-best-magic-link).
 
