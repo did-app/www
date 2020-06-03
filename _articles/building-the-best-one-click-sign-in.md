@@ -46,7 +46,7 @@ One click sign in is all about convenience.  Users hate creating accounts, it’
 
 Convenience for the user equals conversions for your website.  If you’re authenticating at all, you are looking for user engagement.  Users turning away at sign up isn’t great use of marketing spend. No solution will ever induce a 100% conversion rate but One Click Sign In can help cut your losses.
 
-There is perhaps a more pressing point than conversions.  OCSI is also about being respectful of your user’s time and giving them the best possible customer service experience you can muster.
+There is perhaps a more pressing point than conversions.  One Click Sign In is also about being respectful of your user’s time and giving them the best possible customer service experience you can muster.
 
 Happy customers are usually easier to work with.  The genuine convenience of OCSI gives users a truly frictionless authentication experience.  Users end up in a much better frame of mind than if they’d been sent round the houses on a whistlestop tour of their inbox, your password reset pages and back to the sign in page again.  
 
