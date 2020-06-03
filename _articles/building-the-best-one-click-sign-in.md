@@ -29,7 +29,6 @@ DID.app is focused on fast, simple and secure authentication.
 
 
 
-DID.app's One Click Sign In works using cryptography.  A key pair generated and stored by the device are challenged by DID.app to prove identity.  The user actually has to have access to the physical device for One Click Sign In to work.  Users can set up multiple devices if they regularly use more than one device.  This greatly reduces the threat of account theft because hacking is only economical on scale and without actually having to steal a person's handbag.
 
 Most devices today are already valuable to their owners. Most are protected by passcodes or biometric protection like fingerprint scanning or facial recognition. Devices are rarely far from their owners for long. And if one is lost DID.app makes it easy to remotely revoke the permissions the device had. 
 
