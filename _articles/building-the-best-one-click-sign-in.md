@@ -22,7 +22,7 @@ The user authenticates by proving they have access to a specific device. If the 
 
 ## Speed, Security and Safeguards
 
-We set ourselves the challenge of making OCSI really fast and more secure with sensible safeguarding for fallback.
+We set ourselves the challenge of making One Click Sign In really fast and more secure with sensible safeguarding for fallback.
 
 As a background to speed, we compare DID.app’s one click sign in to social sign in.  Social sign in offers a level of convenience to the user but it’s quite slow.  The user has to wait while the website communicates with the social network to carry out the authentication transaction.
 
