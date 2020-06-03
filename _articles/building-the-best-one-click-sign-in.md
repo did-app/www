@@ -16,7 +16,7 @@ Users want to engage without filling in endless forms, choosing yet another pass
 
 ## How does one click sign in work?
 
-Single factor authentication can relies on either: something you know, something you have or something you are.  In a typical username and password setup, the user relies on something only they know (their password) to prove their identity.  For one click sign in, we rely on something the user has.  The one thing every user has is a device. 
+Single factor authentication can relies on either: [something you know, something you have or something you are](/articles/the-three-factors-of-authentication).  In a typical username and password setup, the user relies on something only they know (their password) to prove their identity.  For one click sign in, we rely on something nearly ever user already has with them, their personal devices. 
 
 The user authenticates by proving they have access to a specific device. If the device is present, the user is authenticated.  This is achieved with a simple cryptographic transaction between DID.app and the user’s device initiated by a single click.
 
