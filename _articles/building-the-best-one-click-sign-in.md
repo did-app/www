@@ -16,7 +16,7 @@ That’s why we need one click sign in.  Users want to engage with content onlin
 
 ## How does one click sign in work?
 
-Single factor authentication can rely on one of three things: something you know, something you have or something you are.  In a typical username and password setup, the user relies on something only they know (their password) to prove their identity.  In one click sign in, we rely on something the user has.  The one thing every user has is a device. 
+Single factor authentication can relies on either: something you know, something you have or something you are.  In a typical username and password setup, the user relies on something only they know (their password) to prove their identity.  For one click sign in, we rely on something the user has.  The one thing every user has is a device. 
 
 The user authenticates by proving they have access to a specific device. If the device is present, the user is authenticated.  This is achieved by using a simple cryptographic transaction between DID.app and the user’s device initiated by a single click.
 
@@ -51,4 +51,3 @@ There is perhaps a more pressing point than conversions.  OCSI is also about bei
 Happy customers are usually easier to work with.  The genuine convenience of OCSI gives users a truly frictionless authentication experience.  Users end up in a much better frame of mind than if they’d been sent round the houses on a whistlestop tour of their inbox, your password reset pages and back to the sign in page again.  
 
 If you would like to find out more about the technical inner workings of DID, read our [‘How DID Works’](https://did.app/articles/how-did-works) page.  If you have any questions about one click sign in, please email us: team@did.app
-
