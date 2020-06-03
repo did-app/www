@@ -18,7 +18,7 @@ That’s why we need one click sign in.  Users want to engage with content onlin
 
 Single factor authentication can relies on either: something you know, something you have or something you are.  In a typical username and password setup, the user relies on something only they know (their password) to prove their identity.  For one click sign in, we rely on something the user has.  The one thing every user has is a device. 
 
-The user authenticates by proving they have access to a specific device. If the device is present, the user is authenticated.  This is achieved by using a simple cryptographic transaction between DID.app and the user’s device initiated by a single click.
+The user authenticates by proving they have access to a specific device. If the device is present, the user is authenticated.  This is achieved with a simple cryptographic transaction between DID.app and the user’s device initiated by a single click.
 
 ## Speed, Security and Safeguards
 
