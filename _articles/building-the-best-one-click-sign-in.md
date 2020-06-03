@@ -44,7 +44,7 @@ Finally, the best solutions recognise when a fallback may be needed.  On the rar
 
 One click sign in is all about convenience.  Users hate creating accounts, it’s not rocket science. What’s there to love about coming up with a new password or endlessly forgetting which social network you used to sign in last time?
 
-Convenience for the user equals conversions for your website.  If you’re authenticating at all, you are looking for user engagement.  Users turning away at sign up isn’t great use of marketing spend. No solution will ever induce a 100% conversion rate but OCSI can help cut your losses.
+Convenience for the user equals conversions for your website.  If you’re authenticating at all, you are looking for user engagement.  Users turning away at sign up isn’t great use of marketing spend. No solution will ever induce a 100% conversion rate but One Click Sign In can help cut your losses.
 
 There is perhaps a more pressing point than conversions.  OCSI is also about being respectful of your user’s time and giving them the best possible customer service experience you can muster.
 
