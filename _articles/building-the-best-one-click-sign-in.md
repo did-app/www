@@ -29,7 +29,6 @@ We set ourselves the challenge of making One Click Sign In really fast and more 
 
 This server to server communication is at the mercy of the network connection between the device, the website and the social network.
 
-DID.app reduces the network calls to an absolute minimum and only transacts between DID.app and the device itself.  Device authentication is much faster and lighter on the network than the equivalent social OCSI.
 
 In terms of security, our OCSI works using cryptography.  A key pair generated and stored by the device are challenged by DID.app to prove identity.  The user actually has to have access to the physical device for OCSI to work.  Users can set up multiple devices if they regularly use more than one device.  This greatly reduces the threat of account theft because hacking is only economical on scale and without actually having to steal a person's handbag.
 
