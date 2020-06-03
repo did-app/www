@@ -26,7 +26,6 @@ Users should be familiar with this type of authentication. It works on the same 
 
 We set ourselves the challenge of making One Click Sign In really fast and more secure with sensible safeguarding for fallback.
 
-As a background to speed, we compare DID.app’s one click sign in to social sign in.  Social sign in offers a level of convenience to the user but it’s quite slow.  The user has to wait while the website communicates with the social network to carry out the authentication transaction.
 
 This server to server communication is at the mercy of the network connection between the device, the website and the social network.
 
