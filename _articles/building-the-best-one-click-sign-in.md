@@ -24,7 +24,7 @@ Users should be familiar with this type of authentication. It works on the same 
 
 ## Speed, Security and Safeguards
 
-We set ourselves the challenge of making One Click Sign In really fast and more secure with sensible safeguarding for fallback.
+DID.app is focused on fast, simple and secure authentication.
 
 
 This server to server communication is at the mercy of the network connection between the device, the website and the social network.
