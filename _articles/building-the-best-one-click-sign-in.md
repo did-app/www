@@ -12,7 +12,7 @@ One click sign in allows users to authenticate in just one click.  Delivering th
 
 Users have ‘account creation fatigue’. The average person already has 150+ accounts and the pace of growth shows no sign of slowing. There are so many websites that want you to create an account and that's why we need one click sign in.
 
-That’s why we need one click sign in.  Users want to engage with content online without filling in endless forms, choosing yet another password or confirming their email address.  Users want convenience.  Or, to put it another way, users are lazy. I know I am.
+Users want to engage without filling in endless forms, choosing yet another password or confirming their email address.  Users want convenience.  Or, to put it another way, users are lazy; I know I am.
 
 ## How does one click sign in work?
 
