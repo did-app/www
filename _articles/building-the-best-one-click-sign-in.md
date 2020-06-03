@@ -12,7 +12,7 @@ One click sign in allows users to authenticate in just one click.  Delivering th
 
 Users have ‘account creation fatigue’. The average person already has 150+ accounts and the problem is still getting worse. There are so many websites that want you to create an account and it's hard to keep track of them all.
 
-Users want to engage without filling in endless forms, choosing yet another password or confirming their email address.  Users want convenience.  Or, to put it another way, users are lazy; I know I am.
+Users want to engage but without filling in endless forms.  We also know users crave passwordless experiences by the rapid growth of password managers both in and out of the browser.  Password managers simulate a passwordless sign in but only serve to paper over the root of the problem.  They are cumbersome to set up a very desirable target for hackers.
 
 ## How does one click sign in work?
 
