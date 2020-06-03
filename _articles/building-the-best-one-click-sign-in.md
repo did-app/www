@@ -32,7 +32,7 @@ This server to server communication is at the mercy of the network connection be
 
 DID.app's One Click Sign In works using cryptography.  A key pair generated and stored by the device are challenged by DID.app to prove identity.  The user actually has to have access to the physical device for One Click Sign In to work.  Users can set up multiple devices if they regularly use more than one device.  This greatly reduces the threat of account theft because hacking is only economical on scale and without actually having to steal a person's handbag.
 
-Devices today are locked with passcodes and biometrics. As parents will likely attest, devices rarely depart from their owners and if a device is lost or stolen, the device’s keys can be revoked easily and remotely.
+Most devices today are already valuable to their owners. Most are protected by passcodes or biometric protection like fingerprint scanning or facial recognition. Devices are rarely far from their owners for long. And if one is lost DID.app makes it easy to remotely revoke the permissions the device had. 
 
 By comparison, passwords are prone to phishing, guesswork and brute force.  Social media accounts secured with passwords fall victim to the same threat and even some text messaging based MFA has weaknesses given that sim cards can be cloned.
 
