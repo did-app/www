@@ -6,7 +6,7 @@ sitemap:
   lastmod: 2020-05-18
 ---
 
-One click sign in allows users to authenticate in just one click.  Delivering this sought after feature was a challenge but we are pleased with the results. This is our story of implementing one click sign in with DID.app.
+One click sign in allows users to authenticate in just one click.  Delivering this was the reason DID.app was started. This is our story of implementing one click sign in.
 
 ## Why do we need one click sign in?
 
