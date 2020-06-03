@@ -1,10 +1,10 @@
 ---
 layout: doc
 title: SPA integration guide
-abstract: How to integrate Single Page Webapps with DID.app
+abstract: How to integrate Single Page Apps with DID.app
 ---
 
-Single Page WebApps (SPAs) can use DID.app for authentication using OpenID Connect.
+Single Page (Web) Apps (SPAs) can use DID.app for authentication using OpenID Connect.
 There are two steps to authenticating End Users:
 
 1. Redirect a user to DID.app with an authentication request from your application.
@@ -141,6 +141,7 @@ How this is done will depend on the platform, or framework that you are using.
 <a name="generating-pkce"></a>
 ### Generating code challenge and verifier
 
+This section defines the JavaScript functions used earlier in this page.
 These functions make use of the web crypto API which is [supported by 95% of browsers](https://caniuse.com/#feat=cryptography)
 
 ```js
