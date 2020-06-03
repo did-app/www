@@ -30,7 +30,7 @@ This server to server communication is at the mercy of the network connection be
 
 DID.app reduces the network calls to an absolute minimum and only transacts between DID.app and the device itself.  Device authentication is much faster and lighter on the network than the equivalent social OCSI.
 
-In terms of security, our OCSI works using cryptography.  A key pair generated and stored by the device are challenged by DID.app to prove identity.  The user actually has to have access to the physical device for OCSI to work.  Users can set up multiple devices if they regularly use more than one device.  This greatly reduces the threat of account theft because hacking is only economical on scale and without actually having to nick people’s handbags.
+In terms of security, our OCSI works using cryptography.  A key pair generated and stored by the device are challenged by DID.app to prove identity.  The user actually has to have access to the physical device for OCSI to work.  Users can set up multiple devices if they regularly use more than one device.  This greatly reduces the threat of account theft because hacking is only economical on scale and without actually having to steal a person's handbag.
 
 Devices today are locked with passcodes, fingerprint scans and even face scans. As any parent will likely attest, devices rarely depart from their owners and if a device is lost or stolen, the device’s keys can be revoked easily and remotely.
 
