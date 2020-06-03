@@ -6,7 +6,7 @@ sitemap:
   lastmod: 2020-05-18
 ---
 
-One click sign in allows a user to authenticate and access their account in just one click.  That’s right, just one. Delivering this highly sought after feature was quite a challenge and this is our story of implementing one click sign in with DID.app.
+One click sign in allows users to authenticate in just one click.  Delivering this sought after feature was a challenge but we are pleased with the results. This is our story of implementing one click sign in with DID.app.
 
 ## Why do we need one click sign in?
 
@@ -51,6 +51,5 @@ There is perhaps a more pressing point than conversions.  OCSI is also about bei
 Happy customers are usually easier to work with.  The genuine convenience of OCSI gives users a truly frictionless authentication experience.  Users end up in a much better frame of mind than if they’d been sent round the houses on a whistlestop tour of their inbox, your password reset pages and back to the sign in page again.  
 
 If you would like to find out more about the technical inner workings of DID, read our [‘How DID Works’](https://did.app/articles/how-did-works) page.  If you have any questions about one click sign in, please email us: team@did.app
-
 
 
