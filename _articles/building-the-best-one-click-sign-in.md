@@ -34,7 +34,7 @@ DID.app's One Click Sign In works using cryptography.  A key pair generated and 
 
 Most devices today are already valuable to their owners. Most are protected by passcodes or biometric protection like fingerprint scanning or facial recognition. Devices are rarely far from their owners for long. And if one is lost DID.app makes it easy to remotely revoke the permissions the device had. 
 
-By comparison, passwords are prone to phishing, guesswork and brute force.  Social media accounts secured with passwords fall victim to the same threat and even some text messaging based MFA has weaknesses given that sim cards can be cloned.
+By comparison, passwords are vulnerable to phishing, guesswork and brute force.  Social media accounts secured with passwords fall victim to the same threat and even some text messaging based MFA has weaknesses given that sim cards can be cloned.
 
 No solution is perfect but device authentication is the least scalable form of account theft simply by virtue of the fact the hacker must have access to an unlocked physical device.
 
