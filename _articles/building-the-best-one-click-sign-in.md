@@ -10,7 +10,7 @@ One click sign in allows users to authenticate in just one click.  Delivering th
 
 ## Why do we need one click sign in?
 
-The world has an app over population problem.   There are so many websites and apps that want you to create an account users are fast developing ‘account creation fatigue’. The average user already has 150 accounts and the pace of growth shows no sign of slowing.
+Users have ‘account creation fatigue’. The average person already has 150+ accounts and the pace of growth shows no sign of slowing. There are so many websites that want you to create an account and that's why we need one click sign in.
 
 That’s why we need one click sign in.  Users want to engage with content online without filling in endless forms, choosing yet another password or confirming their email address.  Users want convenience.  Or, to put it another way, users are lazy. I know I am.
 
@@ -51,5 +51,4 @@ There is perhaps a more pressing point than conversions.  OCSI is also about bei
 Happy customers are usually easier to work with.  The genuine convenience of OCSI gives users a truly frictionless authentication experience.  Users end up in a much better frame of mind than if they’d been sent round the houses on a whistlestop tour of their inbox, your password reset pages and back to the sign in page again.  
 
 If you would like to find out more about the technical inner workings of DID, read our [‘How DID Works’](https://did.app/articles/how-did-works) page.  If you have any questions about one click sign in, please email us: team@did.app
-
 
