@@ -13,7 +13,7 @@ There are two steps to authenticating End Users:
 Fetching user information from the authentication response can be done in one of two ways:
 
 1. Have an API endpoint on your application's backend to fetch an id token.  Or;
-2. Use PKCE and fetch the id token from within the web app.
+2. Use Proof Key for Code Exchange (PKCE) and fetch the id token from within the web app.
 
 If you are using cookie based sessions, use option 1.  
 If you are using DID.app to send invite emails you must use option 1.
