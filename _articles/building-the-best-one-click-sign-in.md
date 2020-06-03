@@ -27,7 +27,6 @@ Users should be familiar with this type of authentication. It works on the same 
 DID.app is focused on fast, simple and secure authentication.
 
 
-This server to server communication is at the mercy of the network connection between the device, the website and the social network.
 
 
 DID.app's One Click Sign In works using cryptography.  A key pair generated and stored by the device are challenged by DID.app to prove identity.  The user actually has to have access to the physical device for One Click Sign In to work.  Users can set up multiple devices if they regularly use more than one device.  This greatly reduces the threat of account theft because hacking is only economical on scale and without actually having to steal a person's handbag.
