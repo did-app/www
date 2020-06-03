@@ -48,6 +48,6 @@ Convenience for the user equals conversions for your website.  If you’re authe
 
 There is perhaps a more pressing point than conversions.  One Click Sign In is also about being respectful of your user’s time and giving them the best possible customer service experience you can muster.
 
-Happy customers are usually easier to work with.  The genuine convenience of OCSI gives users a truly frictionless authentication experience.  Users end up in a much better frame of mind than if they’d been sent round the houses on a whistlestop tour of their inbox, your password reset pages and back to the sign in page again.  
+Happy customers are usually easier to work with.  The genuine convenience of One Click Sign In gives users a truly frictionless authentication experience.  Users end up in a much better frame of mind than if they’d been sent round the houses on a whistlestop tour of their inbox, your password reset pages and back to the sign in page again.  
 
 If you would like to find out more about the technical inner workings of DID, read our [‘How DID Works’](https://did.app/articles/how-did-works) page.  If you have any questions about one click sign in, please email us: team@did.app
