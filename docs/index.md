@@ -16,6 +16,7 @@ Didn't find the answer you were looking for? [Get in touch](mailto:team@did.app)
 Incorporating DID.app gives your users a fast, easy, and safe way to sign in using their personal device or email account.
 
 Follow our step-by-step [integration guide](/docs/step-by-step-integration) to get started.
+Or follow our [SPA integration guide](/docs/single-page-app-integration) to start authenticating within your Single Page App.
 
 Or try one of our specific platform guides.
 
