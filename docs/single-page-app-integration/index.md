@@ -20,7 +20,7 @@ If you are using DID.app to send invite emails you must use option 1.
 
 ### Create Authentication Request
 
-Redirect the End User to the authorization url: [https://auth.did.app/oidc/authorize](https://auth.did.app/oidc/authorize).
+Make a POST request to the authorization url: [https://auth.did.app/oidc/authorize](https://auth.did.app/oidc/authorize).
 Provide the details of the authentication request as query parameters.
 
 - client_id  
@@ -28,6 +28,9 @@ Provide the details of the authentication request as query parameters.
 
 - redirect_uri  
   (Required) An endpoint on your application that handles the authentication response.
+
+- login_hint
+  (required) This is the email address that your application has gathered from the user
 
 - response_mode  
   How the code will be sent to the redirect endpoint.
@@ -41,6 +44,14 @@ Provide the details of the authentication request as query parameters.
 
 - code_challenge_method  
   See section on [PKCE](#pkce)
+
+A successful authorization request will return a `200` response with no content.
+You should now indicate to your users that they should check their email.
+The link contained in the email will direct the user to the redirect_uri specified above.
+This link will open in a new tab/window.
+
+**Note authorization requests sent this way will not give the user the option to set up one-click sign-in.
+To allow users to setup one click sign-in you need to instead redirect the user to the authorization url and make use of the mydid.app user interface.**
 
 ### Handle the Authentication Response
 
