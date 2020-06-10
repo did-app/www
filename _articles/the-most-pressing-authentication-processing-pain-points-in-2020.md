@@ -25,7 +25,7 @@ So with that, we arrive at pain point one: Security is an ever-evolving challeng
 
 ## Using someone else’s authentication instead
 
-Of course, you can avoid rolling authentication of your own by using someone else's. I don’t just mean a [framework guide](https://softwareontheroad.com/nodejs-jwt-authentication-oauth/), I mean literally using someone else’s authentication, i.e. asking a third party to verify the user, then pass them back to your website for their session.
+Of course, you can avoid rolling your own authentication by using a service.
 
 [OAuth 2.0 is the open authorization standard](https://did.app/articles/what-is-oauth-understanding-the-authorization-layer) used for this. Although OAuth isn’t an authentication framework at all, the term OAuth is synonymous with authentication.  This is largely because social logins used on websites are implemented using OAuth (and usually OpenID Connect too).  ‘Signing in with Facebook / Google / Twitter / Github’ is the norm for millions of users.  Some sites, Dev.to included, don’t offer anything else except sign in with Twitter or Github.  We have become reliant on third parties carrying out our authentication for us and while this is a big win (let someone else figure out the hard stuff!), there are downsides too:
 
