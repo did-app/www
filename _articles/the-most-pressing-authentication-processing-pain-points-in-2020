@@ -66,4 +66,30 @@ Provide too few options and not all users can access your website. We see this i
 
 In addition, too many authentication options cause choice paralysis for the user and later, if after a long session, they re-authenticate using a different social network they run into problems.
 
-## Getting into a pickle over privacy
+I got chatting to Diego, a Facebook employee.  His views are his own and not those of Facebook.  I asked the question: Are social logins a developer's friend?  Do they make life simpler?  Do they do the opposite?  Diego answered:
+ 
+> It depends. Are they making it harder to reason around accounts? Yes. Are they making it harder to store an unencrypted password that will be credential-stuffed into a fake leak that causes mass hysteria? Yes.
+
+Diego’s beef is with the alternative to social login, i.e. [username and password setups on every site](https://flameeyes.blog/2014/02/08/what-about-auth-tokens-oauth-and-security/).  So yes, social login is tricky to implement but at least it means you don’t have to store hashed passwords in your database which is a definite plus.  
+
+If you do decide to start storing passwords, regulations make storing Personally Identifiable Data risky as explained by Martin Omander, of Google:
+
+> Storing PII (Personally Identifiable Data, like name or email address) is risky and increasingly regulated. PII in your database is basically a liability. The easiest way to comply with privacy regulations is not to store any PII at all. How can I do that, but still provide secure authentication?
+
+Martin and Diego’s points go hand in hand.  How do we reconcile the gap between these two pillars of authentication, neither of which are ‘perfect’?
+
+Martin again:
+
+> I do hear from users every now and then about log-in methods. They say one of two things: 1. I don't want to have to come up with yet another username/password combination. 2. I don't want federated sign-in because I don't want anyone to see which sites I visit. I prefer good old username/password.
+
+These conversations lead me to think that pain point four, is that there is no obvious answer to which authentication method is best.  There is always some level of debate required.  There is no ‘de-facto’ authentication method that reconciles these problems.
+
+The requirements for authentication seem rather simple in essence:
+
+1. Authentication should be secure.
+2. It should be very easy for a developer to implement secure authentication.
+3. Authentication should be convenient for the end-user.
+
+[Nikola, Director of Engineering at Teltech](https://dev.to/nikola), summarises it perfectly:
+
+> Imho, it still seems that, even though we're in 2020, there's just too much fuss with getting authentication to work. It would be great if you could just call one function and woila 🤗.
