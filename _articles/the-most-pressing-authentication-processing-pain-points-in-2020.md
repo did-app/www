@@ -21,7 +21,7 @@ First of all, the strength of feeling surprised me.  I know my question asks you
 
 This is deeper than I thought we’d go on day one and are just two quotes from my research. Developers go to work to solve problems but we don’t get danger money nor do we get access to counselling if we spend a year worried sick about hackers.
 
-So with that, we arrive at pain point one: Security is an ever-evolving challenge, it’s hard to make authentication secure and to foresee all the ways it might be vulnerable.  This makes it expensive to develop, expensive to maintain and dangerous to build in the sense that the risk of being blamed if (when) something goes wrong is high.
+So with that, we arrive at pain point one: Security is an ever-evolving challenge, it’s hard to make authentication secure and to foresee all the ways it might be vulnerable.  This makes it expensive to develop, expensive to maintain and high risk for someone to take responsibility when the impact of a bug can be so large.
 
 ## Using someone else’s authentication instead
 
