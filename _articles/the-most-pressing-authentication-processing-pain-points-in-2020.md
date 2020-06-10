@@ -5,7 +5,7 @@ sitemap:
   lastmod: 2020-06-09
 ---
 
-Authentication online has become amazingly complex in the last 20 years. What began as a simple password problem in the seventies, is now a smorgasbord of different authentication methods together with very real regulatory and security considerations. In short, there is no shortage of ways to sign up or sign in to an application these days.
+Authentication online has become amazingly complex in the last 20 years. What began as a simple password problem in the seventies, is now an opulent buffet of different authentication options together with very real regulatory and security considerations. There is certainly no shortage of ways to sign up or sign in to something!
 
 But what are the most pressing pain points for developers and end-users? What does great authentication look like?  What does terrible authentication look like?
 
