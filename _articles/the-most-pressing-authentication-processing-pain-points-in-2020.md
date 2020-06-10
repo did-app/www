@@ -50,7 +50,7 @@ This led me to think, hang on, is choice a good thing?  For end-users, are multi
 
 Okta proudly display a long list of identity providers that come pre-integrated:
 
-![Too many sign in options](/assets/images/authentication-pain-points/too-many-options.png)
+![Too many sign in options](/assets/images/authentication-pain-points/signin-with.PNG)
 
 Does this look like good UX to you?  I suppose it’s unrealistic to expect a website to want to use all of these at once but even three choices could be problematic. Yann’s anecdote shows users forget which social account they used to sign up and end up signing up twice. This is a pain for the developer and a pain for the user. 
 
