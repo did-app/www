@@ -21,7 +21,7 @@ First of all, the strength of feeling surprised me.  I know my question asks you
 > The problem I see most often is that software developers don’t put authentication in every single place it needs to be. For instance, you have an application that calls an API and there’s no auth (this happens sometimes). Now imagine that API calls another API and there’s no auth there, this happens A LOT. We assume trust between APIs, containers and other services that don’t reach outside our network, which is a big mistake. Every service and application must be its own island, and implement zero trust, by ensuring there is authentication, then authorization, before granting access to anything.
 
 Tanya ‘SheHacksPurple’ Janca, Security professional and blogger at [SheHacksPurple.dev](https://www.shehackspurple.dev/)
-This is deeper than I thought we’d go on day one and are just two quotes from my research. Developers go to work to solve problems but we don’t get danger money nor do we get access to counselling if we spend a year worried sick about hackers.
+This is deeper than I thought we’d go on day one and are just three quotes from my research. Developers go to work to solve problems but we don’t get danger money nor do we get access to counselling if we spend a year worried sick about hackers.
 
 So with that, we arrive at pain point one: Security is an ever-evolving challenge, it’s hard to make authentication secure and to foresee all the ways it might be vulnerable.  This makes it expensive to develop, expensive to maintain and high risk for someone to take responsibility when the impact of a bug can be so large.
 
