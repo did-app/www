@@ -99,3 +99,13 @@ For a deeper look at the issues surrounding password theft [read this post by Al
 Password managers are a way to manage and remember large numbers of passwords but they fundamentally don’t solve the security issues with password theft.  A user can still be tricked into handing over their password during a phishing attack. The password manager's ‘master password’ grants access to all username and password combinations stored in the password manager and is vulnerable to the same risks as any other password.  Password managers are a high-value target for hackers.
 
 Using a password manager is a choice the user has to make and, in some cases, pay for.  The website owner has no control over how well the user looks after their passwords either in a password manager or not.  DID.app is different because the website owner chooses to use it to improve user experience and remove the password problem.
+
+### How does DID.app handle privacy?
+
+Authenticating users requires the use of an email address.  Email addresses are considered personally identifiable information.  When an end-user signs in with DID.app, the service collects and stores the user's email address.
+
+This email address can be shared with the website running DID.app if you need it to be for the purpose of communicating with the user, however, the email address is not needed to identify the user.  This is achieved with the Client ID which is not personally identifiable information.
+
+When running DID.app on your website you do not have to collect or store any PII (personally identifiable information) from the authentication service in order to authenticate users.
+
+DID.app can be used as part of a GDPR compliant system.
