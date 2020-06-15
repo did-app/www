@@ -104,7 +104,9 @@ Using a password manager is a choice the user has to make and, in some cases, pa
 
 Authenticating users requires the use of an email address.  Email addresses are considered personally identifiable information.  When an end-user signs in with DID.app, the service collects and stores the user's email address.
 
-This email address can be shared with the website running DID.app if you need it to be for the purpose of communicating with the user, however, the email address is not needed to identify the user.  This is achieved with the Client ID which is not personally identifiable information.
+User email addresses can be accessed by your website when using DID.app.
+However, the email address is not needed to identify the user.
+User identities are tied to the `sub` claim in the signed ID Token, the sub value is different for each site a user visits
 
 When using DID.app on your website you do not have to collect or store any Personally Identifiable Information (PII) to authenticate users.
 
