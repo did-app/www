@@ -102,7 +102,9 @@ Using a password manager is a choice the user has to make and, in some cases, pa
 
 ### How does DID.app handle privacy?
 
-Authenticating users requires the use of an email address.  Email addresses are considered personally identifiable information.  When an end-user signs in with DID.app, the service collects and stores the user's email address.
+Authenticating users requires them to submit an email address. 
+Email addresses are considered personally identifiable information. 
+DID.app stores the user's email address in order to provide a secure authentication service.
 
 User email addresses can be accessed by your website when using DID.app.
 However, the email address is not needed to identify the user.
