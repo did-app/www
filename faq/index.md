@@ -106,6 +106,6 @@ Authenticating users requires the use of an email address.  Email addresses are 
 
 This email address can be shared with the website running DID.app if you need it to be for the purpose of communicating with the user, however, the email address is not needed to identify the user.  This is achieved with the Client ID which is not personally identifiable information.
 
-When running DID.app on your website you do not have to collect or store any PII (personally identifiable information) from the authentication service in order to authenticate users.
+When using DID.app on your website you do not have to collect or store any Personally Identifiable Information (PII) to authenticate users.
 
 DID.app can be used as part of a GDPR compliant system.
