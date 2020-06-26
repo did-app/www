@@ -46,7 +46,7 @@ For example Firefox stores data in a `storage` directory located under `profile`
 <a name="can-did-be-whitelabelled-on-my-website"></a>
 ### Can DID.app be whitelabelled on my website?
 
-The style and appearance of DID.app on your website can be customised. Any customers on a [paid plan](https://did.app/#pricing) can also remove the 'Powered by DID' link.
+The style and appearance of DID.app on your website can be customised.
 
 <a name="why-wouldnt-i-just-use-social-logins"></a>
 ### Why wouldn't I just use social logins?
