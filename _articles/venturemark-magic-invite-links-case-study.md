@@ -1,17 +1,15 @@
 ---
 layout: article
-abstract: "Venturemark magic invite links case study"
+abstract: "[Venturemark](https://venturemark.co/) is a platform for founders to engage their investors and advisors. It solves the very real problem of effective communication between founders and stakeholders."
 sitemap:
   lastmod: 2020-07-01
 ---
-
-Venturemark is a platform for founders to engage their investors and advisors. It solves the very real problem of effective communication between founders and stakeholders.
 
 Of course, this communication is sensitive and should be private so authentication is needed.
 
 The key to effective, yet secure, communication on the Venturemark platform is frictionless authentication.  
 
-We’re all busy people but VCs live at the busier end of the ‘busy spectrum’ so anything that creates an authentication hurdle is likely to result in abandonment at worst or frustration at best so Venturemark has embraced DID.app’s magic invite links to solve this problem.
+We’re all busy people but VCs live at the busier end of the ‘busy spectrum’ so anything that creates an authentication hurdle is likely to result in abandonment at worst or frustration at best so Venturemark has embraced [DID.app’s magic invite links](https://did.app/docs/invitations/) to solve this problem.
 
 Our ‘hero user’ is the founder.  ‘Founder A’ signs up to Venturemark and starts posting updates which they want to share with their investors and advisors.
 
@@ -33,4 +31,4 @@ Richard Shepherd, CEO at DID.app
 
 At time of writing (July 2020) Venturemark is accepting early interest from founders via a waitlist.  It’s time to ‘turn your network into a problem solving machine’.
 
-If you would like to find out more about how magic invite links can help reduce friction in your application please contact us and we’ll be happy to help.
+If you would like to find out more about how [magic invite links](https://did.app/docs/invitations/) can help reduce friction in your application please contact us and we’ll be happy to help.
