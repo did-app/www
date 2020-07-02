@@ -9,7 +9,9 @@ Of course, this communication is sensitive and should be private so authenticati
 
 The key to effective, yet secure, communication on the [Venturemark](https://venturemark.co/) platform is frictionless authentication.  
 
-We’re all busy people but VCs live at the busier end of the ‘busy spectrum’ so anything that creates an authentication hurdle is likely to result in abandonment at worst or frustration at best so Venturemark has embraced [DID.app’s magic invite links](https://did.app/docs/invitations/) to solve this problem.
+We’re all busy people but VCs live at the busier end of the ‘busy spectrum’.
+Anything that creates friction when authenticating is likely to result in frustration or, at worst, abandonment.
+To solve this problem Venturemark has embraced [DID.app’s magic invite links](https://did.app/docs/invitations/).
 
 Our ‘hero user’ is the founder.  ‘Founder A’ signs up to Venturemark and starts posting updates which they want to share with their investors and advisors.
 
