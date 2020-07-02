@@ -13,7 +13,8 @@ We’re all busy people but VCs live at the busier end of the ‘busy spectrum�
 Anything that creates friction when authenticating is likely to result in frustration or, at worst, abandonment.
 To solve this problem Venturemark has embraced [DID.app’s magic invite links](https://did.app/docs/invitations/).
 
-Our ‘hero user’ is the founder.  ‘Founder A’ signs up to Venturemark and starts posting updates which they want to share with their investors and advisors.
+On the Venturemark platform, the ‘hero user’ is the founder.  
+‘Founder A’ signs up to Venturemark and starts posting updates which they want to share with their investors and advisors.
 
 The founder then enters email addresses for the stakeholders they want to engage and DID.app sends magic invite links to those people.
 
