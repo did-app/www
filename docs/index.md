@@ -1,7 +1,7 @@
 ---
 layout: doc
-title: "DID.app Documentation"
-abstract: "The documentation for authentication with DID.app."
+title: "Documentation"
+abstract: "Invite and authenticate your users, with the DID.app API."
 share_image: "/assets/images/docs-screenshot.png"
 sitemap:
   priority: 1.0
@@ -11,11 +11,24 @@ sitemap:
 
 Didn't find the answer you were looking for? [Get in touch](mailto:team@did.app).
 
-### Getting started
+### Start Inviting Users
 
-Incorporating DID.app gives your users a fast, easy, and safe way to sign in using their personal device or email account.
+DID.app is the fast, easy, and secure way to invite new users to your service, with magic links.
+A new user invitation can help onboard a user in a variety of situations, for example:
 
-Follow our step-by-step [integration guide](/docs/step-by-step-integration) to get started.
+- Add a colleague to review your documents
+- Share a photo with family members
+- Invite a new user to start using your service.
+
+All of these use cases can be achieved using DID.app, follow our [guide for sending secure invitations](/docs/invitations).
+
+### Authenticate with Magic Links
+
+Magic invitations are a great way to grow your service,
+and can be used next to your existing authentication solution.
+However, you do not need any other authentication as users can sign-in using magic links send by DID.app.
+
+To set up authentication follow our step-by-step [integration guide](/docs/step-by-step-integration).
 Or follow our [SPA integration guide](/docs/single-page-app-integration) to start authenticating within your Single Page App.
 
 Or try one of our specific platform guides.
