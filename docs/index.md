@@ -26,7 +26,7 @@ All of these use cases can be achieved using DID.app, follow our [guide for send
 
 Magic invitations are a great way to grow your service,
 and can be used next to your existing authentication solution.
-However, you do not need any other authentication as users can sign-in using magic links send by DID.app.
+However, you do not need any other authentication as users can sign-in using magic links sent by DID.app.
 
 To set up authentication follow our step-by-step [integration guide](/docs/step-by-step-integration).
 Or follow our [SPA integration guide](/docs/single-page-app-integration) to start authenticating within your Single Page App.
