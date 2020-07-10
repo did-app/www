@@ -1,65 +1,92 @@
 ---
 layout: "doc"
-title: "Sending invitations"
-abstract: "Triggering invite emails for new users"
+title: "Magic invitations"
+abstract: "Send magic invitations to new or existing users."
 ---
 
-### This document is in Draft
+## Use cases
 
-### Triggering a User Invitation
+Magic invitations frictionlessly authenticate your users and allow them to make use of your application immediately.
+They can be sent to:
 
-A user invitation is any sign in email not requested by the owner of the email address.
-Emails are triggered by the authorization API endpoint as described in [single page app integration](/docs/single-page-app-integration).
+- Add a colleague to review your documents
+- Share a photo with family members
+- Invite a new user to start using your service.
 
-It is possible to use this API to trigger sending a normal sign-in email,
-however this is not appropriate in most cases as the recipient of the email will lack the required context.
-One situation it is suitable, is when onboarding users in person to internal applications.
+## Steps
 
-In most cases you will want to send messages using a custom templates, see the next section.
+1. Trigger a user invitation
+2. Identify user from link code
 
-##### Setting up templates
+### Trigger a Magic Invitation
 
-Each team on DID.app can be set up with access to a mail server, on postmark.com, that will contain the templates for their applications.
-You will need to be on an enterprise plan and contact team@did.app to set this up.
+Magic invitations are triggered by a `POST` request to the authorization endpoint.
 
-Your templates will need to interpolate a link using the `sign_up_url` variable available in the template.
-It can also interpolate any `data_` values sent in the authentication request.
+<!-- ```
+curl https://secure.did.app/oidc/authorize
+-d client_id=https://myapp.com/welcome
+-d login_hint=bob@example.com
+-d response_mode=fragment
+-d template_alias=invitation
+-d data_from=Alice
+-d data_to=Bob
+``` -->
 
-Template with alias `user-invitation`
-```html
-Hi
+```js
+let params = new URLSearchParams();
+params.append("client_id", "https://myapp.com/welcome");
+params.append("login_hint", "bob@example.com");
+params.append("response_mode", "fragment");
+params.append("template_alias", "invitation");
+params.append("data_from", "Alice");
+params.append("data_to", "Bob");
 
-{{inviter_name}} would like to invite you to Our Service.
-<a href="{{sign_in_url}}">Sign in here</a>
-
-Thanks
+fetch("http://secure.did.app/oidc/authorize", {
+  method: "POST",
+  body: params
+});
 ```
 
-To trigger an invite using this template make the call below.
+An email will be sent to `bob@example.com` informing Bob that Alice has invited him to `myapp.com`.
 
-```sh
-curl https://auth.did.app/oidc/authorize \
-  -d client_id=test_123456 \
-  -d redirect_uri=http://our-site.test/sign-in \
-  -d login_hint=new_user@example.test \
-  -d response_mode=fragment \
-  -d template_alias=user-invitation \
-  -d data_inviter_name=Sarah
+### Identify user from link code
+
+When Bob clicks the contained in the email they receive, they will be redirected back to `example.com`.
+The redirect will an authentication response code in the url fragment:
+
+```
+https://myapp.com/welcome#code=CODE
 ```
 
-### Handling Authorization Responses
+Fetch a users information from the token endpoint using the code.
 
-One the user clicks the link in the email they will be directed to your redirect_uri,
-this redirect will contain the authorization response in the format specified by the `response_mode` parameter.
+```js
+let fragment = window.location.hash.substring(1);
+let params = new URLSearchParams(fragment);
+let code = params.get("code");
 
-From this point the invitation process is the same as any other sign in.
+let params = new URLSearchParams();
+params.append("grant_type", "authorization_code");
+params.append("client_id", "https://myapp.com/welcome");
+params.append("code", code);
 
-Follow the advice in the [step by step guide](/docs/step-by-step-integration) for MVC/backend applications.
-Follow the advice in the [single page app guide](/docs/single-page-app-integration) for SPAs.
+fetch("http://secure.did.app/oidc/authorize", {
+  method: "POST",
+  body: params
+});
+```
 
+The response from the token endpoint will contain the user information and an `id_token`.
 
-### Correlation to invites
+```json
+{
+  "userinfo": {
+    "email": "user@example",
+    "email_verified": true
+  },
+  "id_token": "COMPACT JWT"
+}
+```
 
-It is recommended that the email_address is used to correlate any information about the user gathered at invite time.
-This is preferred over a correlation to specific invites, because an email address might be used for invites mores than once before an account is created.
-Having two users, from two separate invites, with the same email could lead to confusion as only one will become active we the invited user completes account creation.
+The `id_token` is signed by `did.app` and can be used by your application.
+**You must not rely on unsigned user information when authenticating a user.**
