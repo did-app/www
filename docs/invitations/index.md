@@ -27,7 +27,7 @@ curl https://secure.did.app/oidc/authorize
 -d client_id=https://myapp.com/welcome
 -d login_hint=bob@example.com
 -d response_mode=fragment
--d template_name=invitation
+-d template_alias=invitation
 -d data_from=Alice
 -d data_to=Bob
 ``` -->
@@ -37,7 +37,7 @@ let params = new URLSearchParams();
 params.append("client_id", "https://myapp.com/welcome");
 params.append("login_hint", "bob@example.com");
 params.append("response_mode", "fragment");
-params.append("template_name", "invitation");
+params.append("template_alias", "invitation");
 params.append("data_from", "Alice");
 params.append("data_to", "Bob");
 
